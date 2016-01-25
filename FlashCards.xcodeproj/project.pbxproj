@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C42E6EF51C53D7CE00FEC598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */; };
+		C42E6EFA1C53D7CE00FEC598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42E6EF81C53D7CE00FEC598 /* Main.storyboard */; };
+		C42E6EFC1C53D7CE00FEC598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42E6EFB1C53D7CE00FEC598 /* Assets.xcassets */; };
+		C42E6EFF1C53D7CE00FEC598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42E6EFD1C53D7CE00FEC598 /* LaunchScreen.storyboard */; };
+		C4DB8C441C54F85E00EA14B6 /* Expressions.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4DB8C3E1C54F85E00EA14B6 /* Expressions.txt */; };
+		C4DB8C501C55153500EA14B6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C4B1C55153500EA14B6 /* Card.swift */; };
+		C4DB8C511C55153500EA14B6 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C4C1C55153500EA14B6 /* CardCell.swift */; };
+		C4DB8C521C55153500EA14B6 /* CardsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C4D1C55153500EA14B6 /* CardsStorage.swift */; };
+		C4DB8C531C55153500EA14B6 /* CardsTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C4E1C55153500EA14B6 /* CardsTV.swift */; };
+		C4DB8C551C55155600EA14B6 /* HeadingTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C541C55155600EA14B6 /* HeadingTV.swift */; };
+		C4DB8C571C55169600EA14B6 /* AppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C561C55169600EA14B6 /* AppInteractor.swift */; };
+		C4DB8C591C551A5A00EA14B6 /* HeadingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C581C551A5A00EA14B6 /* HeadingsStorage.swift */; };
+		C4DB8C5B1C551ABD00EA14B6 /* Heading.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C5A1C551ABD00EA14B6 /* Heading.swift */; };
+		C4DB8C5D1C5542B800EA14B6 /* Idioms.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4DB8C5C1C5542B800EA14B6 /* Idioms.txt */; };
+		C4DB8C601C55546700EA14B6 /* bg-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB8C5F1C55546700EA14B6 /* bg-light.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C42E6EF11C53D7CE00FEC598 /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C42E6EF91C53D7CE00FEC598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C42E6EFB1C53D7CE00FEC598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C42E6EFE1C53D7CE00FEC598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C42E6F001C53D7CE00FEC598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4DB8C3E1C54F85E00EA14B6 /* Expressions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Expressions.txt; sourceTree = "<group>"; };
+		C4DB8C4B1C55153500EA14B6 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C4DB8C4C1C55153500EA14B6 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		C4DB8C4D1C55153500EA14B6 /* CardsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsStorage.swift; sourceTree = "<group>"; };
+		C4DB8C4E1C55153500EA14B6 /* CardsTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsTV.swift; sourceTree = "<group>"; };
+		C4DB8C541C55155600EA14B6 /* HeadingTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadingTV.swift; sourceTree = "<group>"; };
+		C4DB8C561C55169600EA14B6 /* AppInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInteractor.swift; sourceTree = "<group>"; };
+		C4DB8C581C551A5A00EA14B6 /* HeadingsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadingsStorage.swift; sourceTree = "<group>"; };
+		C4DB8C5A1C551ABD00EA14B6 /* Heading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heading.swift; sourceTree = "<group>"; };
+		C4DB8C5C1C5542B800EA14B6 /* Idioms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Idioms.txt; sourceTree = "<group>"; };
+		C4DB8C5F1C55546700EA14B6 /* bg-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-light.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C42E6EEE1C53D7CE00FEC598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C42E6EE81C53D7CE00FEC598 = {
+			isa = PBXGroup;
+			children = (
+				C42E6EF31C53D7CE00FEC598 /* FlashCards */,
+				C42E6EF21C53D7CE00FEC598 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C42E6EF21C53D7CE00FEC598 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C42E6EF11C53D7CE00FEC598 /* FlashCards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C42E6EF31C53D7CE00FEC598 /* FlashCards */ = {
+			isa = PBXGroup;
+			children = (
+				C4DB8C5E1C55546700EA14B6 /* Resources */,
+				C4DB8C491C55153500EA14B6 /* Classes */,
+				C4DB8C3D1C54F85E00EA14B6 /* CardsFiles */,
+				C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */,
+				C4DB8C561C55169600EA14B6 /* AppInteractor.swift */,
+				C42E6EF81C53D7CE00FEC598 /* Main.storyboard */,
+				C42E6EFB1C53D7CE00FEC598 /* Assets.xcassets */,
+				C42E6EFD1C53D7CE00FEC598 /* LaunchScreen.storyboard */,
+				C42E6F001C53D7CE00FEC598 /* Info.plist */,
+			);
+			path = FlashCards;
+			sourceTree = "<group>";
+		};
+		C4DB8C3D1C54F85E00EA14B6 /* CardsFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C4DB8C5C1C5542B800EA14B6 /* Idioms.txt */,
+				C4DB8C3E1C54F85E00EA14B6 /* Expressions.txt */,
+			);
+			path = CardsFiles;
+			sourceTree = "<group>";
+		};
+		C4DB8C491C55153500EA14B6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C4DB8C4A1C55153500EA14B6 /* Cards */,
+				C4DB8C4F1C55153500EA14B6 /* Heading */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C4DB8C4A1C55153500EA14B6 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				C4DB8C4B1C55153500EA14B6 /* Card.swift */,
+				C4DB8C4C1C55153500EA14B6 /* CardCell.swift */,
+				C4DB8C4D1C55153500EA14B6 /* CardsStorage.swift */,
+				C4DB8C4E1C55153500EA14B6 /* CardsTV.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		C4DB8C4F1C55153500EA14B6 /* Heading */ = {
+			isa = PBXGroup;
+			children = (
+				C4DB8C541C55155600EA14B6 /* HeadingTV.swift */,
+				C4DB8C581C551A5A00EA14B6 /* HeadingsStorage.swift */,
+				C4DB8C5A1C551ABD00EA14B6 /* Heading.swift */,
+			);
+			path = Heading;
+			sourceTree = "<group>";
+		};
+		C4DB8C5E1C55546700EA14B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4DB8C5F1C55546700EA14B6 /* bg-light.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C42E6EF01C53D7CE00FEC598 /* FlashCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42E6F031C53D7CE00FEC598 /* Build configuration list for PBXNativeTarget "FlashCards" */;
+			buildPhases = (
+				C42E6EED1C53D7CE00FEC598 /* Sources */,
+				C42E6EEE1C53D7CE00FEC598 /* Frameworks */,
+				C42E6EEF1C53D7CE00FEC598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashCards;
+			productName = FlashCards;
+			productReference = C42E6EF11C53D7CE00FEC598 /* FlashCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C42E6EE91C53D7CE00FEC598 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					C42E6EF01C53D7CE00FEC598 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C42E6EEC1C53D7CE00FEC598 /* Build configuration list for PBXProject "FlashCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C42E6EE81C53D7CE00FEC598;
+			productRefGroup = C42E6EF21C53D7CE00FEC598 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C42E6EF01C53D7CE00FEC598 /* FlashCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C42E6EEF1C53D7CE00FEC598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DB8C441C54F85E00EA14B6 /* Expressions.txt in Resources */,
+				C4DB8C601C55546700EA14B6 /* bg-light.jpg in Resources */,
+				C42E6EFF1C53D7CE00FEC598 /* LaunchScreen.storyboard in Resources */,
+				C4DB8C5D1C5542B800EA14B6 /* Idioms.txt in Resources */,
+				C42E6EFC1C53D7CE00FEC598 /* Assets.xcassets in Resources */,
+				C42E6EFA1C53D7CE00FEC598 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C42E6EED1C53D7CE00FEC598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DB8C5B1C551ABD00EA14B6 /* Heading.swift in Sources */,
+				C4DB8C591C551A5A00EA14B6 /* HeadingsStorage.swift in Sources */,
+				C4DB8C551C55155600EA14B6 /* HeadingTV.swift in Sources */,
+				C4DB8C531C55153500EA14B6 /* CardsTV.swift in Sources */,
+				C42E6EF51C53D7CE00FEC598 /* AppDelegate.swift in Sources */,
+				C4DB8C571C55169600EA14B6 /* AppInteractor.swift in Sources */,
+				C4DB8C501C55153500EA14B6 /* Card.swift in Sources */,
+				C4DB8C511C55153500EA14B6 /* CardCell.swift in Sources */,
+				C4DB8C521C55153500EA14B6 /* CardsStorage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C42E6EF81C53D7CE00FEC598 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42E6EF91C53D7CE00FEC598 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C42E6EFD1C53D7CE00FEC598 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42E6EFE1C53D7CE00FEC598 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C42E6F011C53D7CE00FEC598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C42E6F021C53D7CE00FEC598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C42E6F041C53D7CE00FEC598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlashCards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DI.FlashCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C42E6F051C53D7CE00FEC598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlashCards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DI.FlashCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C42E6EEC1C53D7CE00FEC598 /* Build configuration list for PBXProject "FlashCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42E6F011C53D7CE00FEC598 /* Debug */,
+				C42E6F021C53D7CE00FEC598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42E6F031C53D7CE00FEC598 /* Build configuration list for PBXNativeTarget "FlashCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42E6F041C53D7CE00FEC598 /* Debug */,
+				C42E6F051C53D7CE00FEC598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C42E6EE91C53D7CE00FEC598 /* Project object */;
+}
