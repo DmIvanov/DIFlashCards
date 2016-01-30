@@ -14,7 +14,9 @@ class HeadingsStorage: NSObject {
     private lazy var headings: [Heading] = self.headingsFromDisk()
     let files = [
         "Expressions",
-        "Idioms"
+        "Idioms",
+        "Find a job",
+        "Coloquial phrases"
     ]
 
     
@@ -31,6 +33,11 @@ class HeadingsStorage: NSObject {
     
     //MARK: Private
     private func headingsFromDisk() -> [Heading] {
+        
+        func cardsFromFile(name: String) -> [Card] {
+            return CardFileParser.arrayFromContentsOfFile(name)
+        }
+        
         /*
         do {
             let paths = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)
@@ -42,10 +49,13 @@ class HeadingsStorage: NSObject {
         }
         */
         var arr = [Heading]()
+        var allCards = [Card]()
         for name in files {
-            let cardsStorage = CardsStorage(fileName: name)
-            arr.append(Heading(name: cardsStorage.name, numberOfCards: cardsStorage.cardsNumber(), storage: cardsStorage))
+            let heading = Heading(name: name)
+            arr.append(heading)
+            allCards.appendContentsOf(heading.cards)
         }
+        arr.append(Heading(name: "All", cards: allCards))
         return arr
     }
 }

@@ -14,14 +14,16 @@
 		C4DB8C441C54F85E00EA14B6 /* Expressions.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4DB8C3E1C54F85E00EA14B6 /* Expressions.txt */; };
 		C4DB8C501C55153500EA14B6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C4B1C55153500EA14B6 /* Card.swift */; };
 		C4DB8C511C55153500EA14B6 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C4C1C55153500EA14B6 /* CardCell.swift */; };
-		C4DB8C521C55153500EA14B6 /* CardsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C4D1C55153500EA14B6 /* CardsStorage.swift */; };
+		C4DB8C521C55153500EA14B6 /* Heading.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C4D1C55153500EA14B6 /* Heading.swift */; };
 		C4DB8C531C55153500EA14B6 /* CardsTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C4E1C55153500EA14B6 /* CardsTV.swift */; };
 		C4DB8C551C55155600EA14B6 /* HeadingTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C541C55155600EA14B6 /* HeadingTV.swift */; };
 		C4DB8C571C55169600EA14B6 /* AppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C561C55169600EA14B6 /* AppInteractor.swift */; };
 		C4DB8C591C551A5A00EA14B6 /* HeadingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C581C551A5A00EA14B6 /* HeadingsStorage.swift */; };
-		C4DB8C5B1C551ABD00EA14B6 /* Heading.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C5A1C551ABD00EA14B6 /* Heading.swift */; };
 		C4DB8C5D1C5542B800EA14B6 /* Idioms.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4DB8C5C1C5542B800EA14B6 /* Idioms.txt */; };
 		C4DB8C601C55546700EA14B6 /* bg-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB8C5F1C55546700EA14B6 /* bg-light.jpg */; };
+		C4DB8C621C58C3B200EA14B6 /* CardFileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C611C58C3B200EA14B6 /* CardFileParser.swift */; };
+		C4DB8C651C58D7B500EA14B6 /* Find a job.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4DB8C641C58D7B500EA14B6 /* Find a job.txt */; };
+		C4E2C1401C595A20008121A6 /* Coloquial phrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4E2C13F1C595A1F008121A6 /* Coloquial phrases.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,14 +36,16 @@
 		C4DB8C3E1C54F85E00EA14B6 /* Expressions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Expressions.txt; sourceTree = "<group>"; };
 		C4DB8C4B1C55153500EA14B6 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		C4DB8C4C1C55153500EA14B6 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
-		C4DB8C4D1C55153500EA14B6 /* CardsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsStorage.swift; sourceTree = "<group>"; };
+		C4DB8C4D1C55153500EA14B6 /* Heading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heading.swift; sourceTree = "<group>"; };
 		C4DB8C4E1C55153500EA14B6 /* CardsTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsTV.swift; sourceTree = "<group>"; };
 		C4DB8C541C55155600EA14B6 /* HeadingTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadingTV.swift; sourceTree = "<group>"; };
 		C4DB8C561C55169600EA14B6 /* AppInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInteractor.swift; sourceTree = "<group>"; };
 		C4DB8C581C551A5A00EA14B6 /* HeadingsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadingsStorage.swift; sourceTree = "<group>"; };
-		C4DB8C5A1C551ABD00EA14B6 /* Heading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heading.swift; sourceTree = "<group>"; };
 		C4DB8C5C1C5542B800EA14B6 /* Idioms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Idioms.txt; sourceTree = "<group>"; };
 		C4DB8C5F1C55546700EA14B6 /* bg-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-light.jpg"; sourceTree = "<group>"; };
+		C4DB8C611C58C3B200EA14B6 /* CardFileParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardFileParser.swift; sourceTree = "<group>"; };
+		C4DB8C641C58D7B500EA14B6 /* Find a job.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Find a job.txt"; sourceTree = "<group>"; };
+		C4E2C13F1C595A1F008121A6 /* Coloquial phrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Coloquial phrases.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +78,8 @@
 		C42E6EF31C53D7CE00FEC598 /* FlashCards */ = {
 			isa = PBXGroup;
 			children = (
-				C4DB8C5E1C55546700EA14B6 /* Resources */,
 				C4DB8C491C55153500EA14B6 /* Classes */,
+				C4DB8C5E1C55546700EA14B6 /* Resources */,
 				C4DB8C3D1C54F85E00EA14B6 /* CardsFiles */,
 				C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */,
 				C4DB8C561C55169600EA14B6 /* AppInteractor.swift */,
@@ -90,6 +94,8 @@
 		C4DB8C3D1C54F85E00EA14B6 /* CardsFiles */ = {
 			isa = PBXGroup;
 			children = (
+				C4E2C13F1C595A1F008121A6 /* Coloquial phrases.txt */,
+				C4DB8C641C58D7B500EA14B6 /* Find a job.txt */,
 				C4DB8C5C1C5542B800EA14B6 /* Idioms.txt */,
 				C4DB8C3E1C54F85E00EA14B6 /* Expressions.txt */,
 			);
@@ -110,8 +116,9 @@
 			children = (
 				C4DB8C4B1C55153500EA14B6 /* Card.swift */,
 				C4DB8C4C1C55153500EA14B6 /* CardCell.swift */,
-				C4DB8C4D1C55153500EA14B6 /* CardsStorage.swift */,
+				C4DB8C4D1C55153500EA14B6 /* Heading.swift */,
 				C4DB8C4E1C55153500EA14B6 /* CardsTV.swift */,
+				C4DB8C611C58C3B200EA14B6 /* CardFileParser.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -121,7 +128,6 @@
 			children = (
 				C4DB8C541C55155600EA14B6 /* HeadingTV.swift */,
 				C4DB8C581C551A5A00EA14B6 /* HeadingsStorage.swift */,
-				C4DB8C5A1C551ABD00EA14B6 /* Heading.swift */,
 			);
 			path = Heading;
 			sourceTree = "<group>";
@@ -193,10 +199,12 @@
 			files = (
 				C4DB8C441C54F85E00EA14B6 /* Expressions.txt in Resources */,
 				C4DB8C601C55546700EA14B6 /* bg-light.jpg in Resources */,
+				C4E2C1401C595A20008121A6 /* Coloquial phrases.txt in Resources */,
 				C42E6EFF1C53D7CE00FEC598 /* LaunchScreen.storyboard in Resources */,
 				C4DB8C5D1C5542B800EA14B6 /* Idioms.txt in Resources */,
 				C42E6EFC1C53D7CE00FEC598 /* Assets.xcassets in Resources */,
 				C42E6EFA1C53D7CE00FEC598 /* Main.storyboard in Resources */,
+				C4DB8C651C58D7B500EA14B6 /* Find a job.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,15 +215,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4DB8C5B1C551ABD00EA14B6 /* Heading.swift in Sources */,
 				C4DB8C591C551A5A00EA14B6 /* HeadingsStorage.swift in Sources */,
 				C4DB8C551C55155600EA14B6 /* HeadingTV.swift in Sources */,
 				C4DB8C531C55153500EA14B6 /* CardsTV.swift in Sources */,
+				C4DB8C621C58C3B200EA14B6 /* CardFileParser.swift in Sources */,
 				C42E6EF51C53D7CE00FEC598 /* AppDelegate.swift in Sources */,
 				C4DB8C571C55169600EA14B6 /* AppInteractor.swift in Sources */,
 				C4DB8C501C55153500EA14B6 /* Card.swift in Sources */,
 				C4DB8C511C55153500EA14B6 /* CardCell.swift in Sources */,
-				C4DB8C521C55153500EA14B6 /* CardsStorage.swift in Sources */,
+				C4DB8C521C55153500EA14B6 /* Heading.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

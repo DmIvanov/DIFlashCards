@@ -1,5 +1,5 @@
 //
-//  CardsStorage.swift
+//  Heading.swift
 //  FlashCards
 //
 //  Created by Dmitry Ivanov on 23.01.16.
@@ -8,16 +8,21 @@
 
 import UIKit
 
-class CardsStorage: NSObject {
+class Heading: NSObject {
     
     //MARK: Properties
-    var name: String
-    private lazy var cards: [Card] = self.cardsFromFile()
+    private (set) var name: String
+    private (set) var cards: [Card]
     
     
     //MARK: Lyfecycle
-    init(fileName: String) {
-        name = fileName
+    init(name: String, cards: [Card]? = nil) {
+        self.name = name
+        if let cs = cards {
+            self.cards = cs
+        } else {
+            self.cards = Heading.cardsFromFile(name)
+        }
     }
     
     
@@ -37,32 +42,8 @@ class CardsStorage: NSObject {
     
     
     //MARK: Private
-    private func cardsFromFile() -> [Card]{
-        return arrayFromContentsOfFile()
-    }
-    
-    private func arrayFromContentsOfFile() -> [Card] {
-        guard let path = NSBundle.mainBundle().pathForResource(name, ofType: "txt") else {
-            return [Card]()
-        }
-        
-        do {
-            let content = try String(contentsOfFile:path, encoding: NSUTF8StringEncoding)
-            return cardsFromStrings(content.componentsSeparatedByString("\n\n"))
-        } catch _ as NSError {
-            return [Card]()
-        }
-    }
-    
-    private func cardsFromStrings(strings: [String]) -> [Card] {
-        var cds = [Card]()
-        for strCard in strings {
-            let comp = strCard.componentsSeparatedByString(" -- ")
-            if comp.count == 2 {
-                cds.append(Card(rus: comp[1], eng: comp[0]))
-            }
-        }
-        return cds
+    private class func cardsFromFile(name: String) -> [Card]{
+        return CardFileParser.arrayFromContentsOfFile(name)
     }
 }
 

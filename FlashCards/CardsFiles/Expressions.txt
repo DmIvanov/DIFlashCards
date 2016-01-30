@@ -1,4 +1,67 @@
+//Sentences
+
 After Apple unveiled the Swift programming language, it quickly became one of the fastest growing languages in history. -- После того, как Эппл открыл Свифт, он в скором времени стал одним из самых быстро развивающихся языков в истории
+
+Start thinking of solitude as a good thing -- Начните думать об одиночестве, как о чём-то хорошем
+
+When we stumble or hesitate or lose our words we reveal ourselves to each other -- Когда мы спотыкаемся, или колеблемся, или не находим слов, мы открываемся друг другу
+
+At the wedding the groom and the bride had been waiting for best man for half an hour. -- На свадьбе жених с невестой прождали свидетеля 30 минут.
+
+In spite of the popular opinion most married men are in good relations with their mother-in-laws. -- Несмотря на распространённое мнение, большинство женатых мужчин находятся в хороших отношениях со своими тёщами.
+
+If you don't bring children up properly, they can grow up spoilt. -- Если не воспитывать детей должным образом, они могут вырасти избалованными.
+
+I've been trying myself (I’ve been trying my hands) at different business areas but I've chosen real estate. -- Я пробовал себя в разных сферах бизнеса, но остановился на недвижимости.
+
+If you cannot keep yourself together you will be replaced by some other player, I'm dead serious! -- Если ты не можешь держать себя в руках, тебя заменит другой игрок, я совершенно серьёзно тебе говорю.
+
+As luck would have it I got on the plain at the very last moment. -- По удачному стечению обстоятельств, я успел сесть на самолёт в последний момент.
+
+Too spicy food can be harmful. -- Очень острая еда может быть вредна для здоровья.
+
+I'm totaly stuck/trapped in a job, I will not be able to escape for two more hours. -- Я совершенно застрял на работе, не смогу выбраться ещё часа 2.
+
+This composer made a name for himdelf exceptionaly in soundtracks. -- Этот композитор сделал себе имя исключительно на саундтреках.
+
+In 2001 the Aerosmith was inducted into Rock’n’Roll hall of fame. -- Аэросмит были введены в Зал Славы Рок-н-Ролла в 2001-м году
+
+Some piece of paperboard is lodget between two of this wooden boards. -- Какой-то кусок картона застрял между этих двух досок.
+
+Usually spouses co-own their property according to the law. -- Обычно по закону супруги совладеют всем имуществом.
+
+The movie was so compelling that nobody in the audience made a sound. -- Фильм был настолько захватывающий, что никто из зрителей не издал ни звука при просмотре.
+
+He wants to convince me that he didn't borrow any money from me. -- Он хочет убедить меня в том, что не брал у меня никаких денег в долг.
+
+Although my boss is very demanding he knows how to keep himself together in stressful situations. -- Хотя мой босс очень требовательный, он умеет держать себя в руках при напряжённых ситуациях.
+
+Take time to think things over before you make a decision, don't jump straight in with both feet. -- Обдумай это неспеша перед тем, как принять решение, не бросайся в это сломя голову.
+
+The government compel you to give some money and call it taxes. -- Государство заставляет тебя отдавать часть своей прибыли и называет это налогом
+
+Throughout the entire jorney we met only two people: the first one was the old man in a hat, the second was a little girl with a baloon. -- На всём пути мы видели всего двух человек: первым был старик в шляпе, второй была маленькая девочка с воздушным шаром.
+
+Jealousy doesn't justify cheating. / Jealousy isn't an excuse for cheating. -- Зависть не оправдывает жульничества.
+
+Adam Smith had a very important notion of efficiency. -- Адам Смит дал очень вашное определение эффективности.
+
+Bionic limbs have been fitted to nearly 1,000 patients. -- Бионические конечности были установлены примерно тысяче пациентов.
+
+Why ever resign and leave corporate heaven? -- Зачем вообще увольняться и покидать корпоративные небеса?
+
+Don't confuse love with pity! -- Не путай любовь с жалостью!
+
+Just don't let her interfere with the business -- Просто не позволяй ей мешать бизнесу
+
+I've just written a new book, but this time it's not one that will get me on the cover of Wired magazine. -- Я только что написала новую книгу, но на этот раз она не выведет меня на обложку Wired.
+
+This idea changes our psyches. -- Эта идея меняет нашу психику.
+
+
+
+
+//Expressions
 
 learning is necessary but insufficient -- необходимо, но не достаточно
 
@@ -25,8 +88,6 @@ to extend beyond biological capability -- расширяться за преде
 
 Technology eliminated my disability -- Техника уничтожила мою инвалидность
 
-Bionic limbs have been fitted to nearly 1,000 patients -- Бионические конечности были установлены примерно тысяче пациентов.
-
 trait -- черта характера
 
 solitary -- одинокий, уединённый
@@ -43,13 +104,9 @@ tangible and intangible values -- материальные и нематериа
 
 notion -- понятние, представление
 
-Adam Smith had a very important notion of efficiency. -- Адам Смит дал очень вашное определение эффективности.
-
 And indeed, this is a great example. -- И это действительно хороший пример.
 
 tremendous, huge, enormous -- огромный
-
-Why ever resign and leave corporate heaven? -- Зачем вообще увольняться и покидать корпоративные небеса?
 
 neglecting reality and the outside world leads to misery -- пренебрежение реальностью и внешним миром ведёт к нищете (страданию)
 
@@ -62,10 +119,6 @@ prosperous company -- процветающая компания
 to fulfill dreams -- осуществлять мечты
 
 This works as follows:... -- Это работает следующим образом:...
-
-Don't confuse love with pity! -- Не путай любовь с жалостью!
-
-Just don't let her interfere with the business -- Просто не позволяй ей межать бизнесу
 
 I won't interfere, Gerry added -- Я не помешаю, добавил Джерри
 
@@ -95,8 +148,6 @@ I embody the central paradox -- Я олицетворяю основной па�
 
 In those heady days... -- В те пьянящие дни..
 
-I've just written a new book, but this time it's not one that will get me on the cover of Wired magazine. -- Я только что написала новую книгу, но на этот раз она не выведет меня на обложку Wired.
-
 skill of making eye contact -- умение держать зрительный контакт (глаза в глаза)
 
 grief at the funerals -- горе на похоронах
@@ -121,11 +172,5 @@ one of the most wrenching, complicated moments in my 15 years of work -- оди�
 
 technology appeals to us most where we are most vulnerable -- технологии взывают к нам (притягивают, привлекают нас) больше, когда мы более уязвимы.
 
-This idea changes our psyches -- Эта идея меняет нашу психику
-
 a profound question -- личный вопрос
-
-Start thinking of solitude as a good thing -- Начните думать об одиночестве, как о чём-то хорошем
-
-When we stumble or hesitate or lose our words we reveal ourselves to each other -- Когда мы спотыкаемся, или колеблемся, или не находим слов, мы открываемся друг другу
 

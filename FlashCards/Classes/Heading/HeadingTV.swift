@@ -39,7 +39,7 @@ class HeadingTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCellWithIdentifier("HeadingCell", forIndexPath: indexPath)
         if let heading = storage.headingForIdx(indexPath.row) {
             cell.textLabel?.text = heading.name
-            cell.detailTextLabel?.text = "\(heading.numberOfCards) cards"
+            cell.detailTextLabel?.text = "\(heading.cardsNumber()) cards"
         }
         return cell
     }
@@ -57,7 +57,7 @@ class HeadingTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
         if segue.identifier == "toCardsTV" {
             guard let cardsTV = segue.destinationViewController as? CardsTV else {return}
             guard let heading = tempHeading else {return}
-            cardsTV.cardsStorage = heading.storage
+            cardsTV.heading = heading
         }
     }
 }

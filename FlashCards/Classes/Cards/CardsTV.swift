@@ -11,7 +11,7 @@ import UIKit
 class CardsTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     //MARK: Properties
-    var cardsStorage = CardsStorage(fileName: "")
+    var heading = Heading(name: "")
     @IBOutlet private var tableView: UITableView!
     
     
@@ -31,12 +31,12 @@ class CardsTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return cardsStorage.cardsNumber()
+        return heading.cardsNumber()
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("CardCell", forIndexPath: indexPath) as! CardCell
-        cell.card = cardsStorage.cardForIdx(indexPath.row)
+        cell.card = heading.cardForIdx(indexPath.row)
         return cell
     }
 
@@ -50,7 +50,7 @@ class CardsTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     //MARK: Actions
     @IBAction private func shufflePressed() {
-        cardsStorage.shuffle()
+        heading.shuffle()
         tableView.reloadData()
     }
 }
