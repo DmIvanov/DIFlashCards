@@ -58,10 +58,106 @@ I've just written a new book, but this time it's not one that will get me on the
 
 This idea changes our psyches. -- Эта идея меняет нашу психику.
 
+Can we take a rain check. -- Можем ли мы перенести это на потом?
+
+Well, we can't call a method on "self" until after inititialization. -- Итак, мы не можем вызвать метод у "self" пока не произошла инициализация.
+
+Let’s take a quick look at what we’ve accomplished. -- Давайте быстро ознакомимся с тем, что уже сделано.
+
+This area became trendy because of this landmark. -- Эта местность стала популярной из-за этой достопримечательности.
+
+Loose cats (prowl around in alleyways / prowl the alleyways) at night. -- Бездомные кошки бродят по переулкам по ночам.
+
+He is slack in answering letters. -- Он медленно (вяло) отвечает на письма.
+
+I spent a considerable amount of time preparing for the exam. -- Я потратил значительное время на подготовку к экзамены.
+
+I received a good number of phone calls from people who have seen my ad. -- Я получил большое кол-во звонков от людей, увидевших мою рекламу.
+
+I had so much fun at the party yesterday. -- На вчерашней вечеринке было очень весело.
+
+He was so funny! (not "fun") -- Он был такой смещной!
+
+When I was 10 we moved to another city and I found it quite difficult to adapt to a new school. -- Когда мне было 10, мы переехали в другой город и мне было достаточно трудно привыкнуть/приспособиться к новой школе.
+
+A new law on higher education was adopted yesterday. -- Новый закон о высшем образовании был принят вчера.
+
+Mark has known that he is an adopted child since young age. -- Марк с раннего возраста знал, что он приёмный ребёнок.
+
+I'm afraid most politics are adept liars. (adept - знающий, сведующий, опытный) -- Боюсь, что большинство политиков - опытные лжецы.
+
+As a prospective doctor he should do a lot of studying. (prospective - будущий, ожидаемый) -- Как будущий врач он должен много учиться
+
+Working abroad gives you a whole new perspective. -- Работа зарубежом даёт совершенно новый взгляд на жизнь.
+
+He is very promising young man. (not "perspective") -- Он многообещающий/перспективный молодой человек.
+
+Professor Smith is a great teacher but his lectures never start on time. -- Профессор Смит - великий учитель, но его лекции никогда не начинаются вовремя.
+
+I don't think he will beat me at checkers or fencing. -- Не думаю, что он победит меня в шашках или фехтовании.
+
+They look so much alike that it's difficult to tell them apart. --  Они так похожи, что их тяжело различить.
+
+We're still commited. / Everything is still valid. / Everything stands good. -- Всё остаётся в силе (про договорённости). (3 вар.)
+
+We ned to get a good job to earn/make a decent living. -- Мы должны найти хорошую работу, чтоб обеспечить приличную жизнь.
+
+Can you really make/earn a living by selling jewelry? -- Ты действительно можешь заработать, продавая ювелирные украшения?
+
+He was too ardent/passionate in his aspiration to run for a seat in parlament. -- Он был слишком страстен/увлечён в своём стремлении балотироваться в парламент.
+
+Billboard is a large sign next to the road. -- Билборд - это огромный знак у дороги.
+
+Argument is a strong disagreement between two or more people. -- Спор - это сильное несогласие двух или более человек.
+
+When the building was being designed many people called it a folley. -- Когда здание проектировалось, многие называли его глупостью/безумием.
+
+I'm unveiling my intentions. -- Я раскрываю свои намерения.
+
+When I gave/announced this news her face lighted up. --  Когда я сообщил ей эту новость, её лицо загорелось.
+
+They decided to settle here. -- Они решили осесть тут.
+
+This masterpiece is the size of an entire wall. -- Этот шедевр размером в целую стену.
+
+Pour some coffee out of the coffeepot into a cup. -- Налей немного кофе из кофейника в чашку.
+
+Pollock is considered distinguished/outstanding painter. -- Поллок считается выдающимся художником.
+
+I have to restrain you by physical force. -- Я вынужден сдерживать тебя силой.
+
+Please, refrain from talking. -- Пожалуйста воздержитесь от разговоров.
+
+The fever has subsided. -- Жар спал.
+
+He doesn't provide answers. -- Он не даёт ответов.
+
+This idea influenced minds of entire generation. -- Эта идея повлияла на умы целого поколения.
+
 
 
 
 //Expressions
+
+on time - in time -- в назначенное время - к назначенному сроку, заблаговременно
+
+a loose end of the rope -- свободный конец верёвки
+
+to reveal a secret -- открыть/раскрыть секрет
+
+to purse (морщить) (up) one's mouth -- поджать губы
+
+to be numbered with... -- быть причисленным к...
+
+harmless fun -- безобидное веселье
+
+all of a sudden / suddenly -- неожиданно, внезапно
+
+twenty-storey building -- двадцатиэтажное строение
+
+revealing dress -- открытое платье
+
+to set up/to establish an organisation -- основать организацию
 
 learning is necessary but insufficient -- необходимо, но не достаточно
 
@@ -172,5 +268,16 @@ one of the most wrenching, complicated moments in my 15 years of work -- оди�
 
 technology appeals to us most where we are most vulnerable -- технологии взывают к нам (притягивают, привлекают нас) больше, когда мы более уязвимы.
 
-a profound question -- личный вопрос
+to get on well with smbd. -- хорошо ладить с кем-то
 
+to keep in touch with smbd. -- поддерживать связь с кем-то
+
+to lose touch with smbd. -- терять связь с кем-то
+
+to make an excuse (for) -- извиняться
+
+to get rid of -- избавляться от
+
+front/rear brake -- передний/задний тормоз
+
+the slack season in an industry -- мёртвый (вялый) сезон в индустрии

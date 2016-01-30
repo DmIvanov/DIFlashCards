@@ -24,6 +24,7 @@
 		C4DB8C621C58C3B200EA14B6 /* CardFileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C611C58C3B200EA14B6 /* CardFileParser.swift */; };
 		C4DB8C651C58D7B500EA14B6 /* Find a job.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4DB8C641C58D7B500EA14B6 /* Find a job.txt */; };
 		C4E2C1401C595A20008121A6 /* Coloquial phrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4E2C13F1C595A1F008121A6 /* Coloquial phrases.txt */; };
+		C4E2C1531C5CA059008121A6 /* Person.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4E2C1521C5CA059008121A6 /* Person.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		C4DB8C611C58C3B200EA14B6 /* CardFileParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardFileParser.swift; sourceTree = "<group>"; };
 		C4DB8C641C58D7B500EA14B6 /* Find a job.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Find a job.txt"; sourceTree = "<group>"; };
 		C4E2C13F1C595A1F008121A6 /* Coloquial phrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Coloquial phrases.txt"; sourceTree = "<group>"; };
+		C4E2C1521C5CA059008121A6 /* Person.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Person.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		C4DB8C3D1C54F85E00EA14B6 /* CardsFiles */ = {
 			isa = PBXGroup;
 			children = (
+				C4E2C1521C5CA059008121A6 /* Person.txt */,
 				C4E2C13F1C595A1F008121A6 /* Coloquial phrases.txt */,
 				C4DB8C641C58D7B500EA14B6 /* Find a job.txt */,
 				C4DB8C5C1C5542B800EA14B6 /* Idioms.txt */,
@@ -200,6 +203,7 @@
 				C4DB8C441C54F85E00EA14B6 /* Expressions.txt in Resources */,
 				C4DB8C601C55546700EA14B6 /* bg-light.jpg in Resources */,
 				C4E2C1401C595A20008121A6 /* Coloquial phrases.txt in Resources */,
+				C4E2C1531C5CA059008121A6 /* Person.txt in Resources */,
 				C42E6EFF1C53D7CE00FEC598 /* LaunchScreen.storyboard in Resources */,
 				C4DB8C5D1C5542B800EA14B6 /* Idioms.txt in Resources */,
 				C42E6EFC1C53D7CE00FEC598 /* Assets.xcassets in Resources */,
