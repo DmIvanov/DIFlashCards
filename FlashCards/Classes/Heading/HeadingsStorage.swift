@@ -17,7 +17,10 @@ class HeadingsStorage: NSObject {
         "Idioms",
         "Find a job",
         "Coloquial phrases",
-        "Persone"
+        "Person",
+        "AdjAntonyms",
+        "Animals",
+        "Phrasal Verbs",
     ]
 
     

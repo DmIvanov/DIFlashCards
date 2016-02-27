@@ -1,0 +1,60 @@
+//Животный мир. Animal world.
+
+Antelope -- антилопа
+Badger -- барсук
+Beaver -- бобер
+Blackbird -- дрозд
+Budgie -- волнистый попугайчик
+Bug -- клоп
+Buzzard -- канюк
+Calf -- теленок
+Canary -- канарейка
+Caterpillar -- гусеница
+Cockroach -- таракан
+Crane -- журавль
+Crow -- ворона
+Cuckoo -- кукушка
+Duckling -- утенок
+Elk -- лось
+Ferret -- хорёк
+Giraffe -- жираф
+Gnat -- комар, москит
+Grasshopper -- кузнечик
+Guinea pig -- морская свинка
+Heath-cock -- тетерев
+Hedgehog -- ёж
+Heron -- цапля
+Kid -- козленок
+Ladybird -- божья коровка
+Lamb -- ягненок
+Lark -- жаворонок
+Leech -- пиявка
+Lynx -- рысь
+Magpie -- сорока
+Moth -- моль
+Nightingale -- соловей
+Ostrich -- страус
+Owl -- сова
+Ox -- вол, бык
+Partridge -- куропатка
+Peakcock -- павлин
+Pheasant -- фазан
+Ram -- баран
+Raven -- ворон
+Rhino; rhinoceros -- носорог
+Seagull -- чайка
+Seal -- тюлень
+Snail -- улитка
+Sparrow -- воробей
+Starfish -- морская звезда
+Stork -- аист
+Swallow -- ласточка
+Swan -- лебедь
+Titmouse -- синица
+Tortoise -- черепаха
+Turtledove -- горлица
+Viper -- гадюка
+Vulture -- гриф
+Wasp -- оса
+Wild boar -- дикий кабан
+Woodpecker -- дятел

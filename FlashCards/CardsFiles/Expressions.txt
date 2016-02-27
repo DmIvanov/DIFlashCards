@@ -1,5 +1,7 @@
 //Sentences
 
+The World Cup (in soccer) is played in venues all over the globe, unlike much more parochial and misnamed World Series in American baseball (that doesn't even involve Japan or Cuba, two baseball hotbeds). [venue - место организации мероприятия, parochial - местный, местячковый, hotbed - очаг, рассадник] -- Чемпионат Мира (по футболу) проводится по всему миру, в отличае более местячковых и неверно названных Мировых Серий в американском бейсболе (которые даже не включают Японию и Кубу - два очага бейсбола).
+
 After Apple unveiled the Swift programming language, it quickly became one of the fastest growing languages in history. -- После того, как Эппл открыл Свифт, он в скором времени стал одним из самых быстро развивающихся языков в истории
 
 Start thinking of solitude as a good thing -- Начните думать об одиночестве, как о чём-то хорошем
@@ -14,6 +16,8 @@ If you don't bring children up properly, they can grow up spoilt. -- Если н
 
 I've been trying myself (I’ve been trying my hands) at different business areas but I've chosen real estate. -- Я пробовал себя в разных сферах бизнеса, но остановился на недвижимости.
 
+Indie developers were trying their hands at all sort of apps. -- Независимые разработчики пробовали себя во всех видах приложений.
+
 If you cannot keep yourself together you will be replaced by some other player, I'm dead serious! -- Если ты не можешь держать себя в руках, тебя заменит другой игрок, я совершенно серьёзно тебе говорю.
 
 As luck would have it I got on the plain at the very last moment. -- По удачному стечению обстоятельств, я успел сесть на самолёт в последний момент.
@@ -21,6 +25,10 @@ As luck would have it I got on the plain at the very last moment. -- По уда
 Too spicy food can be harmful. -- Очень острая еда может быть вредна для здоровья.
 
 I'm totaly stuck/trapped in a job, I will not be able to escape for two more hours. -- Я совершенно застрял на работе, не смогу выбраться ещё часа 2.
+
+If you’re trapped in a job, you cannot leave it for some reasons. -- Если ты застрял на работе (глобально), ты не можешь бросить её по какой-то причине.
+
+This pen is lodged in power outlet, it’s stuck. -- Эта ручка застряла в розетке, её не вытащить (она застряла 2 вар)
 
 This composer made a name for himdelf exceptionaly in soundtracks. -- Этот композитор сделал себе имя исключительно на саундтреках.
 
@@ -98,8 +106,6 @@ I don't think he will beat me at checkers or fencing. -- Не думаю, что
 
 They look so much alike that it's difficult to tell them apart. --  Они так похожи, что их тяжело различить.
 
-We're still commited. / Everything is still valid. / Everything stands good. -- Всё остаётся в силе (про договорённости). (3 вар.)
-
 We ned to get a good job to earn/make a decent living. -- Мы должны найти хорошую работу, чтоб обеспечить приличную жизнь.
 
 Can you really make/earn a living by selling jewelry? -- Ты действительно можешь заработать, продавая ювелирные украшения?
@@ -134,10 +140,107 @@ He doesn't provide answers. -- Он не даёт ответов.
 
 This idea influenced minds of entire generation. -- Эта идея повлияла на умы целого поколения.
 
+These days simple questions bring ever more complicated answers. -- В наши дни простые вопросы ведут ко всё более сложным ответам.
+
+Home is not just the place where you happen to be born, it's the place where you become yourself. -- Дом - это не просто место где тебе довелось родиться, это место, где ты становишься собой.
+
+I was beginning to get slightly intrigued. -- Я начинал понемногу заинтриговываться.
+
+Then I turned onto an even narrower path, barely paved, that snaked for two miles up to the top of a mountain. -- Затем я повернул на ещё более узкий путь, едва вымощенный, который извивался 2 мили к вершине горы.
+
+Small but eminently comfortable, it had a bed and a rocking chair. -- Маленькая, но чрезвычайно удобная, она (комната) имела кровать и кресло-качалку.
+
+I was like some crazy guy who puts on a blindfold and then complains that he can't see a thing. -- Я был как какой-то сумасшедший парень, который одевает повязку на глаза и потом жалуется, что ничего не видит.
+
+And I thought back to that wonderful phrase I had learned as a boy from Seneca, in which he says, "That man is poor not who has little but who hankers after more." -- И я вспомнил то замечательное выражение Сенеки, которое я узнал будучи ещё ребёнком, в которой говорится: "Не тот беден, у кого мало, а тот, кто жаждет большего".
+
+I've never lived one day of my life there. -- Я никогда не прожил и дня своей жизни там.
+
+And for more and more of us, home has really less to do with a piece of soil than, with a piece of soul. -- И для больших и больших из нас дом действительно меньше связан с куском земли, чем с куском души.
+
+One of those wildfires that regularly tear through the hills of California. -- Один из тех пожаров, что регулярно прорываются через холмы Калифорнии.
+
+That fire reduced my home and every last thing in it except for me to ash. -- Тот огонь стёр в пепел мой дом и всё внктри него до последней вещицы, исключая меня.
+
+The real voyage of discovery, as Marcel Proust famously said, consists not in seeing new sights, but in looking with new eyes. -- Настоящий путь открытия, как сказал Марсель Пруст, состоит не в том, чтобы видеть новые вещи, но в том, чтобы смотреть по-новому.
+
+Please, ommit that two excerpts from the text. -- Пожалуйста, пропусти те два отрывка из текста.
+
+Did she use to wear glasses? -- Она раньше носила очки?
+
+The area outside the central part of a city is caled "suburbs". -- Территория за пределами центральной части города называется "предместья".
+
+Smoke comes through the chimney. -- Дым выходит из дымохода.
+
+A rehearsal room to practise in before the show, which should be decorated in black leather with indor plants. -- Комната для репетиций, чтоб попрактиковаться перед шоу, которая должна быть украшена чёрной кожей с комнатными растениями.
+
+She left the room halfway through his enumeration of his love for her. -- Она вышла из комнаты на середине его перечисления его любви к ней.
+
+I value human relationships more than accomplishment. -- Я ценю человеческие отношения больше достижений.
+
+You don't understand me, I don't want to call our apointment off, let's just put it off for a couple of days. -- Вы не понимаете, я не хочу отменять нашу встречу совсем, давайте просто перенесём её на пару дней.
+
+I was terrified beyond human comprehension! -- Я был в ужасе за пределами человеческого понимания!
+
+Jackson awoke, famished/starving; he once again had not fed all day. -- Джексон проснулся очень голодным, он снова не ел целый день.
+
+It was freezing out there. -- Снаружи было очень холодно.
+
+Now Alex is furious with me. -- Теперь Алекс в ярости из-за меня.
+
+The only immaculate carrier was the Egyptian. -- Единственным безупречным перевозчиком был Egyptian.
+
+She wasn't going to break his bizarre rules. -- Она не собиралась нарушать его причудливые правила.
+
+Howie was anxious to start a session. -- Хауи был очень встревожен началом сессии.
+
+Their government was feeble and corrupt. -- Их правительство было немощным и корумпированным.
+
+She looked up to find both hideous beasts staring at her, drooling. -- Она огляделась и увидела обоих отвратительных зверей, пялящихся на неё, истекая слюной.
+
+No wonder he had been so solemn lately. -- Неудивительно, что он был так торжественен в последнее время.
+
+Her parched lips longed for the fresh cool water. -- Её пересохшие губы жаждали свежей прохладной воды.
+
+She sighed and wandered through the spotless kitchen. -- Она вздохнула и побрела через безупречно чистую кухню.
+
+We let all those precious moments pass us by - until they were lost forever. -- Мы дали всем тем драгоценным моментам возможность пройти мимо нас, пока они не утрачены навечно. 
+
+Its charm lies in its exquisite accent and its infinite tenderness. -- Его очарование заключается в его изысканном акценте и бесконечной нежности.
+
+Now I have another dazzling thought. -- Сейчас у меня появилась ещё одна ослепительная мысль.
+
+Plato and Tacitus were his favourite authors, because "the former described the ideal man, and the latter man as he really is." -- Плотон и Тацит были его любимыми авторами, потому что "первый описывал идеального человека, а второй - человека таким, каков он на самом деле".
+
+For being a good specialist I try to be aware of all the new programming trends. -- Чтобы быть хорощим специалистом, я стараюсь быть в курсе всех новых тенденций в программировании.
+
+It's worth being aware of this problem. -- Стоит быть в курсе этой проблемы.
+
+He gained srious benefit. -- Он получил серьёзное преимущество.
+
+It can cease to exist! -- Оно может перестать существовать!
+
+
+
+
 
 
 
 //Expressions
+
+delicious dishes -- очень вкусные (изысканные) блюда
+
+jubilant crowds -- ликующие толпы
+
+negotiation can be intimidating -- переговоры могут быть пугающими
+
+wherever I happen to be -- везде, где я оказываюсь
+
+refugees -- беженцы
+
+the little girl who arises out of their union -- маленькая девочка, которая возникает из этого союза
+
+this gossips are slightly exaggerated -- эти слухи слегка преувеличены
 
 on time - in time -- в назначенное время - к назначенному сроку, заблаговременно
 
@@ -201,8 +304,6 @@ tangible and intangible values -- материальные и нематериа
 notion -- понятние, представление
 
 And indeed, this is a great example. -- И это действительно хороший пример.
-
-tremendous, huge, enormous -- огромный
 
 neglecting reality and the outside world leads to misery -- пренебрежение реальностью и внешним миром ведёт к нищете (страданию)
 
@@ -281,3 +382,49 @@ to get rid of -- избавляться от
 front/rear brake -- передний/задний тормоз
 
 the slack season in an industry -- мёртвый (вялый) сезон в индустрии
+
+economic (situation) - economical (car) -- экономическая ситуация - экономичная машина
+
+historic (moment) - historical (fact) -- исторический момент - исторический факт
+
+Great careers are really just a matter of luck. -- Великие карьеры - это в действительности вопрос удачи (дело случая).
+
+my professors have beaten that idea out of my head -- мои профессора выбили эту идею из моей головы
+
+
+
+
+
+// REPORTED SPEECH VERBS
+They agreed to meet on Friday. -- Они договорились встретиться в пятницу.
+
+He refused to take his coat off. -- Он отказался снять своё пальто.
+
+Tom advised me to go home early. -- Том посоветовал мне идти домой пораньше.
+
+She reminded me to telephone my mother. -- Она напомнила мне позвонить моей маме.
+
+They recommended taking the bus. -- Они порекомендовали поехать на автобусе.
+
+She suggested meeting a little earlier. -- Она предложила встретиться чуть раньше.
+
+He accused me of taking the money. -- Он обвинил меня в присвоении денег.
+
+They congratulated me on passing all my exams. -- Они поздравили меня со сдачей всех моих экзаменов.
+
+They apologised for not coming. -- Они извинились за то, что не пришли.
+
+He insisted on having dinner. -- Он настаивал на том, чтоб поужинать.
+
+Sarah decided (that) the house needed cleaning. -- Сара решила, что дом необходимо прибрать.
+
+She offered us two options for our choise. -- Она предложила нам два варианта на выбор.
+
+He threaten that he say everything to my boss. -- Он угрожал, что всё расскажет моему боссу.
+
+Mother encouraged my music exercises in defferent ways.  -- Мама всячески поощряла мои занятия музыкой.
+
+Ben warned us about wild animals in mountains. -- Бен предупредил нас о диких животных в горах.
+
+Jack denyed all the accusations to him. -- Джек отрицал все обвинения в свой адрес.
+
