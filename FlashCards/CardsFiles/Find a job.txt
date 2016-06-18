@@ -91,5 +91,6 @@ marital status (married, single, divorced, separated, widowed) -- семейно
 
 personal strengths -- сильные стороны, таланты
 
+to hand in one's notice period -- подписать заявления и начать отсчитывать положенную отработку перед увольнением
 
 

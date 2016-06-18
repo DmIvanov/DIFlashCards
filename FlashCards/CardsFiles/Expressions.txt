@@ -1,6 +1,6 @@
 //Sentences
 
-The World Cup (in soccer) is played in venues all over the globe, unlike much more parochial and misnamed World Series in American baseball (that doesn't even involve Japan or Cuba, two baseball hotbeds). [venue - место организации мероприятия, parochial - местный, местячковый, hotbed - очаг, рассадник] -- Чемпионат Мира (по футболу) проводится по всему миру, в отличае более местячковых и неверно названных Мировых Серий в американском бейсболе (которые даже не включают Японию и Кубу - два очага бейсбола).
+The World Cup (in soccer) is played in venues all over the globe, unlike much more parochial and misnamed World Series in American baseball (that doesn't even involve Japan or Cuba, two baseball hotbeds). [venue - место организации мероприятия, parochial - местный, местячковый, hotbed - очаг, рассадник] -- Чемпионат Мира (по футболу) проводится по всему миру, в отличае от более местячковых и неверно названных Мировых Серий в американском бейсболе (которые даже не включают Японию и Кубу - два очага бейсбола).
 
 After Apple unveiled the Swift programming language, it quickly became one of the fastest growing languages in history. -- После того, как Эппл открыл Свифт, он в скором времени стал одним из самых быстро развивающихся языков в истории
 
@@ -170,7 +170,7 @@ Did she use to wear glasses? -- Она раньше носила очки?
 
 The area outside the central part of a city is caled "suburbs". -- Территория за пределами центральной части города называется "предместья".
 
-Smoke comes through the chimney. -- Дым выходит из дымохода.
+Smoke comes through the chimney. -- Дым проходит через дымоход.
 
 A rehearsal room to practise in before the show, which should be decorated in black leather with indor plants. -- Комната для репетиций, чтоб попрактиковаться перед шоу, которая должна быть украшена чёрной кожей с комнатными растениями.
 
@@ -184,7 +184,62 @@ I was terrified beyond human comprehension! -- Я был в ужасе за пр
 
 Jackson awoke, famished/starving; he once again had not fed all day. -- Джексон проснулся очень голодным, он снова не ел целый день.
 
-It was freezing out there. -- Снаружи было очень холодно.
+Marry called around all the neighbors but hasn't found out where her husband was. -- Мэри обзвонила всех своих соседей, но так и не узнала, где ее муж.
+ 
+You should cut back on siting in front ot TV, otherwise your eye sight will strongly get worse. -- Тебе стоило бы меньше сидеть перед экраном, иначе твое зрение сильно ухудшится.
+ 
+John and Ann have been breaking up and making up like 7 times for the last year. -- Джон и Энн за последний год расходились (прекращали отношения) и сходились (мирились) уже раз семь.
+
+She had been trying to get back at him for the long lime, but finally she gave up and now they get along well. -- Она пыталась ему отомстить долгое время, но в итоге сдалась и теперь они неплохо ладят друг с другом.
+ 
+We treat people who give away their belongings suspiciously. --  Мы с подозрением относимся к людям, бесплатно раздающим своё имущество.
+
+For how long have they been going out? Since she ran away from Tim. -- Как давно они встречаются? С тех пор как она сбежала от Тима.
+
+Кто разрешил вам врываться ко мне в кабинет без стука? -- Who allowed you to break into my office without knocking?
+
+It's really hard to put up with his habit to get into people's talks. -- Очень трудно смириться с его привычкой, встревать в чужие разговоры.
+
+Время вышло. Сдавайте свои работы. -- Time is up. Hand in your works.
+
+Don't hold her back - she should realise her potential herself. -- Не стоит её сдерживать – она должна сама реализовать свой потенциал.
+ 
+Despite he let us down today, he is a good person. -- Несмотря на то, что он нас сегодня подвел, он хороший человек.
+ 
+You shouldn't have kept the truth from us. We would have known it anywhay. -- Не стоило вам скрывать от нас правду. Мы бы и так ее узнали рано или поздно.
+ 
+If we (keep on / carry on) working at the same pace, we will finish our project in a week, not in a month.
+If wee keep our work up,... -- Если мы продолжим работать в таком же темпе, то закончим наш проект за неделю, а не за месяц.
+ 
+I dont believe a word of her, she made it up for sure. -- Я не верю ни единому её слову – она явно всё это выдумала.
+ 
+You suggestion is very attractive but we'll have to turn it down. -- Ваше предложение очень привлекательно, но нам все же придется его отклонить.
+ 
+We were looking over monthly reports when Trevor turned up from nowhere. -- Мы как раз просматривали отчеты за месяц, когда Тревор появился из ниоткуда.
+
+Jane always liked assertive men - they look confident, and it seems that they know what they want for sure. -- Джэйн всегда нравились напористые мужчины - они выглядят уверенными и кажется, что они точно знают, чего хотят.
+
+Mike is the most bad-tempered person I've evere met, he doesn't even try to look more cheerful. -- Майк - самый раздражительный из всех, кого я встречал; он даже не пытается выглядеть более жизнерадостным.
+
+As a conscientious girl she called the police as soon as he left her apartment. -- Как сознательная девушка, она позвонила в полицию как только он покинул её квартиру.
+
+It's not your style, this hat is for somebody more eccentric and unpredictable. -- Это не твой стиль, эта шляпа для кого-то более эксцентричного и непредсказуемого.
+
+He doesn't care if all of his subordinates are insincere, he just needs them to be loyal. -- Ему наплевать, что все его подчинённые неискренни, ему только нужно, чтоб они были верными.
+
+Both of us were equaly stubborn, so we could keep on arguing till the end of time. -- Мы были одинаково упрямые, так что могли спорить до конца времён.
+
+It wasn't so difficult to keep it from you, I'm quite a reserved guy. -- Было не так уж и трудно скрывать это от тебя, я - достаточно замкнутый парень.
+
+You should be really calm, reserved and well-balanced to keep yourself tohether in such situations. -- Ты должен быть действительно спокоен, сдержан и уравновешен чтобы держать себя в руках в подобных ситуациях.
+
+I didn't know Jake is so vain before he took her credit. -- Я не знал, что джэйк такой тщеславный до того, как он присвоил себе всю славу.
+
+Although my cat scratches all the wallpaper, I love him. -- Хотя мой кот дерёт все обои, я люблю его.
+
+It was freezing out there. -- Снаружи было морозно.
+
+How did it feel when you went skydiving for the first time? -- Что вы чувствовали, когда прыгали с парашютом впервые?
 
 Now Alex is furious with me. -- Теперь Алекс в ярости из-за меня.
 
@@ -220,13 +275,241 @@ He gained srious benefit. -- Он получил серьёзное преиму
 
 It can cease to exist! -- Оно может перестать существовать!
 
+The firm is beginning to make inroads into the UK market. -- Компания начинает делать набеги на британский рынок.
+
+Anyone who has attended live football game knows… [attend - присутствовать, посещать] -- Каждый, кто присутствовал в живую на футбольном матче, знает...
+
+But you can see how that can become cumbersome. -- Но ты можешь увидеть, как это может стать громоздким.
+
+Family tensions and conflicts may lead to violence. -- Напряжения и конфликты в семье могут привести к жестокости.
+
+His purpose is to eliminate the common idea of divine interference. -- Его цель в том, чтобы устранить общую идею божественного вмешательства.
+
+If you think your poverty is the result of your own inadequacy, you shrink into despair. -- Если вы думаете, что ваша бедность - это результат вашей собственной неполноценности, вы сжимаетесь от безысходности.
+
+My girlfriend is such a sweet tooth, that she cannot spend a day without sweets and pastries. -- Моя девушка такая сладкоежка, что не может жить без сладостей и сладкой выпечки
+
+There're not so little proteins in plants like peas and beans В растениях типа гороха и бобов содержится немало белка.
+
+My sister prefere to eat out or bring takeaway food. She hasn't been eating home-made food for ages. -- Моя сестра предпочитает есть вне дома, или приносить еду на вынос. Она сто лет уже не ела домашней еды.
+
+Lime is the same sour as lemon, but a bit more bitter. -- Лайм такой же кислый как лимон, только чуть горчее.
+
+Food in this restaurant is kind of bland. -- Еда в этом заведении какая-то безвкусная. (not "tasteless", please!)
+
+That crunchy roast chicken was so good I licked the plate clean. -- Этот хрустящий жареный циплёнок был так хорош, что я вылизал тарелку начисто.
+
+There were baked potatoes, steamed cauliflower and beef stew on the table. -- На столе были печёный картофель, цветная капуста на пару и жаркое из говядины.
+
+Do you prefere watter still or sparkling (fizzy)? -- Вы предпочитаете воду без газа или газированную?
+
+Maradona was called "Hand of God" due to the episode when he cheated and scored the goal with his hand. -- Марадону прозвали "Рукой Бога" за тот случай, когда он сжульничал и забил гол рукой
+
+Do you seriously SUFFER FROM the politic of your government? -- Ты действительно страдаешь от политики своего правительства?
+
+It is inaccessible to mere mortals like myself. -- Это не доступно для простых смертных вроде меня.
+
+So I stepped back from the workforce, and I spent a year at home. -- Таким образом я вышел из рядов рабочих и провёл год дома.
+
+I have four observations I'd like to share with you today. -- У меня есть 4 наблюдения, которыми я бы хотл поделиться с вами сегодня.
+
+Thousands and thousands of people <...> work long, hard hours at jobs they hate to enable them to buy things they don't need to impress people they don't like. -- Тысячи и тысячи людей <...> долго и усердно работают на работах, которые они ненавидят, чтобы позволить себе вещи, которые им не нужны, чтобы впечатлить людей, которые им не нравятся.
+
+We need to elongate the time frame upon which we judge the balance in our life. -- Мы должны удлиннить временной отрезок по которому мы судим о балансе в своей жизни.
+
+Being more balanced doesn't mean dramatic upheaval in your life. -- Быть более сбалансированным не подразумевает драматичных переворотов в вашей жизни.
+
+She likes narcissuses and espesially daffodils. -- Она любит нарциссы, а особенно жёлтые.
+
+The total turnover of goods sold and "ordered" amounts to nearly 362 millions sterling annually. -- Общий оборот товаров проданных и заказанных составляет сумму примерно в 362 миллиона стерлингов ежегодно.
+
+Sometimes while going shopping you end up with a lot more goods at the checkout then you planned. -- Иногда занимаясь покупками ты оказываешься на кассе с гораздо большим количеством товара, чем планировал.
+
+He was hired to do voice-over work. -- Его наняли для работы по озвучиванию.
+
+Protective tax (tariff) is the common economic policy in order to protect local manufactoring. -- Пошлины на ввоз (2 вар.) - это общепринятая экономическая политика по защите местных производств.
+
+Governer is a leader of state's government. -- Губернатор - это руководитель правительства региона (штата).
+
+I built this bar with my bare hands from the finest wood in the county. -- Я построил этот бар голыми руками из лучшего (не "best") дерева в стране.
+
+We all want affirmations that our lives have meaning. -- Мы все хотим подтверждение тому, что наши жизни имеют смысл.
+
+And that's what ultimately led me to speaking to you here. -- И это в конце концов привело меня к тому, что я говорю здесь перед вами.
+
+He's found out that his uncle has mysteriously passed away and been entombed in a mausoleum on the property. -- Он узнал, что его дядя таинственным образом покинул этот свет и был похоронен в мавзолее на территории (усадьбы).
+
+The elements you provide and the order you place them in is crucial to whether you succeed or fail at engaging the audience. -- Кусочки, которые ты предоставляешь, и порядок, в котором ты их располагаешь, являются ключевыми в том, преуспеешь ты или провалишься в овладнии аудиторией.
+
+And the idea is that the best characters have spine, an inner motor, a dominant, unconscious goal that they're striving for, an itch that they can't scratch. --  И идея состоит в том, что лучшие персонажи имеют хребет, внутренний мотор, основной признак (доменанту), бессознательную цель, к которой они стремятся, зуд, который они не могут почесать.
+
+Make yourself at home. -- Чувствуй себя как дома.
+
+Drama is anticipation mingled with uncertainty. -- Драма - это предвкушение, смешанное с неопределённостью.
+
+This matter is still being considered by them. -- Это дело до сих пор рассматривается у них.
+
+How do you explain when things don't go as we assume? -- Как вы объясните ситуацию, когда дела идут не так, как вы предполагали?
+
+It's all grounded in the tenets of biology. -- Всё это основано на постулатах биологии.
+
+The only reason laggards buy smartphones is because you can't buy rotary phones anymore. -- Единственная причина, почему "отстающие" покупают смартфоны, - это то, что они не могут больше покупать дисковые телефоны.
+
+You have to forge your own way with experimentation. -- Ты вынужден ковать свой собственный путь посредством экспериментов.
+
+I wish you didn't take me for granted. -- Мне бы не хотелось, чтоб ты принимал меня как должное.
+
+In ancient times people died to obtain information. -- В античные времена люди умирали ради получения информации.
+
+Would you take us for a ride in your boat? -- Может ты прокатишь нас на своей лодке?
+
+I trusted him but he took me for a ride. -- Я доверял ему, но он меня надул (обманул).
+
+Different articles and TV shows reveal the unpleasant truth about stress regularly. -- Различные статьи и тв-шоу регулярно разоблачают неприятную правду о стрессе.
+
+It is actually so simple that we’re inclined to look for something more complicated. -- Вообще-то, это так просто, что мы склонны искать что-то более сложное.
+
+We can substitute another actor to fulfill a given role. -- Мы можем подставить другой действующий объект чтобы заполнить имеющуюся позицию.
+
+I pointed out some of this problems yesterday. -- Вчера я указал на некоторые из этих проблем.
+
+There're three pictures with this duo. -- Есть 3 картины с этим актёрским дуэтом.
+
+It's so embarrassing to admit that I can't learn to do smth. that all my friends are able to do. -- Так неловко признавать, что я не могу научиться делать что-то, что умеют все мои друзья.
+
+This story looks quite far-fetched. -- Эта история выглядит довольно надуманной (притянутой за уши).
+
+Why do the offenders commit crime? -- Почему преступники совершают преступления?
+
+"Exhausting" is more intense than "tiring" -- "Изматывающий" - это более сильно, чем "утомительный"
+
+Natalie was determined to carry on swimming. -- Натали была полна решимости продолжить плавать.
+
+She qualified for the final but not for disabled people, for able-bodied ones. -- Она отобралась на финал но не для инвалидов, а для полноценных людей
+
+I am in the awkward position. -- Я в неловком положении.
+
+I walked towards the park. -- Я прогуливался в направлении парка.
+
+I will advocate this aproach -- Я буду отстаивать этот подход.
+
+It's overkill for vast majority of the companies. -- Это излишне для подавляющего большинства компаний.
+
+He describeв hot to pronounce this word and not to confuse it with the other one. -- Он объяснил, как произносить это слово и не путать его с другим.
+
+The real teacher should be encouraging, inspiring, knoledgeable and understanding. -- Настоящий учитель должен быть поддерживающим, вдохновляющим, знающим и понимающим.
+
+He was a rebel at school, he used to behave very badly. -- В школе он был бунтарём, он вёл себя очень плохо.
+
+He was a graduate of one of the boarding schools. -- он был выпускником одной из школ-интернатов.
+
+There was a huge canteen in our secondary school. -- В нашей средней школе была огромная столовая.
+
+Cross-country run is his favourite activity in the village. -- Бег по пересечённой местности - это его любимое занятие в деревне.
+
+All the suspects were interrogated. -- Все подозреваемые были допрошены.
+
+Mark looked slightly dazed. -- Марк выглядел слегка изумлённым.
+
+As soon as you get your exam results, call me. -- Как только получил результаты своего экзамена, позвони мне.
+We'll have dinner when your father gets home. -- Мы поужинаем, когда твой отец доберётся до дома.
+I won't go to bed untill you come home. -- Я не пойду в кровать до твоего возвращения домой.
+I'll have lunch before I leave. -- Я пообедаю до того как уйти.
+After I finish university I'll probably take a year off. -- После завершения университета я возможно возьму год отдыха.
+
+Otherwise they won't be able to express themselves in the way they dress. -- Иначе они не смогут выразить себя в том, как они одеваются.
+
+He was wearing a grey vest and suspenders. -- Он был одет в серую жилетку и подтяжки.
+
+It can be just a colored ribbon on a sleave. -- Это может быть всего лишь цветная лента на рукаве.
+
+Just acknowledge this fact! -- Просто признай этот факт!
+
+School is in charge of educating, but parents should be responsible for general upbringing. -- Школа отвечает за образование, но родители должны быть ответственны за общее воспитание.
+
+British are too attached to their traditions. -- Британцы слишком привязаны к своим традициям
+
+Which date would you consider for our next meeting? -- Какую дату ты предполагаешь для нашей следующей встречи?
+
+I spend the majority of my waking hours working remotely. -- Я трачу большую часть моего бодрствования на удалённую работу.
+
+It will be harder for your colleagues to implicitly gauge your current workload. -- Для ваших коллег будет сложнее неявно оценить(измерить) вашу текущую рабочую загрузку.
+
+The chaos and social buzz of the office can become a restraint in its own ways. -- Хаос и людской гул оффиса может стать сдерживающим фактором в своём роде.
+
+You might want to institute some rules. -- Вы вероятно захотите установить какие-то правила.
+
+This can be a huge efficiency boost, but doing it right can take some practice. -- Это может быть огромным увеличением эффективности, но чтобы делать это правильно, нужна практика.
+
+Don't fear that pursuit of clarity may make you look stupid. -- Не бойся, что преследование ясности может заставить тебя выглядеть глупо.
+
+Busy practitioners are sometimes reluctant to spend time examining a colleague's work. -- Занятые практики иногда неохотно тратят время на проверку работы коллег.
+
+He threaten to kill me -- Он угрожает убить меня.
+
+He just need to atone for his sins. -- Он просто должен искупить свои грехи.
 
 
 
+//Expression
 
+tangible benefit -- ощутимая выгода
 
+bouncing ideas off of coworkers -- проба идей на коллегах по работе
 
-//Expressions
+irreplaceability of face-to-face communication -- незаменимость общения лицом-к-лицу
+
+to master the art of remote work -- овладеть искусством удалённой работы
+
+to aspire / to aim -- стремиться (2 вар)
+
+an attempt is not a torture -- попытка - не пытка
+
+moral ambiguity -- нравственная неоднозначность (двусмысленность)
+
+slippery slope -- скользкий уклон (склон)
+
+wipping boy -- мальчик для битья
+
+it makes your code more readable and less prone to bugs -- это делает ваш код более читаемым и менее склонным к багам
+
+conference that will be held next month -- конференция, которая будет проведена в следующем месяце
+
+he has the whole eternity ahead -- у него впереди целая вечность
+
+storytelling device -- устройство (искусства) рассказывания историй
+
+the greatest commandment of storytellers -- главная заповедь рассказчиков историй
+
+punchline -- кульминация
+
+old man nursing a beer -- старик, посасывающий пиво
+
+to fill smbd. in on your life -- посвятить кого-то в свою жизнь (ввести в курс дела)
+
+smth. that she was never realy able to recovered from -- что-то, от чего она так и не смогла в действительности оправиться
+
+comprehensive article -- всесторонняя/исчерпывающая статья
+
+that can be daunting/intimidating/frightening -- это может быть пугающим/обескураживающим (3 вар.)
+
+stand by me -- останься со мной
+
+overwhelming majority of people on the planet -- подавляющее большинство населения планеты
+
+monotonous, meaningless and soul-deadening work -- монотонная, бессмысленная, убивающая душу работа
+
+engaging, stimulating and meaningful work -- занимательная, стимулирующая и наполненная смыслом работа
+
+premises and consequences -- предпосылки и последствия
+
+vague responsibility separation is bad -- неясное (расплывчатое) разделение обязанностей - это плохо
+
+pursue both goals -- преследовать обе цели
+
+to wrap up = to finish -- заканчивать, закругляться
+
+ill-treated animals -- животные, с которыми плохо обращались
 
 delicious dishes -- очень вкусные (изысканные) блюда
 
@@ -270,8 +553,6 @@ embrace the new -- принимать всё новое
 
 use this principles to evaluate new ideas -- используйте эти принципы для оценки новых идей
 
-Do you think ... or vice versa? -- Думаешь... или наоборот?
-
 magnifying glass of science -- увеличительное стекло науки
 
 novel technologies, not foreseen or anticipated by nature - новые/оригинальные технологии, не предусмотренные или предполагаемые природой
@@ -295,7 +576,7 @@ The problem might not be evident until... -- Проблема может быт�
 
 to evaluate the fruits of our labor -- оценивать плоды нашей работы
 
-rats in a maze -- подопытный кролик
+rats in a maze -- подопытные кролики
 
 tremendously -- чрезвычайно
 
@@ -375,7 +656,7 @@ to keep in touch with smbd. -- поддерживать связь с кем-т�
 
 to lose touch with smbd. -- терять связь с кем-то
 
-to make an excuse (for) -- извиняться
+to make an excuse (for) -- извиняться (за)
 
 to get rid of -- избавляться от
 
@@ -391,40 +672,62 @@ Great careers are really just a matter of luck. -- Великие карьеры
 
 my professors have beaten that idea out of my head -- мои профессора выбили эту идею из моей головы
 
+wretched weaklings -- жалкий слабак
+
+to neglect the family -- пренебрегать семьёй
+
+she plants only cacti -- она выращивает только кактусы
+
+
 
 
 
 
 // REPORTED SPEECH VERBS
-They agreed to meet on Friday. -- Они договорились встретиться в пятницу.
+say + (that) + clause. She said (that) she had already eaten. -- Она сказала, что уже поела.
 
-He refused to take his coat off. -- Он отказался снять своё пальто.
+tell + someone + (that) + clause. I told John (that) I had seen the new film. -- Я сказал Джону, что посмотрел новый фильм.
 
-Tom advised me to go home early. -- Том посоветовал мне идти домой пораньше.
+tell + someone + to + infinitive. She told the children to go to bed. -- Она сказала детям идти спать.
 
-She reminded me to telephone my mother. -- Она напомнила мне позвонить моей маме.
+ask + someone + if / question word + clause. She asked them where the station was. -- Она спросила у них, где находится станция.
 
-They recommended taking the bus. -- Они порекомендовали поехать на автобусе.
+ask + someone + to + infinitive. I asked Lucy to pass me the salt. -- Я попросил Люси передать мне соль.
 
-She suggested meeting a little earlier. -- Она предложила встретиться чуть раньше.
+agree. They agreed to meet on Friday. -- Они договорились встретиться в пятницу.
 
-He accused me of taking the money. -- Он обвинил меня в присвоении денег.
+refuse. He refused to take his coat off. -- Он отказался снять своё пальто.
 
-They congratulated me on passing all my exams. -- Они поздравили меня со сдачей всех моих экзаменов.
+advise + someone + to + infinitive. Tom advised me to go home early. -- Том посоветовал мне идти домой пораньше.
 
-They apologised for not coming. -- Они извинились за то, что не пришли.
+explain + question word + clause. We explained what the exams would cover. -- Мы объяснили, что будет включено в экзамен.
 
-He insisted on having dinner. -- Он настаивал на том, чтоб поужинать.
+remind. She reminded me to telephone my mother. -- Она напомнила мне позвонить моей маме.
 
-Sarah decided (that) the house needed cleaning. -- Сара решила, что дом необходимо прибрать.
+recommend. They recommended taking the bus. -- Они порекомендовали поехать на автобусе.
 
-She offered us two options for our choise. -- Она предложила нам два варианта на выбор.
+suggest. She suggested meeting a little earlier. -- Она предложила встретиться чуть раньше.
 
-He threaten that he say everything to my boss. -- Он угрожал, что всё расскажет моему боссу.
+accuse. He accused me of taking the money. -- Он обвинил меня в присвоении денег.
 
-Mother encouraged my music exercises in defferent ways.  -- Мама всячески поощряла мои занятия музыкой.
+congratulate. They congratulated me on passing all my exams. -- Они поздравили меня со сдачей всех моих экзаменов.
 
-Ben warned us about wild animals in mountains. -- Бен предупредил нас о диких животных в горах.
+apologise. They apologised for not coming. -- Они извинились за то, что не пришли.
 
-Jack denyed all the accusations to him. -- Джек отрицал все обвинения в свой адрес.
+insist on. He insisted on having dinner. -- Он настаивал на том, чтоб поужинать.
 
+decide. Sarah decided (that) the house needed cleaning. -- Сара решила, что дом необходимо прибрать.
+
+offer. She offered us two options for our choise. -- Она предложила нам два варианта на выбор.
+
+threaten. He threatened that he say everything to my boss. -- Он угрожал, что всё расскажет моему боссу.
+
+encourage. Mother encouraged my music exercises in defferent ways.  -- Мама всячески поощряла мои занятия музыкой.
+
+warn. Ben warned us about wild animals in mountains. -- Бен предупредил нас о диких животных в горах.
+
+deny. Jack denyed all the accusations to him. -- Джек отрицал все обвинения в свой адрес.
+
+promise. He promised to arrive early. --  Он обещал прибыть рано.
+
+declare. He declared that firstly people had to realize the situation. -- Он заявил, что в первую очередь люди должны осознать ситуацию.

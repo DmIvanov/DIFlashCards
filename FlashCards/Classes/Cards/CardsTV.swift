@@ -12,7 +12,19 @@ class CardsTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     //MARK: Properties
     var heading = Heading(name: "")
+    var englishSideUp = false {
+        didSet {
+            if englishSideUp {
+                buttonSideUp.title = "eng"
+            } else {
+                buttonSideUp.title = "rus"
+            }
+            tableView.reloadData()
+        }
+    }
+    
     @IBOutlet private var tableView: UITableView!
+    @IBOutlet private var buttonSideUp: UIBarButtonItem!
     
     
     //MARK: Lyfecycle
@@ -22,6 +34,7 @@ class CardsTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
             let statusbarHeigh: CGFloat = 20.0
             tableView.contentInset = UIEdgeInsetsMake(navibarHeigh + statusbarHeigh, 0, 0, 0)
         }
+        englishSideUp = false
     }
 
 
@@ -37,6 +50,7 @@ class CardsTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("CardCell", forIndexPath: indexPath) as! CardCell
         cell.card = heading.cardForIdx(indexPath.row)
+        cell.frontSide = !englishSideUp
         return cell
     }
 
@@ -52,5 +66,9 @@ class CardsTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBAction private func shufflePressed() {
         heading.shuffle()
         tableView.reloadData()
+    }
+    
+    @IBAction private func turnCards() {
+        englishSideUp = !englishSideUp
     }
 }

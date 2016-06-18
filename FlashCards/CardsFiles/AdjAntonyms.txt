@@ -6,7 +6,7 @@ active, energetic, lively(оживлённый) - inactive, passive, apathetic -
 
 attentive(внимательный, заботливый), considerate(внимательный, деликатный), thoughtful - inattentive, inconsiderate -- внимательный, заботливый - невнимательный
 
-awful, terrible, horrible, dreadful(ужасный) - great, excellent, wonderful, awesome -- ужасный - прекрасный
+awful, terrible, horrible, horrid, dreadful(ужасный) - great, excellent, wonderful, awesome -- ужасный - прекрасный
 
 awkward, clumsy - skillful(искусный, умелый), dexterous, adroit, deft -- неуклюжий, неловкий - ловкий, проворный
 

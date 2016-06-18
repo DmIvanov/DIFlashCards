@@ -21,6 +21,7 @@ class HeadingsStorage: NSObject {
         "AdjAntonyms",
         "Animals",
         "Phrasal Verbs",
+        "Prepositions",
     ]
 
     
