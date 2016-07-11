@@ -1,5 +1,7 @@
 //Sentences
 
+I see more beautiful byproducts of these differences blended together. -- Я вижу больше прекрасных побочных продуктов этих различий, смешанных вместе.
+
 The World Cup (in soccer) is played in venues all over the globe, unlike much more parochial and misnamed World Series in American baseball (that doesn't even involve Japan or Cuba, two baseball hotbeds). [venue - место организации мероприятия, parochial - местный, местячковый, hotbed - очаг, рассадник] -- Чемпионат Мира (по футболу) проводится по всему миру, в отличае от более местячковых и неверно названных Мировых Серий в американском бейсболе (которые даже не включают Японию и Кубу - два очага бейсбола).
 
 After Apple unveiled the Swift programming language, it quickly became one of the fastest growing languages in history. -- После того, как Эппл открыл Свифт, он в скором времени стал одним из самых быстро развивающихся языков в истории
@@ -106,7 +108,7 @@ I don't think he will beat me at checkers or fencing. -- Не думаю, что
 
 They look so much alike that it's difficult to tell them apart. --  Они так похожи, что их тяжело различить.
 
-We ned to get a good job to earn/make a decent living. -- Мы должны найти хорошую работу, чтоб обеспечить приличную жизнь.
+We need to get a good job to earn/make a decent living. -- Мы должны найти хорошую работу, чтоб обеспечить приличную жизнь.
 
 Can you really make/earn a living by selling jewelry? -- Ты действительно можешь заработать, продавая ювелирные украшения?
 
@@ -233,7 +235,7 @@ It wasn't so difficult to keep it from you, I'm quite a reserved guy. -- Был�
 
 You should be really calm, reserved and well-balanced to keep yourself tohether in such situations. -- Ты должен быть действительно спокоен, сдержан и уравновешен чтобы держать себя в руках в подобных ситуациях.
 
-I didn't know Jake is so vain before he took her credit. -- Я не знал, что джэйк такой тщеславный до того, как он присвоил себе всю славу.
+I didn't know Jake is so vain before he took her credit. -- Я не знал, что джэйк такой тщеславный до того, как он присвоил себе её заслуги.
 
 Although my cat scratches all the wallpaper, I love him. -- Хотя мой кот дерёт все обои, я люблю его.
 
@@ -249,7 +251,7 @@ She wasn't going to break his bizarre rules. -- Она не собиралась
 
 Howie was anxious to start a session. -- Хауи был очень встревожен началом сессии.
 
-Their government was feeble and corrupt. -- Их правительство было немощным и корумпированным.
+Their government was feeble and corrupt. -- Их правительство было немощным и коррумпированным.
 
 She looked up to find both hideous beasts staring at her, drooling. -- Она огляделась и увидела обоих отвратительных зверей, пялящихся на неё, истекая слюной.
 
@@ -449,9 +451,46 @@ He threaten to kill me -- Он угрожает убить меня.
 
 He just need to atone for his sins. -- Он просто должен искупить свои грехи.
 
+The light bulb burned out. -- Лампочка перегорела.
+
+Since it's too expensive to increase amount of staff, he is "one man army". -- Так как увеличивать число сотрудников слишком дорого, он "работает за десятерых".
+
+What does this contraction mean? -- Что означает это сокращение?
+
+What's interesting happened (during the course of / during) the holiday? -- Что интересного случилось в течение праздников?
+
+Now my wife has a driver license so I can exploit her when we go somewhere by car. -- Теперь у моей жены есть права и я могу использовать её, когда мы едем куда-то на машине.
+
+Circumstances were the same but my attitude toward it was completely different. -- Обстоятельства были такими же, но моё отношение к этому было совсем другим. 
+
+We get on well although we don't have a lot in common. -- Мы хорошо ладим, хотя у нас не так много общего.
+
+We've known each other for a lot longer. -- Мы знаем друг друга гораздо дольше.
+
+Why do you always overcomplicate things. -- Почему ты всегда всё усложняешь?
+
+The roots of our acquaintance go back to time in memorial. -- Корни нашего знакомства уходят в незапамятные времена.
+
+
 
 
 //Expression
+
+imposter syndrome -- синдром самозванца
+
+that's the conundrum -- вот в чём задачка (головоломка)
+
+to patch up -- чинить, подлатать
+
+On the spur of the moment - под влиянием момента 
+
+Once and for all - однажды и навсегда 
+
+to save face - спасать репутацию 
+
+Show promise - подавать надежды 
+
+Lucky break - счастливый случай
 
 tangible benefit -- ощутимая выгода
 
@@ -620,7 +659,7 @@ a subject with many intricate problems and pitfalls -- предмет со мн�
 
 to investigate -- исследовать, изучать
 
-patience and tenacity -- терпение и упорство
+patience and tenacity -- терпение и (упорство / выдержка)
 
 I embody the central paradox -- Я олицетворяю основной парадокс
 
@@ -678,6 +717,7 @@ to neglect the family -- пренебрегать семьёй
 
 she plants only cacti -- она выращивает только кактусы
 
+willingly sign your own death warrant -- намеренно подписывать собственный смертельный приговор
 
 
 
@@ -731,3 +771,48 @@ deny. Jack denyed all the accusations to him. -- Джек отрицал все 
 promise. He promised to arrive early. --  Он обещал прибыть рано.
 
 declare. He declared that firstly people had to realize the situation. -- Он заявил, что в первую очередь люди должны осознать ситуацию.
+
+
+
+
+
+
+// Games of thrones
+I seek vengeance / revenge -- Я жажду мести
+She'll have a hard time finding work as an actress after what I did to her face. -- Ей будет трудно найти работу актрисы после того, что я сделала с её лицом.
+Got a feeling you'd be good at this sort of work. -- Сложилось ощущение, что ты хороша в работе подобного типа.
+Order your man to step aside. -- Прикажите своему человеку отступить.
+Looks like a siege. -- Выглядит как осада.
+You have a keen military mind -- У тебя острый военный ум (чёткая военная смекалка).
+sneak up and murder -- подкрасться и убить
+You fulfilled your oath to Catelyn Stark against all odds. -- Ты вы полнила клятву данную Кейтелин Старк, несмотря ни на что.
+As a reward for betraying Robb Stark and murdering his family. -- Как награда за предательство Роба Старка и убийство его семьи.
+I persuade him to abandon the castle. -- Я убежу его сдать замок.
+We need to get a raven north to Sansa. -- Нам нужно послать ворона на север к Сансе.
+The Faith and the Crown are the two pillars that hold up this world. One collapses, so does the other. -- Вера и корона - два столпа которые держат этот мир. Рухнет один - то же случится и с другим.
+The tradition is a brutish one, a scheme devised by corrupt rulers in order to avoid true judgment from the gods. -- Это зверская традиция, схема устроенная продажными правителями, чтобы избегать справедливого суда богов.
+this city was ready to devour itself -- этот город был готов сожрать (поглотить) себя сам
+The Lannister, outraged, shoves the cup aside and demands another. -- Ланистер возмущён, отпихивает кружку в сторону и требует другую.
+I was a little awed by it. -- Я слегка благоговел перед этим.
+I have to obey his commands. -- Я должен подчиниться его приказу.
+We have to chase them and hang. -- Мы должны их догнать и повесить.
+If you'd have done your job, she would have died painlessly. -- Если бы ты выполнила свою работу, она бы безболезненно умерла.
+Haven't we been through this already? -- Разве мы это уже не проходили?
+
+
+
+// fancy phrases
+I don’t have a bad handwriting, I have my own FONT. -- У меня не плохой почерк, у меня собственный шрифт.
+Hakuna Matata!!! – The great motto to live life. -- Хакуна Матата - замечательный девиз по жизни.
+Me and my wife live happily for 25 years and then we met… -- Мы с женой жили счастливо 25 лет, а потом мы встретились.
+Childhood is like being drunk, everyone remembers what you did, except you. -- Детство - это как быть пьяным, все помнят что ты делал кроме тебя самого.
+Tried to loose weight… But it keeps finding me. -- Пытался терять вес... но он находит меня снова.
+I love to walk in fog, because nobody knows I'm smoking. -- Люблю гулять в тумане, потому что никто не подозревает, что я курю.
+I'm not drunk, I'm just chemically off-balanced. -- Я не пьян, я просто химически дестабилизирован.
+Virginity is not dignity, It is just lack of opportunity. -- Девственность - не достоинство, а нехватка возможностей.
+In my house I'm the boss, my wife is just the decision maker. -- В моём доме я главный, а моя жена просто принимает решения.
+I always dream of being a millionaire like my uncle... He's dreaming too. -- Я мечтаю стать миллионером как дядя... он тоже тоже мечтает.
+By the time you learn the rules of life, you’re too old to play the game. -- К тому времени, когда ты выучиваешь правила жизни, ты уже слишком стар для этой игры.
+God made everything that has life, rest everything is made in China. -- Бог создал всё живое, всё остальное создали в китае.
+
+

@@ -7,15 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28415D901D342A2A0043A93B /* CardsFiles in Resources */ = {isa = PBXBuildFile; fileRef = 28415D8F1D342A2A0043A93B /* CardsFiles */; };
 		C42E6EF51C53D7CE00FEC598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */; };
 		C42E6EFA1C53D7CE00FEC598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42E6EF81C53D7CE00FEC598 /* Main.storyboard */; };
 		C42E6EFC1C53D7CE00FEC598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42E6EFB1C53D7CE00FEC598 /* Assets.xcassets */; };
 		C42E6EFF1C53D7CE00FEC598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42E6EFD1C53D7CE00FEC598 /* LaunchScreen.storyboard */; };
-		C47C05171C7CA7BC00EDB944 /* AdjAntonyms.txt in Resources */ = {isa = PBXBuildFile; fileRef = C47C05161C7CA7BC00EDB944 /* AdjAntonyms.txt */; };
-		C47C05191C7CA89900EDB944 /* Animals.txt in Resources */ = {isa = PBXBuildFile; fileRef = C47C05181C7CA89900EDB944 /* Animals.txt */; };
-		C47C05271C7E6A0F00EDB944 /* Phrasal Verbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = C47C05261C7E6A0F00EDB944 /* Phrasal Verbs.txt */; };
-		C49ED2371C82093A002545C9 /* Prepositions.txt in Resources */ = {isa = PBXBuildFile; fileRef = C49ED2361C82093A002545C9 /* Prepositions.txt */; };
-		C4DB8C441C54F85E00EA14B6 /* Expressions.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4DB8C3E1C54F85E00EA14B6 /* Expressions.txt */; };
 		C4DB8C501C55153500EA14B6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C4B1C55153500EA14B6 /* Card.swift */; };
 		C4DB8C511C55153500EA14B6 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C4C1C55153500EA14B6 /* CardCell.swift */; };
 		C4DB8C521C55153500EA14B6 /* Heading.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C4D1C55153500EA14B6 /* Heading.swift */; };
@@ -23,26 +19,18 @@
 		C4DB8C551C55155600EA14B6 /* HeadingTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C541C55155600EA14B6 /* HeadingTV.swift */; };
 		C4DB8C571C55169600EA14B6 /* AppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C561C55169600EA14B6 /* AppInteractor.swift */; };
 		C4DB8C591C551A5A00EA14B6 /* HeadingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C581C551A5A00EA14B6 /* HeadingsStorage.swift */; };
-		C4DB8C5D1C5542B800EA14B6 /* Idioms.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4DB8C5C1C5542B800EA14B6 /* Idioms.txt */; };
 		C4DB8C601C55546700EA14B6 /* bg-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB8C5F1C55546700EA14B6 /* bg-light.jpg */; };
 		C4DB8C621C58C3B200EA14B6 /* CardFileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C611C58C3B200EA14B6 /* CardFileParser.swift */; };
-		C4DB8C651C58D7B500EA14B6 /* Find a job.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4DB8C641C58D7B500EA14B6 /* Find a job.txt */; };
-		C4E2C1401C595A20008121A6 /* Coloquial phrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4E2C13F1C595A1F008121A6 /* Coloquial phrases.txt */; };
-		C4E2C1531C5CA059008121A6 /* Person.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4E2C1521C5CA059008121A6 /* Person.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28415D8F1D342A2A0043A93B /* CardsFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CardsFiles; sourceTree = "<group>"; };
 		C42E6EF11C53D7CE00FEC598 /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C42E6EF91C53D7CE00FEC598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C42E6EFB1C53D7CE00FEC598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C42E6EFE1C53D7CE00FEC598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C42E6F001C53D7CE00FEC598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C47C05161C7CA7BC00EDB944 /* AdjAntonyms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AdjAntonyms.txt; sourceTree = "<group>"; };
-		C47C05181C7CA89900EDB944 /* Animals.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Animals.txt; sourceTree = "<group>"; };
-		C47C05261C7E6A0F00EDB944 /* Phrasal Verbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Phrasal Verbs.txt"; sourceTree = "<group>"; };
-		C49ED2361C82093A002545C9 /* Prepositions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Prepositions.txt; sourceTree = "<group>"; };
-		C4DB8C3E1C54F85E00EA14B6 /* Expressions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Expressions.txt; sourceTree = "<group>"; };
 		C4DB8C4B1C55153500EA14B6 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		C4DB8C4C1C55153500EA14B6 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 		C4DB8C4D1C55153500EA14B6 /* Heading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heading.swift; sourceTree = "<group>"; };
@@ -50,12 +38,8 @@
 		C4DB8C541C55155600EA14B6 /* HeadingTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadingTV.swift; sourceTree = "<group>"; };
 		C4DB8C561C55169600EA14B6 /* AppInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInteractor.swift; sourceTree = "<group>"; };
 		C4DB8C581C551A5A00EA14B6 /* HeadingsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadingsStorage.swift; sourceTree = "<group>"; };
-		C4DB8C5C1C5542B800EA14B6 /* Idioms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Idioms.txt; sourceTree = "<group>"; };
 		C4DB8C5F1C55546700EA14B6 /* bg-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-light.jpg"; sourceTree = "<group>"; };
 		C4DB8C611C58C3B200EA14B6 /* CardFileParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardFileParser.swift; sourceTree = "<group>"; };
-		C4DB8C641C58D7B500EA14B6 /* Find a job.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Find a job.txt"; sourceTree = "<group>"; };
-		C4E2C13F1C595A1F008121A6 /* Coloquial phrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Coloquial phrases.txt"; sourceTree = "<group>"; };
-		C4E2C1521C5CA059008121A6 /* Person.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Person.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +72,9 @@
 		C42E6EF31C53D7CE00FEC598 /* FlashCards */ = {
 			isa = PBXGroup;
 			children = (
+				28415D8F1D342A2A0043A93B /* CardsFiles */,
 				C4DB8C491C55153500EA14B6 /* Classes */,
 				C4DB8C5E1C55546700EA14B6 /* Resources */,
-				C4DB8C3D1C54F85E00EA14B6 /* CardsFiles */,
 				C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */,
 				C4DB8C561C55169600EA14B6 /* AppInteractor.swift */,
 				C42E6EF81C53D7CE00FEC598 /* Main.storyboard */,
@@ -99,22 +83,6 @@
 				C42E6F001C53D7CE00FEC598 /* Info.plist */,
 			);
 			path = FlashCards;
-			sourceTree = "<group>";
-		};
-		C4DB8C3D1C54F85E00EA14B6 /* CardsFiles */ = {
-			isa = PBXGroup;
-			children = (
-				C47C05161C7CA7BC00EDB944 /* AdjAntonyms.txt */,
-				C47C05181C7CA89900EDB944 /* Animals.txt */,
-				C4E2C13F1C595A1F008121A6 /* Coloquial phrases.txt */,
-				C4DB8C3E1C54F85E00EA14B6 /* Expressions.txt */,
-				C4DB8C641C58D7B500EA14B6 /* Find a job.txt */,
-				C4DB8C5C1C5542B800EA14B6 /* Idioms.txt */,
-				C4E2C1521C5CA059008121A6 /* Person.txt */,
-				C47C05261C7E6A0F00EDB944 /* Phrasal Verbs.txt */,
-				C49ED2361C82093A002545C9 /* Prepositions.txt */,
-			);
-			path = CardsFiles;
 			sourceTree = "<group>";
 		};
 		C4DB8C491C55153500EA14B6 /* Classes */ = {
@@ -213,19 +181,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C47C05271C7E6A0F00EDB944 /* Phrasal Verbs.txt in Resources */,
-				C4DB8C441C54F85E00EA14B6 /* Expressions.txt in Resources */,
 				C4DB8C601C55546700EA14B6 /* bg-light.jpg in Resources */,
-				C4E2C1401C595A20008121A6 /* Coloquial phrases.txt in Resources */,
-				C4E2C1531C5CA059008121A6 /* Person.txt in Resources */,
 				C42E6EFF1C53D7CE00FEC598 /* LaunchScreen.storyboard in Resources */,
-				C4DB8C5D1C5542B800EA14B6 /* Idioms.txt in Resources */,
+				28415D901D342A2A0043A93B /* CardsFiles in Resources */,
 				C42E6EFC1C53D7CE00FEC598 /* Assets.xcassets in Resources */,
 				C42E6EFA1C53D7CE00FEC598 /* Main.storyboard in Resources */,
-				C49ED2371C82093A002545C9 /* Prepositions.txt in Resources */,
-				C4DB8C651C58D7B500EA14B6 /* Find a job.txt in Resources */,
-				C47C05171C7CA7BC00EDB944 /* AdjAntonyms.txt in Resources */,
-				C47C05191C7CA89900EDB944 /* Animals.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

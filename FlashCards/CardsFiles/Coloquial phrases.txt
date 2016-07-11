@@ -1,3 +1,13 @@
+Stop hanging out in the internet, go get a Life! -- Перестань зависать в интернете - займись своей жизнью.
+
+I’ve had it! I’m not going to take it anymore. -- С меня хватит! Я больне не собираюсь терпеть это.
+
+I'm sick and tired of smth. -- меня вконец задолбало что-то
+
+One of these days I'll do it. -- Однажды я это сделаю.
+
+to giggle (behind smbd / at smbd) -- хихикать за чьей-то спиной / над кем-то
+
 Do you think ... or vice versa? -- Думаешь... или наоборот?
 
 It could have been worse —- Могло быть и хуже
@@ -40,23 +50,15 @@ Sink or swim —- Была не была
 
 It is in the bag —- Дело в шляпе
 
-What’s the matter? -- В чем дело?
-
-What’s going on? / What’s happening? -- Что происходит?
+What’s going on? / What’s happening? / What’s the matter? -- Что происходит? / В чём дело? (3 opt)
 
 What’s the trouble? -- В чем проблема?
-
-What’s happened? -- Что случилось?
 
 How was it? -- Ну как? (Как все прошло?)
 
 Did I get you right? -- Я правильно вас понял?
 
 Don’t take it to heart. -- Не принимайте близко к сердцу.
-
-I didn’t catch the last word. -- Я не понял последнее слово.
-
-Sorry, I wasn’t listening. -- Извините, я прослушал.
 
 It doesn’t matter. -- Это не имеет значения.
 
@@ -70,11 +72,17 @@ Oh, that. That explains it -- Вот оно что, это все объясня
 
 So that’s where the trouble lies! -- Так вот в чем дело!
 
+
+I didn’t catch the last word. -- Я не понял последнее слово.
+
+Sorry, I wasn’t listening. -- Извините, я прослушал.
+
 Where were we? -- На чем мы остановились?
 
 You were saying? -- Вы что-то сказали?
 
 I’m sorry, I didn’t catch you. -- Простите, я не расслышал.
+
 
 Lucky you! -- Вам повезло!
 
@@ -120,9 +128,9 @@ Get out of my way -- Уйди с дороги
 
 Get lost -- Исчезни
 
-I mean it! -- Я серьезно!
-
 Let's get to the point/Let's hold a reason -- Давайте ближе к делу (2 вар)
+
+It's beside the point / That's not the point -- Это не относится к вопросу (2 вар)
 
 So far so good -- Пока что все идет хорошо
 
@@ -146,8 +154,6 @@ It is urgent. -- Это срочно.
 
 That's for sure. -- Это точно. / Это наверняка.
 
-You can't really be serious! -- Ты ведь не серьезно?
-
 I've enjoyed seeing you -- Был рад вас видеть
 
 My regards to the family -- Привет семье!
@@ -161,6 +167,67 @@ Let’s consider for the sake of simplicity... -- Давай ради прост
 You might be relieved to know… -- Вас наверное успокоит, что…
 
 According to the newspaper... / The newspaper says... -- В газете написали... (2 вар.)
+
+Еat one's words -- Взять слова обратно 
+
+Enough of it -- Довольно об этом 
+
+go into details -- Вдаваться в детали 
+
+I don’t care -- Меня не волнует 
+
+I have no idea -- Понятия не имею 
+
+I mean it! / I'm (dead) serious! -- Я серьёзно (2 opt)
+
+You can't really be serious! -- Ты ведь не серьезно?
+
+I wish I knew -- Хотел бы я знать! 
+
+It doesn't prove a thing -- Это ничего не доказывает 
+
+It's none of your business. / Mind your own business. -- Не твоё дело (2 opt)
+
+It's all the same to me -- Мне без разницы 
+
+It's new to me -- Первый раз слышу 
+
+It's out of place -- Это неуместно 
+
+It's up to you -- Решай сам 
+
+It's waste of time -- Это трата времени 
+
+Let's clear it up -- Давай разберёмся. 
+
+Let's drop the subject -- Давай оставим эту тему 
+
+So what? -- Ну и что? 
+
+speak one's mind / say one's say -- высказать своё мнение (2 opt)
+
+stand one's ground -- сохранять своё мнение 
+
+stand to reason -- иметь смысл, быть логичным следствием 
+
+take a side -- принять сторону 
+
+take a stand -- занять жёсткую позицию 
+
+take into account / take into consideration -- принимать во внимание (2 вар)
+
+up against -- противостоять 
+
+Use your own judgement -- Решай сам 
+
+What of it? -- И что из этого? 
+
+On the other hand... / From another perspective... -- С другой стороны (2 вар)
+
+To put it simple,... / Simply put... --  Проще говоря,... (2 opt)
+
+I'm going to miss you. -- Я буду скучать по тебе.
+
 
 
 // Персональная точка зрения 
@@ -199,7 +266,7 @@ It is generally accepted that… -- Принято считать, что …
 
 
 
-// Согласие мнением других
+// Согласие с мнением других
 
 You're absolutely right. -- Вы совершенно правы.
 
@@ -215,7 +282,7 @@ I don't think so either. -- Я не думаю так же.
 
 So do I. / Neither do I. -- Я тоже. (позитивн/негативн)
 
-I'd go along with that. --  бы согласился с этим.
+I'd go along with that. -- Я бы согласился с этим.
 
 That's true. -- Это правда.
 
@@ -266,38 +333,3 @@ to make up for lost time -- компенсировать потери време
 to give smbd. a hard time -- усложнять жизнь кому-либо
 
 to take all smbd's time -- занимать всё свободное время
-
-
-
-Еat one's words -- Взять слова обратно 
-Enough of it -- Довольно об этом 
-go into details -- Вдаваться в детали 
-I don’t care -- Меня не волнует 
-I have no idea -- Понятия не имею 
-I mean it! -- Я серьёзно 
-I wish I knew -- Хотел бы я знать! 
-It doesn't prove a thing -- Это ничего не доказывает 
-It' s none of your business -- Не твоё дело 
-It's all the same to me -- Мне без разницы 
-It's beside the point / That's not the point -- Это не относится к вопросу (2 вар)
-It's new to me -- Первый раз слышу 
-It's out of place -- Это неуместно 
-It's up to you -- Решай сам 
-It's waste of time -- Это трата времени 
-Let's clear it up -- Давай разберёмся. 
-Let's drop the subject -- Давай оставим эту тему 
-Mind your own business -- Занимайся своим делом 
-say one's say -- высказать мнение 
-So what? -- Ну и что? 
-speak one's mind -- высказать своё мнение 
-stand one's ground -- сохранять своё мнение 
-stand to reason -- иметь смысл, быть логичным следствием 
-take a side -- принять сторону 
-take a stand -- занять жёсткую позицию 
-take into account / take into consideration -- принимать во внимание (2 вар)
-up against -- противостоять 
-Use your own judgement -- Решай сам 
-What of it? -- И что из этого? 
-
-
-On the other hand... / From another perspective... -- С другой стороны (2 вар)

@@ -13,13 +13,15 @@ class HeadingsStorage: NSObject {
     //MARK: Properties
     private lazy var headings: [Heading] = self.headingsFromDisk()
     let files = [
-        "Expressions",
-        "Idioms",
-        "Find a job",
-        "Coloquial phrases",
-        "Person",
         "AdjAntonyms",
         "Animals",
+        "Coloquial phrases",
+        "Expressions",
+        "Find a job",
+        "Idioms",
+        "Medicine",
+        "Money",
+        "Person",
         "Phrasal Verbs",
         "Prepositions",
     ]

@@ -2,8 +2,6 @@ a mortgage -- ипотека
 
 a loan -- заём, ссуда
 
-a mall -- крупный торговый центр
-
 a note -- банкнота
 
 greedy -- жадный
@@ -18,9 +16,9 @@ affordable -- доступный по цене (у тебя есть доста�
 
 to afford -- позволять себе по деньгам
 
-I can’t afford it, it’s too costly.
+I can’t afford it, it’s too costly. -- Я не могу себе этого позволить, это слишком дорого (not expensive)
 
-to blow (blew, blown) = to waste -- (о деньгах) выбрасывать на ветер, тратить впустую
+to blow (blew, blown) = to waste -- (о деньгах) выбрасывать на ветер, тратить впустую (2 opt)
 
 to consolidate -- объединять, консолидировать (займы)
 
@@ -35,24 +33,11 @@ to lend one's countenance -- оказать моральную поддержк�
 to lend oneself to dishonesty -- прибегнуть к подлости (к жульничеству)
 
 to borrow (from) -- брать взаймы (у)
-	And I borrowed these three iPods from people here in the audience to show you what I mean.
-
-to be worth -- стоить
-	It's worth to spend all of your savings for a trip.
-
-to cost (cost, cost) -- стоить
 
 to charge -- взымать плату
 	Let's charge them a boatload of cash for this and see what they think. -- Пусть заплатят за это целое состояние, а мы посмотрим, что они на это скажут.
 
-to inherit -- наследовать
-	I inherited some money from my grandmother.
-
-to invest -- вкладывать
-
 to owe --  должным
-
-to save -- копить
 
 to put money aside -- откладывать деньги, копить
 
@@ -69,7 +54,6 @@ a personal loan -- ссуда частному лицу
 to give smth. away -- раздавать
 
 to be broke = to be bankrupt -- быть разорённым
-	He was flat-broke after all that stock market deals
 
 excess -- избыток
 
