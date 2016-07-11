@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28415D901D342A2A0043A93B /* CardsFiles in Resources */ = {isa = PBXBuildFile; fileRef = 28415D8F1D342A2A0043A93B /* CardsFiles */; };
+		28415D9D1D342F6C0043A93B /* AdjAntonyms.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D921D342F6C0043A93B /* AdjAntonyms.txt */; };
+		28415D9E1D342F6C0043A93B /* Animals.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D931D342F6C0043A93B /* Animals.txt */; };
+		28415D9F1D342F6C0043A93B /* Coloquial phrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D941D342F6C0043A93B /* Coloquial phrases.txt */; };
+		28415DA01D342F6C0043A93B /* Expressions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D951D342F6C0043A93B /* Expressions.txt */; };
+		28415DA11D342F6C0043A93B /* Find a job.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D961D342F6C0043A93B /* Find a job.txt */; };
+		28415DA21D342F6C0043A93B /* Idioms.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D971D342F6C0043A93B /* Idioms.txt */; };
+		28415DA31D342F6C0043A93B /* Medicine.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D981D342F6C0043A93B /* Medicine.txt */; };
+		28415DA41D342F6C0043A93B /* Money.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D991D342F6C0043A93B /* Money.txt */; };
+		28415DA51D342F6C0043A93B /* Person.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D9A1D342F6C0043A93B /* Person.txt */; };
+		28415DA61D342F6C0043A93B /* Phrasal Verbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D9B1D342F6C0043A93B /* Phrasal Verbs.txt */; };
+		28415DA71D342F6C0043A93B /* Prepositions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D9C1D342F6C0043A93B /* Prepositions.txt */; };
 		C42E6EF51C53D7CE00FEC598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */; };
 		C42E6EFA1C53D7CE00FEC598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42E6EF81C53D7CE00FEC598 /* Main.storyboard */; };
 		C42E6EFC1C53D7CE00FEC598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42E6EFB1C53D7CE00FEC598 /* Assets.xcassets */; };
@@ -24,7 +34,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		28415D8F1D342A2A0043A93B /* CardsFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CardsFiles; sourceTree = "<group>"; };
+		28415D921D342F6C0043A93B /* AdjAntonyms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AdjAntonyms.txt; sourceTree = "<group>"; };
+		28415D931D342F6C0043A93B /* Animals.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Animals.txt; sourceTree = "<group>"; };
+		28415D941D342F6C0043A93B /* Coloquial phrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Coloquial phrases.txt"; sourceTree = "<group>"; };
+		28415D951D342F6C0043A93B /* Expressions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Expressions.txt; sourceTree = "<group>"; };
+		28415D961D342F6C0043A93B /* Find a job.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Find a job.txt"; sourceTree = "<group>"; };
+		28415D971D342F6C0043A93B /* Idioms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Idioms.txt; sourceTree = "<group>"; };
+		28415D981D342F6C0043A93B /* Medicine.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Medicine.txt; sourceTree = "<group>"; };
+		28415D991D342F6C0043A93B /* Money.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Money.txt; sourceTree = "<group>"; };
+		28415D9A1D342F6C0043A93B /* Person.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Person.txt; sourceTree = "<group>"; };
+		28415D9B1D342F6C0043A93B /* Phrasal Verbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Phrasal Verbs.txt"; sourceTree = "<group>"; };
+		28415D9C1D342F6C0043A93B /* Prepositions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Prepositions.txt; sourceTree = "<group>"; };
 		C42E6EF11C53D7CE00FEC598 /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C42E6EF91C53D7CE00FEC598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +73,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28415D911D342F6C0043A93B /* CardsFiles */ = {
+			isa = PBXGroup;
+			children = (
+				28415D921D342F6C0043A93B /* AdjAntonyms.txt */,
+				28415D931D342F6C0043A93B /* Animals.txt */,
+				28415D941D342F6C0043A93B /* Coloquial phrases.txt */,
+				28415D951D342F6C0043A93B /* Expressions.txt */,
+				28415D961D342F6C0043A93B /* Find a job.txt */,
+				28415D971D342F6C0043A93B /* Idioms.txt */,
+				28415D981D342F6C0043A93B /* Medicine.txt */,
+				28415D991D342F6C0043A93B /* Money.txt */,
+				28415D9A1D342F6C0043A93B /* Person.txt */,
+				28415D9B1D342F6C0043A93B /* Phrasal Verbs.txt */,
+				28415D9C1D342F6C0043A93B /* Prepositions.txt */,
+			);
+			path = CardsFiles;
+			sourceTree = "<group>";
+		};
 		C42E6EE81C53D7CE00FEC598 = {
 			isa = PBXGroup;
 			children = (
@@ -72,15 +110,15 @@
 		C42E6EF31C53D7CE00FEC598 /* FlashCards */ = {
 			isa = PBXGroup;
 			children = (
-				28415D8F1D342A2A0043A93B /* CardsFiles */,
-				C4DB8C491C55153500EA14B6 /* Classes */,
-				C4DB8C5E1C55546700EA14B6 /* Resources */,
 				C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */,
 				C4DB8C561C55169600EA14B6 /* AppInteractor.swift */,
-				C42E6EF81C53D7CE00FEC598 /* Main.storyboard */,
 				C42E6EFB1C53D7CE00FEC598 /* Assets.xcassets */,
-				C42E6EFD1C53D7CE00FEC598 /* LaunchScreen.storyboard */,
+				28415D911D342F6C0043A93B /* CardsFiles */,
+				C4DB8C491C55153500EA14B6 /* Classes */,
 				C42E6F001C53D7CE00FEC598 /* Info.plist */,
+				C42E6EFD1C53D7CE00FEC598 /* LaunchScreen.storyboard */,
+				C42E6EF81C53D7CE00FEC598 /* Main.storyboard */,
+				C4DB8C5E1C55546700EA14B6 /* Resources */,
 			);
 			path = FlashCards;
 			sourceTree = "<group>";
@@ -181,11 +219,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28415DA61D342F6C0043A93B /* Phrasal Verbs.txt in Resources */,
+				28415DA11D342F6C0043A93B /* Find a job.txt in Resources */,
+				28415DA01D342F6C0043A93B /* Expressions.txt in Resources */,
+				28415D9F1D342F6C0043A93B /* Coloquial phrases.txt in Resources */,
+				28415DA51D342F6C0043A93B /* Person.txt in Resources */,
+				28415DA41D342F6C0043A93B /* Money.txt in Resources */,
 				C4DB8C601C55546700EA14B6 /* bg-light.jpg in Resources */,
 				C42E6EFF1C53D7CE00FEC598 /* LaunchScreen.storyboard in Resources */,
-				28415D901D342A2A0043A93B /* CardsFiles in Resources */,
+				28415D9E1D342F6C0043A93B /* Animals.txt in Resources */,
 				C42E6EFC1C53D7CE00FEC598 /* Assets.xcassets in Resources */,
+				28415DA21D342F6C0043A93B /* Idioms.txt in Resources */,
 				C42E6EFA1C53D7CE00FEC598 /* Main.storyboard in Resources */,
+				28415DA71D342F6C0043A93B /* Prepositions.txt in Resources */,
+				28415DA31D342F6C0043A93B /* Medicine.txt in Resources */,
+				28415D9D1D342F6C0043A93B /* AdjAntonyms.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

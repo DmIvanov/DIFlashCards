@@ -23,7 +23,7 @@ class HeadingsStorage: NSObject {
         "Money",
         "Person",
         "Phrasal Verbs",
-        "Prepositions",
+        "Prepositions"
     ]
 
     
@@ -40,21 +40,6 @@ class HeadingsStorage: NSObject {
     
     //MARK: Private
     private func headingsFromDisk() -> [Heading] {
-        
-        func cardsFromFile(name: String) -> [Card] {
-            return CardFileParser.arrayFromContentsOfFile(name)
-        }
-        
-        /*
-        do {
-            let paths = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)
-            if let path = paths.first {
-                let content = try NSFileManager.defaultManager().contentsOfDirectoryAtPath(path)
-            }
-        } catch let error as NSError {
-            print("Error while reading from disk: \(error.localizedDescription)")
-        }
-        */
         var arr = [Heading]()
         var allCards = [Card]()
         for name in files {
