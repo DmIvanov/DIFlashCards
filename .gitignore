@@ -1,0 +1,20 @@
+# Xcode
+build/
+!Pods/Headers/Build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+!default.xcworkspace
+xcuserdata
+*.moved-aside
+.DS_Store
+DerivedData
+.idea/
+FlashCards.xcworkspace/xcshareddata/Qardio.xccheckout
+FlashCards.xcodeproj/project.xcworkspace/xcuserdata
+*.xcuserstate
