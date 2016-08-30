@@ -12,8 +12,8 @@ class HeadingTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     //MARK: Properties
     let storage = HeadingsStorage()
-    private var tempHeading: Heading?
-    @IBOutlet private var tableView: UITableView!
+    fileprivate var tempHeading: Heading?
+    @IBOutlet fileprivate var tableView: UITableView!
     
     
     //MARK: Lyfeccyle
@@ -27,17 +27,17 @@ class HeadingTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     
     // MARK: - Table view data source
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
 
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return storage.headingsNumber()
     }
 
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("HeadingCell", forIndexPath: indexPath)
-        if let heading = storage.headingForIdx(indexPath.row) {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "HeadingCell", for: indexPath)
+        if let heading = storage.headingForIdx((indexPath as NSIndexPath).row) {
             cell.textLabel?.text = heading.name
             cell.detailTextLabel?.text = "\(heading.cardsNumber()) cards"
         }
@@ -46,16 +46,16 @@ class HeadingTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     
     // MARK: - Table view delegate
-    func tableView(tableView: UITableView, willSelectRowAtIndexPath indexPath: NSIndexPath) -> NSIndexPath? {
-        tempHeading = storage.headingForIdx(indexPath.row)
+    func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
+        tempHeading = storage.headingForIdx((indexPath as NSIndexPath).row)
         return indexPath
     }
     
     
     //MARK: 
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toCardsTV" {
-            guard let cardsTV = segue.destinationViewController as? CardsTV else {return}
+            guard let cardsTV = segue.destination as? CardsTV else {return}
             guard let heading = tempHeading else {return}
             cardsTV.heading = heading
         }

@@ -23,8 +23,8 @@ class CardsTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
         }
     }
     
-    @IBOutlet private var tableView: UITableView!
-    @IBOutlet private var buttonSideUp: UIBarButtonItem!
+    @IBOutlet fileprivate var tableView: UITableView!
+    @IBOutlet fileprivate var buttonSideUp: UIBarButtonItem!
     
     
     //MARK: Lyfecycle
@@ -39,36 +39,36 @@ class CardsTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
 
     // MARK: - Table view data source
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
 
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return heading.cardsNumber()
     }
 
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("CardCell", forIndexPath: indexPath) as! CardCell
-        cell.card = heading.cardForIdx(indexPath.row)
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CardCell", for: indexPath) as! CardCell
+        cell.card = heading.cardForIdx((indexPath as NSIndexPath).row)
         cell.frontSide = !englishSideUp
         return cell
     }
 
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        if let cell = tableView.cellForRowAtIndexPath(indexPath) as? CardCell {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let cell = tableView.cellForRow(at: indexPath) as? CardCell {
             cell.tapped()
         }
-        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        tableView.deselectRow(at: indexPath, animated: true)
     }
     
     
     //MARK: Actions
-    @IBAction private func shufflePressed() {
+    @IBAction fileprivate func shufflePressed() {
         heading.shuffle()
         tableView.reloadData()
     }
     
-    @IBAction private func turnCards() {
+    @IBAction fileprivate func turnCards() {
         englishSideUp = !englishSideUp
     }
 }

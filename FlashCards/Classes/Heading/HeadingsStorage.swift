@@ -11,11 +11,12 @@ import UIKit
 class HeadingsStorage: NSObject {
     
     //MARK: Properties
-    private lazy var headings: [Heading] = self.headingsFromDisk()
+    fileprivate lazy var headings: [Heading] = self.headingsFromDisk()
     let files = [
         "AdjAntonyms",
         "Animals",
         "Coloquial phrases",
+        "Crime",
         "Expressions",
         "Find a job",
         "Idioms",
@@ -32,20 +33,20 @@ class HeadingsStorage: NSObject {
         return headings.count
     }
     
-    func headingForIdx(idx: Int) -> Heading? {
+    func headingForIdx(_ idx: Int) -> Heading? {
         guard idx <= headings.count else {return nil}
         return headings[idx]
     }
     
     
     //MARK: Private
-    private func headingsFromDisk() -> [Heading] {
+    fileprivate func headingsFromDisk() -> [Heading] {
         var arr = [Heading]()
         var allCards = [Card]()
         for name in files {
             let heading = Heading(name: name)
             arr.append(heading)
-            allCards.appendContentsOf(heading.cards)
+            allCards.append(contentsOf: heading.cards)
         }
         arr.append(Heading(name: "All", cards: allCards))
         return arr

@@ -4,7 +4,7 @@ Wrinkled is covered with loose folds of skin. -- Морщинистый - это
 
 Freckled is sprinkled with small brown spots. -- Веснушчатый - это усыпанный маленькими коричневыми пятнышками.
 
-He had ruddy/reddish face and bulging eyes. -- У него было красноватое лицо и выпцченные глаза.
+He had ruddy/reddish face and bulging eyes. -- У него было красноватое лицо и выпученные глаза.
 
 Hazel eyes distinguished on her plate face. -- Глаза цвета ореха выделялись на её бледном лице.
 
@@ -74,4 +74,27 @@ full hair without any recedings -- густые волосы без лысин
 
 balding head -- лысеющая голова
 
-His laugh is sincere, open and directed to his friend.
+His laugh is sincere, open and directed to his friend. -- Его смех искренен, открыт и направрен к его другу.
+
+
+
+
+// Character
+
+trait of character -- черта характера
+
+conscientious -- добросовестный, сознательный
+
+neurotic -- нервный
+
+reserved / closed -- скрытый, сдержаный, замкнутый (2 вар)
+
+eccentric -- необычный, экстравагантный, оригинальный
+
+Brazilians are lively and fun-loving -- бразильцы оживлённые и жизнерадостные
+
+Psychologists used personality tests to establish shared charcteristics among different nationalities. -- Психологи использовали личностные тесты для того, чтоб установить общие черты среди разных национальностей.
+
+I don't know why he is so quarrelsome. -- Я не знаю, почему он такой вздорный.
+
+I don't know if he is sly enough for this. -- Я не знаю, достаточно ли он хитёр для этого.

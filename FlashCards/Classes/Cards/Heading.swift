@@ -11,8 +11,8 @@ import UIKit
 class Heading: NSObject {
     
     //MARK: Properties
-    private (set) var name: String
-    private (set) var cards: [Card]
+    fileprivate (set) var name: String
+    fileprivate (set) var cards: [Card]
     
     
     //MARK: Lyfecycle
@@ -31,7 +31,7 @@ class Heading: NSObject {
         return cards.count
     }
     
-    func cardForIdx(idx: Int) -> Card? {
+    func cardForIdx(_ idx: Int) -> Card? {
         guard idx <= cards.count else {return nil}
         return cards[idx]
     }
@@ -42,29 +42,30 @@ class Heading: NSObject {
     
     
     //MARK: Private
-    private class func cardsFromFile(name: String) -> [Card]{
+    fileprivate class func cardsFromFile(_ name: String) -> [Card]{
         return CardFileParser.arrayFromContentsOfFile(name)
     }
 }
 
 
-extension CollectionType {
+extension Collection {
     /// Return a copy of `self` with its elements shuffled
-    func shuffle() -> [Generator.Element] {
+    func shuffle() -> [Iterator.Element] {
         var list = Array(self)
         list.shuffleInPlace()
         return list
     }
 }
 
-extension MutableCollectionType where Index == Int {
+extension MutableCollection where Index == Int {
     /// Shuffle the elements of `self` in-place.
     mutating func shuffleInPlace() {
         // empty and single-element collections don't shuffle
-        if count < 2 { return }
+        let allCount = Int(count.toIntMax())
+        if allCount < 2 { return }
         
-        for i in 0..<count - 1 {
-            let j = Int(arc4random_uniform(UInt32(count - i))) + i
+        for i in 0..<allCount - 1 {
+            let j = Int(arc4random_uniform(UInt32(allCount - i))) + i
             guard i != j else { continue }
             swap(&self[i], &self[j])
         }

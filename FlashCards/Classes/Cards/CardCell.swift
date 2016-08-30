@@ -10,10 +10,10 @@ import UIKit
 
 class CardCell: UITableViewCell {
     
-    @IBOutlet private var label: UILabel!
+    @IBOutlet fileprivate var label: UILabel!
     
     //let frontColor = UIColor(colorLiteralRed: 200.0/255.0, green: 172.0/255.0, blue: 1.0, alpha: 0.3)
-    let frontColor = UIColor.clearColor()
+    let frontColor = UIColor.clear
     let backColor = UIColor(colorLiteralRed: 255.0/255.0, green: 250.0/255.0, blue: 172.0/255.0, alpha: 0.3)
     
     var card: Card? {

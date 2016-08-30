@@ -1,4 +1,29 @@
-// Предлоги с существительными (prepositions with nouns)
+// some place pointing
+besides the house -- рядом с домом
+among us -- среди нас
+by the window -- у окна
+at the door -- у двери
+round the table -- вокруг стола
+far from the house -- далеко от дома
+beyond the river -- по ту сторону реки
+in front of our office -- перед нашим офисом
+opposite my house -- напротив моего дома
+behind me -- позади меня
+adove my head -- над моей головой
+over the table -- над столом
+under the bed -- под кроватью
+below the ground -- под землей
+in the school -- в школе
+inside the house -- в доме
+outside the house -- вне дома
+on the table -- на столе
+on the wall -- на стене
+at hand -- под рукой 
+
+to go shopping for smth. -- пойти покупать что-то
+to cheat on smbd. -- изменять кому-то
+to stumble over smth. -- спотыкаться обо что-то
+to stumble over one's words -- начaть заикаться и мямлить (от волнения)
 
 by mistake -- по ошибке
 by accident -- нечаянно
@@ -14,10 +39,6 @@ in the event of /in case of -- в случае чего-либо
 on the radio/television и т.п. -- по радио/телевидению
 on holiday/business/a trip/an cruise и т.п. -- в отпуске/в командировке/в поездке/на экскурсии/в круизе и т.п.
 
-
-// Предлоги с прилагательными (prepositions with adjectives)
-
-Прилагательные с предлогом of
 to be afraid/frightened of -- быть испуганным/напуганным чем-либо или кем-либо; бояться
 to be ashamed/proud of -- стыдиться/гордиться чем-либо или кем-либо
 to be aware of -- осознавать что-либо/быть в курсе чего-то
@@ -44,9 +65,6 @@ in general -- в общем, вообще
 to be similar to -- быть похожим на
 to be married/engaged to -- быть замужем (женатым)/помолвленным за
 it is nice to meet you -- приятно познакомиться с вами
-
-
-// Предлоги с глаголами (prepositions with verbs)
 
 care for -- заботиться о
 look for -- присматривать за
@@ -350,7 +368,6 @@ at intervals -- с интервалами
 at one blow /at one stroke -- разом, одним махом 
 at a stretch/at one time / at a time -- одновременно 
 at the wheel / at the helm -- во главе 
-at hand -- под рукой 
 at a discount -- со скидкой 
 at heart -- в душе, на самом деле 
 at present -- в настощее время 
@@ -441,7 +458,7 @@ absent -- (амер.) без, в отсутствие
 across -- через, сквозь, по ту сторону
 afore -- вперед
 along -- вдоль, по
-amid/amidst/among/amongst -- среди, посреди, между
+amid/amidst/among/amongst -- среди, посреди, между (4 opt)
 aside -- в стороне, поодаль
 aslant -- поперек
 astride -- верхом на, по обе стороны, на пути

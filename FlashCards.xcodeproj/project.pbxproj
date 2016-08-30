@@ -18,6 +18,7 @@
 		28415DA51D342F6C0043A93B /* Person.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D9A1D342F6C0043A93B /* Person.txt */; };
 		28415DA61D342F6C0043A93B /* Phrasal Verbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D9B1D342F6C0043A93B /* Phrasal Verbs.txt */; };
 		28415DA71D342F6C0043A93B /* Prepositions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D9C1D342F6C0043A93B /* Prepositions.txt */; };
+		28BFBFB61D734F030055E6DE /* Crime.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28BFBFB51D734F030055E6DE /* Crime.txt */; };
 		C42E6EF51C53D7CE00FEC598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */; };
 		C42E6EFA1C53D7CE00FEC598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42E6EF81C53D7CE00FEC598 /* Main.storyboard */; };
 		C42E6EFC1C53D7CE00FEC598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42E6EFB1C53D7CE00FEC598 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		28415D9A1D342F6C0043A93B /* Person.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Person.txt; sourceTree = "<group>"; };
 		28415D9B1D342F6C0043A93B /* Phrasal Verbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Phrasal Verbs.txt"; sourceTree = "<group>"; };
 		28415D9C1D342F6C0043A93B /* Prepositions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Prepositions.txt; sourceTree = "<group>"; };
+		28BFBFB51D734F030055E6DE /* Crime.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Crime.txt; sourceTree = "<group>"; };
 		C42E6EF11C53D7CE00FEC598 /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C42E6EF91C53D7CE00FEC598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		28415D911D342F6C0043A93B /* CardsFiles */ = {
 			isa = PBXGroup;
 			children = (
+				28BFBFB51D734F030055E6DE /* Crime.txt */,
 				28415D921D342F6C0043A93B /* AdjAntonyms.txt */,
 				28415D931D342F6C0043A93B /* Animals.txt */,
 				28415D941D342F6C0043A93B /* Coloquial phrases.txt */,
@@ -193,6 +196,7 @@
 					C42E6EF01C53D7CE00FEC598 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = TUHD85AT5Y;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -226,6 +230,7 @@
 				28415DA51D342F6C0043A93B /* Person.txt in Resources */,
 				28415DA41D342F6C0043A93B /* Money.txt in Resources */,
 				C4DB8C601C55546700EA14B6 /* bg-light.jpg in Resources */,
+				28BFBFB61D734F030055E6DE /* Crime.txt in Resources */,
 				C42E6EFF1C53D7CE00FEC598 /* LaunchScreen.storyboard in Resources */,
 				28415D9E1D342F6C0043A93B /* Animals.txt in Resources */,
 				C42E6EFC1C53D7CE00FEC598 /* Assets.xcassets in Resources */,
@@ -373,6 +378,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = DI.FlashCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -388,6 +394,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = DI.FlashCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
