@@ -232,4 +232,4 @@ The coast is clear - все спокойно
 
 To make a long story short - короче говоря 
 
-
+The software lets you slice and dice the data and display it in different formats. -- Програмное обеспечение позволяет вам разделить и упорядочить данные и отобразить их в разных форматах.

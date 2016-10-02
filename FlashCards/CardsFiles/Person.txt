@@ -1,3 +1,5 @@
+// Appearance
+
 Describe his built and complexion. -- Опиши его телосложение и цвет кожи.
 
 Wrinkled is covered with loose folds of skin. -- Морщинистый - это покрытый складками кожи.
@@ -98,3 +100,250 @@ Psychologists used personality tests to establish shared charcteristics among di
 I don't know why he is so quarrelsome. -- Я не знаю, почему он такой вздорный.
 
 I don't know if he is sly enough for this. -- Я не знаю, достаточно ли он хитёр для этого.
+
+decent —- приличный 
+
+indecent -— непорядочный 
+
+fair, honest -— честный, справедливый (2 вар)
+
+sincere -— искренний
+
+Frank -- откровенный
+
+dishonest -— нечестный 
+
+innocent —- невинный 
+
+hostile -— враждебный 
+
+gentle, polite -— вежливый (2 вар) 
+
+rude -— грубый 
+
+generous -— щедрый 
+
+close-fisted -— скупой 
+
+talkative -— разговорчивый 
+
+sociable, communicative -— общительный (2 opt)
+
+docile, obedient, submissive —- послушный, покорный (3 вар)
+
+disobedient -— непослушный 
+
+strict -— строгий 
+
+mild -— мягкий 
+
+reliable -— надежный 
+
+changeable -— переменный 
+
+courageous, brave -— храбрый, отважный (2 вар)
+
+cowardly -— трусливый 
+
+timid -— робкий, застенчевый 
+
+reasonable -— разумный 
+
+prudent -— благоразумный, предусмотрительный
+
+light-minded -— легкомысленный 
+
+cautious -— осторожный 
+
+incautious -— неосторожный
+
+Aggressive [əˈɡresɪv] -- агрессивный, враждебный.
+
+Agonized [ˈæɡənaɪzd] -- отчаянный.
+
+Anxious [ˈæŋkʃəs] -- озабоченный, тревожный.
+
+Apologetic [əpɒlə`dʒetɪk] -- виноватый, извиняющийся.
+
+Arrogant [ˈærəgənt] -- надменный, высокомерный.
+
+Bashful [`bæʃfʊl] -- робкий, застенчивый.
+
+Blissful [`blɪsfl] -- счастливый, блаженный.
+
+Bored [bɔ:d] -- скучающий.
+
+Cautious [`kɔːʃəs] -- осторожный, осмотрительный.
+
+Cold [kəuld] -- неприветливый, безучастный.
+
+Concentrating [ˈkɔnsəntreɪtiŋ] -- сосредоточенный.
+
+Confident [ˈkɔnfɪdənt] -- уверенный, самонадеянный.
+
+Demure [dɪ`mjʊəː] -- скромный, сдержанный.
+
+Determined [dɪˈtə:mɪnd] -- решительный.
+
+Disapproving [dɪsəˈpru:vin] -- неодобрительный.
+
+Disbelieving [ˈdɪsbɪˈli:viŋ] -- неверующий / скептик.
+
+Disgusted [dɪs`gʌstɪd] -- недовольный, раздражённый, чувствующий отвращение.
+
+Distasteful [dɪsˈteɪstful] -- неприятный.
+
+Eavesdropping [ˈiːvzdrɒpɪŋ] -- подслушивающий.
+
+Ecstatic [ɛks`tætɪk] -- восторженный, в экстазе.
+
+Enraged [ɪn`reɪdʒd] / raging -- взбешенный, разъяренный (2 opt)
+
+Envious [ˈenvɪəs] -- завистливый.
+
+Exasperated [ɪg`zæspəreitɪd] -- раздражённый, выведенный из себя.
+
+Exhausted [ɪɡˈzɔ:stɪd] -- изнурённый, измученный.
+
+Frightened [ˈfraɪtnd] -- напуганный, испуганный.
+
+Frustrated [frʌs`treɪtid] -- расстроенный, разочарованный.
+
+Grieving [`ɡri:viŋ] -- огорчённый, убитый горем.
+
+Guilty [ˈɡɪltɪ] --- виновный, виноватый.
+
+Happy [ˈhæpɪ] -- счастливый, довольный.
+
+Horrified [`hɒrɪfaɪd] -- шокированный, в ужасе.
+
+Hot [hɔt] -- разгорячённый, пылкий.
+
+Hurt [hə:t] -- оскорблённый, пострадавший.
+
+Hysterical [hɪsˈterɪkəl] -- истеричный.
+
+Indifferent [ɪnˈdɪfrənt] -- безразличный.
+
+Idiotic [ˌɪdɪˈɔtɪk] -- идиотский, дурацкий.
+
+Innocent [ˈɪnəsənt] -- невинный, наивный, простак.
+
+Interested [ˈɪntrɪstɪd] -- заинтересованный, внимательный.
+
+Jealous [ˈdʒeləs] -- ревнивый.
+
+Joyful [ˈdʒɔɪful] -- радостный.
+
+Loaded [ˈləudɪd] -- нагруженный, обременённый чем-либо.
+
+Lonely [ˈləunlɪ] -- уединённый, одинокий.
+
+Lovestruck [`lʌvstrʌk] -- безумно влюбленный.
+
+Meditative [`medɪtətɪv] -- задумчивый.
+
+Mischievous [`mɪstʃɪvəs] -- вредный, озорной, непослушный.
+
+Mserable [ˈmɪzərəbl] -- несчастный, жалкий, презренный.
+
+Negative [ˈneɡətɪv] -- негативный, недоброжелательный.
+
+Obstinate [ˈɒbstɪnət] -- упрямый, настойчивый.
+
+Optimistic [ˌɔptɪˈmɪstɪk] -- оптимистичный, жизнерадостный.
+
+Pained [peɪnd] -- страдальческий, огорчённый, обиженный.
+
+Paranoid [`pærənɔɪd] -- параноик, не в своём уме.
+
+Perplexed [pəp`lekst] -- растерянный, озадаченный.
+
+Prudish [`pruːdɪʃ] -- ханжеский, лживый, неискренний.
+
+Puzzled [ˈpʌzlid] -- недоуменный, озадаченный.
+
+Regretful [rɪˈɡretful] -- раскаивающийся, полный сожаления.
+
+Relieved [rɪˈli:vd] -- облегчённый, разгруженный.
+
+Sad [sæd] -- печальный, грустный.
+
+Satisfied [ˈsætɪsfaɪd] -- удовлетворённый.
+
+Shocked [ʃɔkt] -- шокированный, потрясённый.
+
+Smug [smʌg] -- самодовольный.
+
+Surly [`sɜːli] -- угрюмый, хмурый.
+
+Surprise [səˈpraɪzd] -- удивлённый, изумлённый.
+
+Suspicious [səs`pɪʃəs] -- подозрительный.
+
+Thoughtful [`θɔ:tful] -- вдумчивый, погруженный в размышления.
+
+Undecided [ˈʌndɪˈsaɪdɪd] -- нерешительный, неуверенный.
+
+Withdrawn [wɪð`drɔːn] -- замкнутый, ушедший в себя.
+
+Absent-minded -- рассеянный
+
+Clumsy -- неуклюжий
+
+Shy -- скромный
+
+Greedy, mean -- жадный (2 opt)
+
+Hard-working -- трудолюбивый
+
+Mean -- подлый
+
+Miserable -- жалкий, несчастный
+
+Selfish -- эгоистичный
+
+Sensible -- разумный, здравомыслящий
+
+Sensitive -- чувствительный, восприимчивый
+
+Noble -- благородный
+
+Intelligent -- умный, сообразительный
+
+Bad-tempered -- раздражительный, злой
+
+Easy-going -- беззаботный
+
+Witty -- остроумный
+
+Tidy, neat -- аккуратный
+
+
+
+
+// Clothes
+
+Can I try on these grey shoes. -- Могу ли я примерить эти серые шузы?
+
+I love dressing up for parties as I usualy wear jeans. -- Я люблю наряжаться на вечеринки, так как обычно я ношу джинсы.
+
+Red usualy doesn't suit people with ginger hair. -- Красный обычно не подходит людям с рыжими волосами.
+
+Her green checked purse matches her shoes. -- Её зелёная клетчатая сумочка подходит к её туфлям.
+	
+He's grown out of this shoes so they don't fit anymore. -- Он вырос из этих ботинок, так что они больше не подходят.
+
+It was cosy handmade woolen sweater with long sleeves and roll neck. -- Это был уютный шерстяной свитер ручной вязки с длинным рукавом и закатанным воротом.
+
+That denim jacket has two breast pockets, button closure and polo neck. -- У той джинсовой куртки есть 2 кармана на груди, застёжка на пуговицах и ворот-поло.
+
+revealing dress -- открытое платье
+
+Some pickpocket stole money from her handbag. -- Какой-то карманник украл деньги из её сумочки.
+
+Otherwise they won't be able to express themselves in the way they dress. -- Иначе они не смогут выразить себя в том, как они одеваются.
+
+He was wearing a grey vest and suspenders. -- Он был одет в серую жилетку и подтяжки.
+
+It can be just a colored ribbon on a sleave. -- Это может быть всего лишь цветная лента на рукаве.

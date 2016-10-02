@@ -18,6 +18,7 @@
 		28415DA51D342F6C0043A93B /* Person.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D9A1D342F6C0043A93B /* Person.txt */; };
 		28415DA61D342F6C0043A93B /* Phrasal Verbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D9B1D342F6C0043A93B /* Phrasal Verbs.txt */; };
 		28415DA71D342F6C0043A93B /* Prepositions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D9C1D342F6C0043A93B /* Prepositions.txt */; };
+		286EE9681D84BF670022D62F /* Food.txt in Resources */ = {isa = PBXBuildFile; fileRef = 286EE9671D84BF670022D62F /* Food.txt */; };
 		28BFBFB61D734F030055E6DE /* Crime.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28BFBFB51D734F030055E6DE /* Crime.txt */; };
 		C42E6EF51C53D7CE00FEC598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */; };
 		C42E6EFA1C53D7CE00FEC598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42E6EF81C53D7CE00FEC598 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		28415D9A1D342F6C0043A93B /* Person.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Person.txt; sourceTree = "<group>"; };
 		28415D9B1D342F6C0043A93B /* Phrasal Verbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Phrasal Verbs.txt"; sourceTree = "<group>"; };
 		28415D9C1D342F6C0043A93B /* Prepositions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Prepositions.txt; sourceTree = "<group>"; };
+		286EE9671D84BF670022D62F /* Food.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Food.txt; sourceTree = "<group>"; };
 		28BFBFB51D734F030055E6DE /* Crime.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Crime.txt; sourceTree = "<group>"; };
 		C42E6EF11C53D7CE00FEC598 /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,12 +80,13 @@
 		28415D911D342F6C0043A93B /* CardsFiles */ = {
 			isa = PBXGroup;
 			children = (
-				28BFBFB51D734F030055E6DE /* Crime.txt */,
 				28415D921D342F6C0043A93B /* AdjAntonyms.txt */,
 				28415D931D342F6C0043A93B /* Animals.txt */,
 				28415D941D342F6C0043A93B /* Coloquial phrases.txt */,
+				28BFBFB51D734F030055E6DE /* Crime.txt */,
 				28415D951D342F6C0043A93B /* Expressions.txt */,
 				28415D961D342F6C0043A93B /* Find a job.txt */,
+				286EE9671D84BF670022D62F /* Food.txt */,
 				28415D971D342F6C0043A93B /* Idioms.txt */,
 				28415D981D342F6C0043A93B /* Medicine.txt */,
 				28415D991D342F6C0043A93B /* Money.txt */,
@@ -191,7 +194,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				TargetAttributes = {
 					C42E6EF01C53D7CE00FEC598 = {
 						CreatedOnToolsVersion = 7.2;
@@ -231,6 +234,7 @@
 				28415DA41D342F6C0043A93B /* Money.txt in Resources */,
 				C4DB8C601C55546700EA14B6 /* bg-light.jpg in Resources */,
 				28BFBFB61D734F030055E6DE /* Crime.txt in Resources */,
+				286EE9681D84BF670022D62F /* Food.txt in Resources */,
 				C42E6EFF1C53D7CE00FEC598 /* LaunchScreen.storyboard in Resources */,
 				28415D9E1D342F6C0043A93B /* Animals.txt in Resources */,
 				C42E6EFC1C53D7CE00FEC598 /* Assets.xcassets in Resources */,
@@ -296,8 +300,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -341,8 +347,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -361,6 +369,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};

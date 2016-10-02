@@ -82,7 +82,7 @@ firm, steady(устойчивый, постоянный), stable, strong - shaky
 
 flexible - rigid(жёсткий, неподвижный), inflexible, stiff(жёсткий, тугой) -- гибкий - жёсткий
 
-foreign, alien - domestic, local(местный), native -- чужой - свой
+foreign, alien - domestic, local(местный), native -- чужой, неместный - свой, местный
 
 fragile, delicate - strong, sturdy(крепкий) -- хрупкий - крепкий
 

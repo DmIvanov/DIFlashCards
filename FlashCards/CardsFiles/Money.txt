@@ -1,3 +1,7 @@
+bottom-of-the-range trumpet -- труба (муз.) из дешёвых
+
+middle-of-the-range amp -- муз. усилитель средней ценовой категории
+
 a mortgage -- ипотека
 
 a loan -- заём, ссуда

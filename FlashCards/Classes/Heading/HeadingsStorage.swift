@@ -19,6 +19,7 @@ class HeadingsStorage: NSObject {
         "Crime",
         "Expressions",
         "Find a job",
+        "Food",
         "Idioms",
         "Medicine",
         "Money",
