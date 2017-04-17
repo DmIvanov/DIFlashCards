@@ -37,13 +37,8 @@ class CardsTV: UIViewController {
         }
         englishSideUp = false
         navigationItem.title = deck.name
-        
-        // UISearchController set up
-        searchController.searchResultsUpdater = self
-        searchController.delegate = self
-        searchController.dimsBackgroundDuringPresentation = false
-        definesPresentationContext = true
-        tableView.tableHeaderView = searchController.searchBar
+        adjustSearchcontroller()
+        hideSearchBar(animated: false)
     }
 
     
@@ -59,9 +54,22 @@ class CardsTV: UIViewController {
     
     
     // MARK: Private
+    fileprivate func adjustSearchcontroller() {
+        searchController.searchResultsUpdater = self
+        searchController.delegate = self
+        searchController.dimsBackgroundDuringPresentation = false
+        searchController.searchBar.tintColor = UIColor.gray
+        definesPresentationContext = true
+        tableView.tableHeaderView = searchController.searchBar
+    }
+    
     fileprivate func filterContentForSearchText(searchText: String) {
         deck.filterCardsForSearchText(searchText: searchText)
         tableView.reloadData()
+    }
+    
+    fileprivate func hideSearchBar(animated: Bool) {
+        tableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: .top, animated: animated)
     }
 }
 
@@ -112,5 +120,9 @@ extension CardsTV: UISearchResultsUpdating, UISearchControllerDelegate {
     
     func willDismissSearchController(_ searchController: UISearchController) {
         deck.filtering = false
+    }
+    
+    func didDismissSearchController(_ searchController: UISearchController) {
+        hideSearchBar(animated: true)
     }
 }
