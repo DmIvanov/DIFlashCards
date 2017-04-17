@@ -7,63 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28415D9D1D342F6C0043A93B /* AdjAntonyms.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D921D342F6C0043A93B /* AdjAntonyms.txt */; };
-		28415D9E1D342F6C0043A93B /* Animals.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D931D342F6C0043A93B /* Animals.txt */; };
-		28415D9F1D342F6C0043A93B /* Coloquial phrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D941D342F6C0043A93B /* Coloquial phrases.txt */; };
-		28415DA01D342F6C0043A93B /* Expressions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D951D342F6C0043A93B /* Expressions.txt */; };
-		28415DA11D342F6C0043A93B /* Find a job.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D961D342F6C0043A93B /* Find a job.txt */; };
-		28415DA21D342F6C0043A93B /* Idioms.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D971D342F6C0043A93B /* Idioms.txt */; };
-		28415DA31D342F6C0043A93B /* Medicine.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D981D342F6C0043A93B /* Medicine.txt */; };
-		28415DA41D342F6C0043A93B /* Money.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D991D342F6C0043A93B /* Money.txt */; };
-		28415DA51D342F6C0043A93B /* Person.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D9A1D342F6C0043A93B /* Person.txt */; };
-		28415DA61D342F6C0043A93B /* Phrasal Verbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D9B1D342F6C0043A93B /* Phrasal Verbs.txt */; };
-		28415DA71D342F6C0043A93B /* Prepositions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28415D9C1D342F6C0043A93B /* Prepositions.txt */; };
-		286EE9681D84BF670022D62F /* Food.txt in Resources */ = {isa = PBXBuildFile; fileRef = 286EE9671D84BF670022D62F /* Food.txt */; };
-		28BFBFB61D734F030055E6DE /* Crime.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28BFBFB51D734F030055E6DE /* Crime.txt */; };
+		283598591EA36D6000D87160 /* EC 30-39.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598251EA36D6000D87160 /* EC 30-39.txt */; };
+		2835985A1EA36D6000D87160 /* EC 40-49.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598261EA36D6000D87160 /* EC 40-49.txt */; };
+		2835985B1EA36D6000D87160 /* EC 50-59.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598271EA36D6000D87160 /* EC 50-59.txt */; };
+		2835985C1EA36D6000D87160 /* EC 60-69.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598281EA36D6000D87160 /* EC 60-69.txt */; };
+		2835985D1EA36D6000D87160 /* ESL POD 160-179.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598291EA36D6000D87160 /* ESL POD 160-179.txt */; };
+		2835985E1EA36D6000D87160 /* Friends.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2835982A1EA36D6000D87160 /* Friends.txt */; };
+		2835985F1EA36D6000D87160 /* Games of thrones.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2835982B1EA36D6000D87160 /* Games of thrones.txt */; };
+		283598601EA36D6000D87160 /* Scrubs s07e02.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2835982C1EA36D6000D87160 /* Scrubs s07e02.txt */; };
+		283598611EA36D6000D87160 /* Scurbs s02e21.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2835982D1EA36D6000D87160 /* Scurbs s02e21.txt */; };
+		283598621EA36D6000D87160 /* Grammar.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2835982F1EA36D6000D87160 /* Grammar.txt */; };
+		283598631EA36D6000D87160 /* Phrasal Verbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598301EA36D6000D87160 /* Phrasal Verbs.txt */; };
+		283598641EA36D6000D87160 /* Prepositions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598311EA36D6000D87160 /* Prepositions.txt */; };
+		283598651EA36D6000D87160 /* Misc01.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598331EA36D6000D87160 /* Misc01.txt */; };
+		283598661EA36D6000D87160 /* Misc02.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598341EA36D6000D87160 /* Misc02.txt */; };
+		283598671EA36D6000D87160 /* Misc03.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598351EA36D6000D87160 /* Misc03.txt */; };
+		283598681EA36D6000D87160 /* Misc04.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598361EA36D6000D87160 /* Misc04.txt */; };
+		283598691EA36D6000D87160 /* Misc05.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598371EA36D6000D87160 /* Misc05.txt */; };
+		2835986A1EA36D6000D87160 /* Misc06.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598381EA36D6000D87160 /* Misc06.txt */; };
+		2835986B1EA36D6000D87160 /* Misc07.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598391EA36D6000D87160 /* Misc07.txt */; };
+		2835986C1EA36D6000D87160 /* Misc08.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2835983A1EA36D6000D87160 /* Misc08.txt */; };
+		2835986D1EA36D6000D87160 /* Misc09.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2835983B1EA36D6000D87160 /* Misc09.txt */; };
+		2835986E1EA36D6000D87160 /* Misc10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2835983C1EA36D6000D87160 /* Misc10.txt */; };
+		2835986F1EA36D6000D87160 /* Misc11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2835983D1EA36D6000D87160 /* Misc11.txt */; };
+		283598701EA36D6000D87160 /* Misc12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2835983E1EA36D6000D87160 /* Misc12.txt */; };
+		283598711EA36D6000D87160 /* Misc13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2835983F1EA36D6000D87160 /* Misc13.txt */; };
+		283598721EA36D6000D87160 /* Misc14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598401EA36D6000D87160 /* Misc14.txt */; };
+		283598731EA36D6000D87160 /* Misc15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598411EA36D6000D87160 /* Misc15.txt */; };
+		283598741EA36D6000D87160 /* Misc16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598421EA36D6000D87160 /* Misc16.txt */; };
+		283598751EA36D6000D87160 /* Misc17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598431EA36D6000D87160 /* Misc17.txt */; };
+		283598761EA36D6000D87160 /* Misc18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598441EA36D6000D87160 /* Misc18.txt */; };
+		283598771EA36D6000D87160 /* Misc19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598451EA36D6000D87160 /* Misc19.txt */; };
+		283598781EA36D6000D87160 /* Misc20.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598461EA36D6000D87160 /* Misc20.txt */; };
+		283598791EA36D6000D87160 /* REC01. Blaze at charity bonfire.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598481EA36D6000D87160 /* REC01. Blaze at charity bonfire.txt */; };
+		2835987A1EA36D6000D87160 /* REC02. Linguistic gaps.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598491EA36D6000D87160 /* REC02. Linguistic gaps.txt */; };
+		2835987B1EA36D6000D87160 /* REC03. News bulletin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2835984A1EA36D6000D87160 /* REC03. News bulletin.txt */; };
+		2835987C1EA36D6000D87160 /* _AdjAntonyms.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2835984C1EA36D6000D87160 /* _AdjAntonyms.txt */; };
+		2835987D1EA36D6000D87160 /* Animals.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2835984D1EA36D6000D87160 /* Animals.txt */; };
+		2835987E1EA36D6000D87160 /* Climate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2835984E1EA36D6000D87160 /* Climate.txt */; };
+		2835987F1EA36D6000D87160 /* _Coloquial phrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2835984F1EA36D6000D87160 /* _Coloquial phrases.txt */; };
+		283598801EA36D6000D87160 /* Crime.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598501EA36D6000D87160 /* Crime.txt */; };
+		283598811EA36D6000D87160 /* Flights.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598511EA36D6000D87160 /* Flights.txt */; };
+		283598821EA36D6000D87160 /* Food.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598521EA36D6000D87160 /* Food.txt */; };
+		283598831EA36D6000D87160 /* House.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598531EA36D6000D87160 /* House.txt */; };
+		283598841EA36D6000D87160 /* _Idioms.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598541EA36D6000D87160 /* _Idioms.txt */; };
+		283598851EA36D6000D87160 /* Job.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598551EA36D6000D87160 /* Job.txt */; };
+		283598861EA36D6000D87160 /* Medicine.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598561EA36D6000D87160 /* Medicine.txt */; };
+		283598871EA36D6000D87160 /* Money.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598571EA36D6000D87160 /* Money.txt */; };
+		283598881EA36D6000D87160 /* Person.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598581EA36D6000D87160 /* Person.txt */; };
+		2835988A1EA4D84900D87160 /* Politics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598891EA4D84900D87160 /* Politics.txt */; };
+		283598961EA4E48800D87160 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835988C1EA4E48800D87160 /* CardCell.swift */; };
+		283598971EA4E48800D87160 /* CardsTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835988D1EA4E48800D87160 /* CardsTV.swift */; };
+		283598981EA4E48800D87160 /* ListTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835988F1EA4E48800D87160 /* ListTV.swift */; };
+		283598991EA4E48800D87160 /* ListTVDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283598901EA4E48800D87160 /* ListTVDataSources.swift */; };
+		2835989A1EA4E48800D87160 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283598921EA4E48800D87160 /* Card.swift */; };
+		2835989B1EA4E48800D87160 /* CardFileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283598931EA4E48800D87160 /* CardFileParser.swift */; };
+		2835989C1EA4E48800D87160 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283598941EA4E48800D87160 /* Deck.swift */; };
+		2835989D1EA4E48800D87160 /* GroupsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283598951EA4E48800D87160 /* GroupsStorage.swift */; };
 		C42E6EF51C53D7CE00FEC598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */; };
 		C42E6EFA1C53D7CE00FEC598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42E6EF81C53D7CE00FEC598 /* Main.storyboard */; };
 		C42E6EFC1C53D7CE00FEC598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42E6EFB1C53D7CE00FEC598 /* Assets.xcassets */; };
 		C42E6EFF1C53D7CE00FEC598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42E6EFD1C53D7CE00FEC598 /* LaunchScreen.storyboard */; };
-		C4DB8C501C55153500EA14B6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C4B1C55153500EA14B6 /* Card.swift */; };
-		C4DB8C511C55153500EA14B6 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C4C1C55153500EA14B6 /* CardCell.swift */; };
-		C4DB8C521C55153500EA14B6 /* Heading.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C4D1C55153500EA14B6 /* Heading.swift */; };
-		C4DB8C531C55153500EA14B6 /* CardsTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C4E1C55153500EA14B6 /* CardsTV.swift */; };
-		C4DB8C551C55155600EA14B6 /* HeadingTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C541C55155600EA14B6 /* HeadingTV.swift */; };
-		C4DB8C571C55169600EA14B6 /* AppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C561C55169600EA14B6 /* AppInteractor.swift */; };
-		C4DB8C591C551A5A00EA14B6 /* HeadingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C581C551A5A00EA14B6 /* HeadingsStorage.swift */; };
 		C4DB8C601C55546700EA14B6 /* bg-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB8C5F1C55546700EA14B6 /* bg-light.jpg */; };
-		C4DB8C621C58C3B200EA14B6 /* CardFileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB8C611C58C3B200EA14B6 /* CardFileParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		28415D921D342F6C0043A93B /* AdjAntonyms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AdjAntonyms.txt; sourceTree = "<group>"; };
-		28415D931D342F6C0043A93B /* Animals.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Animals.txt; sourceTree = "<group>"; };
-		28415D941D342F6C0043A93B /* Coloquial phrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Coloquial phrases.txt"; sourceTree = "<group>"; };
-		28415D951D342F6C0043A93B /* Expressions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Expressions.txt; sourceTree = "<group>"; };
-		28415D961D342F6C0043A93B /* Find a job.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Find a job.txt"; sourceTree = "<group>"; };
-		28415D971D342F6C0043A93B /* Idioms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Idioms.txt; sourceTree = "<group>"; };
-		28415D981D342F6C0043A93B /* Medicine.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Medicine.txt; sourceTree = "<group>"; };
-		28415D991D342F6C0043A93B /* Money.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Money.txt; sourceTree = "<group>"; };
-		28415D9A1D342F6C0043A93B /* Person.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Person.txt; sourceTree = "<group>"; };
-		28415D9B1D342F6C0043A93B /* Phrasal Verbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Phrasal Verbs.txt"; sourceTree = "<group>"; };
-		28415D9C1D342F6C0043A93B /* Prepositions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Prepositions.txt; sourceTree = "<group>"; };
-		286EE9671D84BF670022D62F /* Food.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Food.txt; sourceTree = "<group>"; };
-		28BFBFB51D734F030055E6DE /* Crime.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Crime.txt; sourceTree = "<group>"; };
+		283598251EA36D6000D87160 /* EC 30-39.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "EC 30-39.txt"; sourceTree = "<group>"; };
+		283598261EA36D6000D87160 /* EC 40-49.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "EC 40-49.txt"; sourceTree = "<group>"; };
+		283598271EA36D6000D87160 /* EC 50-59.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "EC 50-59.txt"; sourceTree = "<group>"; };
+		283598281EA36D6000D87160 /* EC 60-69.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "EC 60-69.txt"; sourceTree = "<group>"; };
+		283598291EA36D6000D87160 /* ESL POD 160-179.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ESL POD 160-179.txt"; sourceTree = "<group>"; };
+		2835982A1EA36D6000D87160 /* Friends.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Friends.txt; sourceTree = "<group>"; };
+		2835982B1EA36D6000D87160 /* Games of thrones.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Games of thrones.txt"; sourceTree = "<group>"; };
+		2835982C1EA36D6000D87160 /* Scrubs s07e02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Scrubs s07e02.txt"; sourceTree = "<group>"; };
+		2835982D1EA36D6000D87160 /* Scurbs s02e21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Scurbs s02e21.txt"; sourceTree = "<group>"; };
+		2835982F1EA36D6000D87160 /* Grammar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Grammar.txt; sourceTree = "<group>"; };
+		283598301EA36D6000D87160 /* Phrasal Verbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Phrasal Verbs.txt"; sourceTree = "<group>"; };
+		283598311EA36D6000D87160 /* Prepositions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Prepositions.txt; sourceTree = "<group>"; };
+		283598331EA36D6000D87160 /* Misc01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc01.txt; sourceTree = "<group>"; };
+		283598341EA36D6000D87160 /* Misc02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc02.txt; sourceTree = "<group>"; };
+		283598351EA36D6000D87160 /* Misc03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc03.txt; sourceTree = "<group>"; };
+		283598361EA36D6000D87160 /* Misc04.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc04.txt; sourceTree = "<group>"; };
+		283598371EA36D6000D87160 /* Misc05.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc05.txt; sourceTree = "<group>"; };
+		283598381EA36D6000D87160 /* Misc06.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc06.txt; sourceTree = "<group>"; };
+		283598391EA36D6000D87160 /* Misc07.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc07.txt; sourceTree = "<group>"; };
+		2835983A1EA36D6000D87160 /* Misc08.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc08.txt; sourceTree = "<group>"; };
+		2835983B1EA36D6000D87160 /* Misc09.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc09.txt; sourceTree = "<group>"; };
+		2835983C1EA36D6000D87160 /* Misc10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc10.txt; sourceTree = "<group>"; };
+		2835983D1EA36D6000D87160 /* Misc11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc11.txt; sourceTree = "<group>"; };
+		2835983E1EA36D6000D87160 /* Misc12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc12.txt; sourceTree = "<group>"; };
+		2835983F1EA36D6000D87160 /* Misc13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc13.txt; sourceTree = "<group>"; };
+		283598401EA36D6000D87160 /* Misc14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc14.txt; sourceTree = "<group>"; };
+		283598411EA36D6000D87160 /* Misc15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc15.txt; sourceTree = "<group>"; };
+		283598421EA36D6000D87160 /* Misc16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc16.txt; sourceTree = "<group>"; };
+		283598431EA36D6000D87160 /* Misc17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc17.txt; sourceTree = "<group>"; };
+		283598441EA36D6000D87160 /* Misc18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc18.txt; sourceTree = "<group>"; };
+		283598451EA36D6000D87160 /* Misc19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc19.txt; sourceTree = "<group>"; };
+		283598461EA36D6000D87160 /* Misc20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc20.txt; sourceTree = "<group>"; };
+		283598481EA36D6000D87160 /* REC01. Blaze at charity bonfire.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "REC01. Blaze at charity bonfire.txt"; sourceTree = "<group>"; };
+		283598491EA36D6000D87160 /* REC02. Linguistic gaps.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "REC02. Linguistic gaps.txt"; sourceTree = "<group>"; };
+		2835984A1EA36D6000D87160 /* REC03. News bulletin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "REC03. News bulletin.txt"; sourceTree = "<group>"; };
+		2835984C1EA36D6000D87160 /* _AdjAntonyms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _AdjAntonyms.txt; sourceTree = "<group>"; };
+		2835984D1EA36D6000D87160 /* Animals.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Animals.txt; sourceTree = "<group>"; };
+		2835984E1EA36D6000D87160 /* Climate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Climate.txt; sourceTree = "<group>"; };
+		2835984F1EA36D6000D87160 /* _Coloquial phrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "_Coloquial phrases.txt"; sourceTree = "<group>"; };
+		283598501EA36D6000D87160 /* Crime.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Crime.txt; sourceTree = "<group>"; };
+		283598511EA36D6000D87160 /* Flights.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Flights.txt; sourceTree = "<group>"; };
+		283598521EA36D6000D87160 /* Food.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Food.txt; sourceTree = "<group>"; };
+		283598531EA36D6000D87160 /* House.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = House.txt; sourceTree = "<group>"; };
+		283598541EA36D6000D87160 /* _Idioms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _Idioms.txt; sourceTree = "<group>"; };
+		283598551EA36D6000D87160 /* Job.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Job.txt; sourceTree = "<group>"; };
+		283598561EA36D6000D87160 /* Medicine.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Medicine.txt; sourceTree = "<group>"; };
+		283598571EA36D6000D87160 /* Money.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Money.txt; sourceTree = "<group>"; };
+		283598581EA36D6000D87160 /* Person.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Person.txt; sourceTree = "<group>"; };
+		283598891EA4D84900D87160 /* Politics.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Politics.txt; sourceTree = "<group>"; };
+		2835988C1EA4E48800D87160 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		2835988D1EA4E48800D87160 /* CardsTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsTV.swift; sourceTree = "<group>"; };
+		2835988F1EA4E48800D87160 /* ListTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTV.swift; sourceTree = "<group>"; };
+		283598901EA4E48800D87160 /* ListTVDataSources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTVDataSources.swift; sourceTree = "<group>"; };
+		283598921EA4E48800D87160 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		283598931EA4E48800D87160 /* CardFileParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardFileParser.swift; sourceTree = "<group>"; };
+		283598941EA4E48800D87160 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		283598951EA4E48800D87160 /* GroupsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsStorage.swift; sourceTree = "<group>"; };
 		C42E6EF11C53D7CE00FEC598 /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C42E6EF91C53D7CE00FEC598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C42E6EFB1C53D7CE00FEC598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C42E6EFE1C53D7CE00FEC598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C42E6F001C53D7CE00FEC598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4DB8C4B1C55153500EA14B6 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		C4DB8C4C1C55153500EA14B6 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
-		C4DB8C4D1C55153500EA14B6 /* Heading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heading.swift; sourceTree = "<group>"; };
-		C4DB8C4E1C55153500EA14B6 /* CardsTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsTV.swift; sourceTree = "<group>"; };
-		C4DB8C541C55155600EA14B6 /* HeadingTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadingTV.swift; sourceTree = "<group>"; };
-		C4DB8C561C55169600EA14B6 /* AppInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInteractor.swift; sourceTree = "<group>"; };
-		C4DB8C581C551A5A00EA14B6 /* HeadingsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadingsStorage.swift; sourceTree = "<group>"; };
 		C4DB8C5F1C55546700EA14B6 /* bg-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-light.jpg"; sourceTree = "<group>"; };
-		C4DB8C611C58C3B200EA14B6 /* CardFileParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardFileParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,22 +149,127 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		283598241EA36D6000D87160 /* Episodes */ = {
+			isa = PBXGroup;
+			children = (
+				283598251EA36D6000D87160 /* EC 30-39.txt */,
+				283598261EA36D6000D87160 /* EC 40-49.txt */,
+				283598271EA36D6000D87160 /* EC 50-59.txt */,
+				283598281EA36D6000D87160 /* EC 60-69.txt */,
+				283598291EA36D6000D87160 /* ESL POD 160-179.txt */,
+				2835982A1EA36D6000D87160 /* Friends.txt */,
+				2835982B1EA36D6000D87160 /* Games of thrones.txt */,
+				2835982C1EA36D6000D87160 /* Scrubs s07e02.txt */,
+				2835982D1EA36D6000D87160 /* Scurbs s02e21.txt */,
+			);
+			path = Episodes;
+			sourceTree = "<group>";
+		};
+		2835982E1EA36D6000D87160 /* Grammar */ = {
+			isa = PBXGroup;
+			children = (
+				2835982F1EA36D6000D87160 /* Grammar.txt */,
+				283598301EA36D6000D87160 /* Phrasal Verbs.txt */,
+				283598311EA36D6000D87160 /* Prepositions.txt */,
+			);
+			path = Grammar;
+			sourceTree = "<group>";
+		};
+		283598321EA36D6000D87160 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				283598331EA36D6000D87160 /* Misc01.txt */,
+				283598341EA36D6000D87160 /* Misc02.txt */,
+				283598351EA36D6000D87160 /* Misc03.txt */,
+				283598361EA36D6000D87160 /* Misc04.txt */,
+				283598371EA36D6000D87160 /* Misc05.txt */,
+				283598381EA36D6000D87160 /* Misc06.txt */,
+				283598391EA36D6000D87160 /* Misc07.txt */,
+				2835983A1EA36D6000D87160 /* Misc08.txt */,
+				2835983B1EA36D6000D87160 /* Misc09.txt */,
+				2835983C1EA36D6000D87160 /* Misc10.txt */,
+				2835983D1EA36D6000D87160 /* Misc11.txt */,
+				2835983E1EA36D6000D87160 /* Misc12.txt */,
+				2835983F1EA36D6000D87160 /* Misc13.txt */,
+				283598401EA36D6000D87160 /* Misc14.txt */,
+				283598411EA36D6000D87160 /* Misc15.txt */,
+				283598421EA36D6000D87160 /* Misc16.txt */,
+				283598431EA36D6000D87160 /* Misc17.txt */,
+				283598441EA36D6000D87160 /* Misc18.txt */,
+				283598451EA36D6000D87160 /* Misc19.txt */,
+				283598461EA36D6000D87160 /* Misc20.txt */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		283598471EA36D6000D87160 /* Rec */ = {
+			isa = PBXGroup;
+			children = (
+				283598481EA36D6000D87160 /* REC01. Blaze at charity bonfire.txt */,
+				283598491EA36D6000D87160 /* REC02. Linguistic gaps.txt */,
+				2835984A1EA36D6000D87160 /* REC03. News bulletin.txt */,
+			);
+			path = Rec;
+			sourceTree = "<group>";
+		};
+		2835984B1EA36D6000D87160 /* Topics */ = {
+			isa = PBXGroup;
+			children = (
+				2835984C1EA36D6000D87160 /* _AdjAntonyms.txt */,
+				2835984F1EA36D6000D87160 /* _Coloquial phrases.txt */,
+				283598541EA36D6000D87160 /* _Idioms.txt */,
+				2835984D1EA36D6000D87160 /* Animals.txt */,
+				2835984E1EA36D6000D87160 /* Climate.txt */,
+				283598501EA36D6000D87160 /* Crime.txt */,
+				283598511EA36D6000D87160 /* Flights.txt */,
+				283598521EA36D6000D87160 /* Food.txt */,
+				283598531EA36D6000D87160 /* House.txt */,
+				283598551EA36D6000D87160 /* Job.txt */,
+				283598561EA36D6000D87160 /* Medicine.txt */,
+				283598571EA36D6000D87160 /* Money.txt */,
+				283598581EA36D6000D87160 /* Person.txt */,
+				283598891EA4D84900D87160 /* Politics.txt */,
+			);
+			path = Topics;
+			sourceTree = "<group>";
+		};
+		2835988B1EA4E48800D87160 /* CardsUI */ = {
+			isa = PBXGroup;
+			children = (
+				2835988C1EA4E48800D87160 /* CardCell.swift */,
+				2835988D1EA4E48800D87160 /* CardsTV.swift */,
+			);
+			path = CardsUI;
+			sourceTree = "<group>";
+		};
+		2835988E1EA4E48800D87160 /* ListUI */ = {
+			isa = PBXGroup;
+			children = (
+				2835988F1EA4E48800D87160 /* ListTV.swift */,
+				283598901EA4E48800D87160 /* ListTVDataSources.swift */,
+			);
+			path = ListUI;
+			sourceTree = "<group>";
+		};
+		283598911EA4E48800D87160 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				283598921EA4E48800D87160 /* Card.swift */,
+				283598931EA4E48800D87160 /* CardFileParser.swift */,
+				283598941EA4E48800D87160 /* Deck.swift */,
+				283598951EA4E48800D87160 /* GroupsStorage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		28415D911D342F6C0043A93B /* CardsFiles */ = {
 			isa = PBXGroup;
 			children = (
-				28415D921D342F6C0043A93B /* AdjAntonyms.txt */,
-				28415D931D342F6C0043A93B /* Animals.txt */,
-				28415D941D342F6C0043A93B /* Coloquial phrases.txt */,
-				28BFBFB51D734F030055E6DE /* Crime.txt */,
-				28415D951D342F6C0043A93B /* Expressions.txt */,
-				28415D961D342F6C0043A93B /* Find a job.txt */,
-				286EE9671D84BF670022D62F /* Food.txt */,
-				28415D971D342F6C0043A93B /* Idioms.txt */,
-				28415D981D342F6C0043A93B /* Medicine.txt */,
-				28415D991D342F6C0043A93B /* Money.txt */,
-				28415D9A1D342F6C0043A93B /* Person.txt */,
-				28415D9B1D342F6C0043A93B /* Phrasal Verbs.txt */,
-				28415D9C1D342F6C0043A93B /* Prepositions.txt */,
+				283598241EA36D6000D87160 /* Episodes */,
+				2835982E1EA36D6000D87160 /* Grammar */,
+				283598321EA36D6000D87160 /* Misc */,
+				283598471EA36D6000D87160 /* Rec */,
+				2835984B1EA36D6000D87160 /* Topics */,
 			);
 			path = CardsFiles;
 			sourceTree = "<group>";
@@ -117,7 +294,6 @@
 			isa = PBXGroup;
 			children = (
 				C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */,
-				C4DB8C561C55169600EA14B6 /* AppInteractor.swift */,
 				C42E6EFB1C53D7CE00FEC598 /* Assets.xcassets */,
 				28415D911D342F6C0043A93B /* CardsFiles */,
 				C4DB8C491C55153500EA14B6 /* Classes */,
@@ -132,31 +308,11 @@
 		C4DB8C491C55153500EA14B6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C4DB8C4A1C55153500EA14B6 /* Cards */,
-				C4DB8C4F1C55153500EA14B6 /* Heading */,
+				283598911EA4E48800D87160 /* Models */,
+				2835988B1EA4E48800D87160 /* CardsUI */,
+				2835988E1EA4E48800D87160 /* ListUI */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		C4DB8C4A1C55153500EA14B6 /* Cards */ = {
-			isa = PBXGroup;
-			children = (
-				C4DB8C4B1C55153500EA14B6 /* Card.swift */,
-				C4DB8C4C1C55153500EA14B6 /* CardCell.swift */,
-				C4DB8C4D1C55153500EA14B6 /* Heading.swift */,
-				C4DB8C4E1C55153500EA14B6 /* CardsTV.swift */,
-				C4DB8C611C58C3B200EA14B6 /* CardFileParser.swift */,
-			);
-			path = Cards;
-			sourceTree = "<group>";
-		};
-		C4DB8C4F1C55153500EA14B6 /* Heading */ = {
-			isa = PBXGroup;
-			children = (
-				C4DB8C541C55155600EA14B6 /* HeadingTV.swift */,
-				C4DB8C581C551A5A00EA14B6 /* HeadingsStorage.swift */,
-			);
-			path = Heading;
 			sourceTree = "<group>";
 		};
 		C4DB8C5E1C55546700EA14B6 /* Resources */ = {
@@ -198,7 +354,7 @@
 				TargetAttributes = {
 					C42E6EF01C53D7CE00FEC598 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = TUHD85AT5Y;
+						DevelopmentTeam = N44P5HH666;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -226,23 +382,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28415DA61D342F6C0043A93B /* Phrasal Verbs.txt in Resources */,
-				28415DA11D342F6C0043A93B /* Find a job.txt in Resources */,
-				28415DA01D342F6C0043A93B /* Expressions.txt in Resources */,
-				28415D9F1D342F6C0043A93B /* Coloquial phrases.txt in Resources */,
-				28415DA51D342F6C0043A93B /* Person.txt in Resources */,
-				28415DA41D342F6C0043A93B /* Money.txt in Resources */,
+				2835985A1EA36D6000D87160 /* EC 40-49.txt in Resources */,
+				283598651EA36D6000D87160 /* Misc01.txt in Resources */,
+				2835986A1EA36D6000D87160 /* Misc06.txt in Resources */,
+				283598881EA36D6000D87160 /* Person.txt in Resources */,
+				283598771EA36D6000D87160 /* Misc19.txt in Resources */,
+				2835987E1EA36D6000D87160 /* Climate.txt in Resources */,
+				283598721EA36D6000D87160 /* Misc14.txt in Resources */,
+				283598701EA36D6000D87160 /* Misc12.txt in Resources */,
+				2835985F1EA36D6000D87160 /* Games of thrones.txt in Resources */,
+				2835986C1EA36D6000D87160 /* Misc08.txt in Resources */,
+				283598761EA36D6000D87160 /* Misc18.txt in Resources */,
+				283598671EA36D6000D87160 /* Misc03.txt in Resources */,
+				283598621EA36D6000D87160 /* Grammar.txt in Resources */,
 				C4DB8C601C55546700EA14B6 /* bg-light.jpg in Resources */,
-				28BFBFB61D734F030055E6DE /* Crime.txt in Resources */,
-				286EE9681D84BF670022D62F /* Food.txt in Resources */,
+				2835986D1EA36D6000D87160 /* Misc09.txt in Resources */,
+				283598741EA36D6000D87160 /* Misc16.txt in Resources */,
+				283598781EA36D6000D87160 /* Misc20.txt in Resources */,
 				C42E6EFF1C53D7CE00FEC598 /* LaunchScreen.storyboard in Resources */,
-				28415D9E1D342F6C0043A93B /* Animals.txt in Resources */,
+				283598611EA36D6000D87160 /* Scurbs s02e21.txt in Resources */,
+				283598731EA36D6000D87160 /* Misc15.txt in Resources */,
+				2835987F1EA36D6000D87160 /* _Coloquial phrases.txt in Resources */,
+				283598681EA36D6000D87160 /* Misc04.txt in Resources */,
+				2835986F1EA36D6000D87160 /* Misc11.txt in Resources */,
+				2835985D1EA36D6000D87160 /* ESL POD 160-179.txt in Resources */,
+				283598801EA36D6000D87160 /* Crime.txt in Resources */,
+				283598811EA36D6000D87160 /* Flights.txt in Resources */,
+				283598711EA36D6000D87160 /* Misc13.txt in Resources */,
+				283598861EA36D6000D87160 /* Medicine.txt in Resources */,
+				2835985B1EA36D6000D87160 /* EC 50-59.txt in Resources */,
+				2835985C1EA36D6000D87160 /* EC 60-69.txt in Resources */,
+				283598791EA36D6000D87160 /* REC01. Blaze at charity bonfire.txt in Resources */,
+				283598841EA36D6000D87160 /* _Idioms.txt in Resources */,
+				283598751EA36D6000D87160 /* Misc17.txt in Resources */,
+				283598851EA36D6000D87160 /* Job.txt in Resources */,
+				2835987D1EA36D6000D87160 /* Animals.txt in Resources */,
+				283598661EA36D6000D87160 /* Misc02.txt in Resources */,
+				283598821EA36D6000D87160 /* Food.txt in Resources */,
+				2835988A1EA4D84900D87160 /* Politics.txt in Resources */,
 				C42E6EFC1C53D7CE00FEC598 /* Assets.xcassets in Resources */,
-				28415DA21D342F6C0043A93B /* Idioms.txt in Resources */,
+				2835987A1EA36D6000D87160 /* REC02. Linguistic gaps.txt in Resources */,
+				2835987C1EA36D6000D87160 /* _AdjAntonyms.txt in Resources */,
+				2835986E1EA36D6000D87160 /* Misc10.txt in Resources */,
 				C42E6EFA1C53D7CE00FEC598 /* Main.storyboard in Resources */,
-				28415DA71D342F6C0043A93B /* Prepositions.txt in Resources */,
-				28415DA31D342F6C0043A93B /* Medicine.txt in Resources */,
-				28415D9D1D342F6C0043A93B /* AdjAntonyms.txt in Resources */,
+				2835985E1EA36D6000D87160 /* Friends.txt in Resources */,
+				283598631EA36D6000D87160 /* Phrasal Verbs.txt in Resources */,
+				283598641EA36D6000D87160 /* Prepositions.txt in Resources */,
+				283598831EA36D6000D87160 /* House.txt in Resources */,
+				283598871EA36D6000D87160 /* Money.txt in Resources */,
+				283598601EA36D6000D87160 /* Scrubs s07e02.txt in Resources */,
+				2835986B1EA36D6000D87160 /* Misc07.txt in Resources */,
+				283598691EA36D6000D87160 /* Misc05.txt in Resources */,
+				2835987B1EA36D6000D87160 /* REC03. News bulletin.txt in Resources */,
+				283598591EA36D6000D87160 /* EC 30-39.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,15 +445,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4DB8C591C551A5A00EA14B6 /* HeadingsStorage.swift in Sources */,
-				C4DB8C551C55155600EA14B6 /* HeadingTV.swift in Sources */,
-				C4DB8C531C55153500EA14B6 /* CardsTV.swift in Sources */,
-				C4DB8C621C58C3B200EA14B6 /* CardFileParser.swift in Sources */,
 				C42E6EF51C53D7CE00FEC598 /* AppDelegate.swift in Sources */,
-				C4DB8C571C55169600EA14B6 /* AppInteractor.swift in Sources */,
-				C4DB8C501C55153500EA14B6 /* Card.swift in Sources */,
-				C4DB8C511C55153500EA14B6 /* CardCell.swift in Sources */,
-				C4DB8C521C55153500EA14B6 /* Heading.swift in Sources */,
+				2835989A1EA4E48800D87160 /* Card.swift in Sources */,
+				283598991EA4E48800D87160 /* ListTVDataSources.swift in Sources */,
+				2835989B1EA4E48800D87160 /* CardFileParser.swift in Sources */,
+				2835989C1EA4E48800D87160 /* Deck.swift in Sources */,
+				283598981EA4E48800D87160 /* ListTV.swift in Sources */,
+				283598971EA4E48800D87160 /* CardsTV.swift in Sources */,
+				283598961EA4E48800D87160 /* CardCell.swift in Sources */,
+				2835989D1EA4E48800D87160 /* GroupsStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +573,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = N44P5HH666;
 				INFOPLIST_FILE = FlashCards/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -397,6 +590,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = N44P5HH666;
 				INFOPLIST_FILE = FlashCards/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

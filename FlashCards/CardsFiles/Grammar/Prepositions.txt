@@ -1,0 +1,586 @@
+to be dangerous to smbd -- опасно для кого-то
+
+// some place pointing
+besides the house -- рядом с домом
+among us -- среди нас
+by the window -- у окна
+at the door -- у двери
+round the table -- вокруг стола
+far from the house -- далеко от дома
+beyond the river -- по ту сторону реки
+in front of our office -- перед нашим офисом
+opposite my house -- напротив моего дома
+behind me -- позади меня
+above my head -- над моей головой
+over the table -- над столом
+under the bed -- под кроватью
+below the ground -- под землей
+in the school -- в школе
+inside the house -- в доме
+outside the house -- вне дома
+on the table -- на столе
+on the wall -- на стене
+at hand -- под рукой 
+
+to go shopping for smth. -- пойти покупать что-то
+to cheat on smbd. -- изменять кому-то
+to stumble over smth. -- спотыкаться обо что-то
+to stumble over one's words -- начaть заикаться и мямлить (от волнения)
+
+by mistake -- по ошибке
+by accident -- нечаянно
+by chance -- случайно
+by your favor / with your permission -- с вашего разрешения
+
+go for a walk/swim и т.п. -- пойти гулять плавать и т.п.
+
+in somebody's opinion -- по мнению кого-либо
+in fact -- фактически, на самом деле, по сути
+in the event of /in case of -- в случае чего-либо
+
+on the radio/television и т.п. -- по радио/телевидению
+on holiday/business/a trip/an cruise и т.п. -- в отпуске/в командировке/в поездке/на экскурсии/в круизе и т.п.
+
+to be afraid/frightened of -- быть испуганным/напуганным чем-либо или кем-либо; бояться
+to be ashamed/proud of -- стыдиться/гордиться чем-либо или кем-либо
+to be aware of -- осознавать что-либо/быть в курсе чего-то
+to be fond of -- любить что-либо, увлекаться чем-то
+to be full of -- быть полным чего-либо (сил, энергии)
+to be jealous/envious of -- ревновать /завидовать кому-либо или чему-либо
+to be tired of -- быть уставшим от
+it is nice (kind/good/stupid/impolite и т.п.) of someone -- мило, глупо, невежливо и т.п. с чьей-либо стороны
+
+to be bad/good/hopeless и т.п. at -- не иметь способностей (успеха)/иметь способности (успех)/быть безнадёжным и т.п. в какой-либо деятельности
+to be shocked/surprised и т.п. at/by -- быть потрясённым/удивлённым и т.п. чем-либо
+
+to be disappointed/satisfied with -- быть разочарованным/удовлетворённым чем-либо
+
+to be angry/annoyed about -- быть разозлённым/раздражённым кем-то/чем-то
+
+to be responsible for -- быть ответственным за
+to be famous for -- быть известным чем-либо (рекордом, поступком и т.п.)
+to be/feel sorry for smb. -- жалеть/сочувствовать кому-либо
+
+to be similar to -- быть похожим на
+to be married/engaged to -- быть замужем (женатым)/помолвленным за
+
+care for smth -- заботиться о ком-то
+punish for smth -- наказывать за что-то
+search for smth -- искать что-либо, кого-либо
+
+belong to smbd -- принадлежать кому-то
+happen to smbd -- случаться, происходить с кем-то
+listen to smbd -- слушать что-либо, кого-либо
+speak to/with smbd  -- говорить с кем-то
+
+dream about/of -- мечтать о
+think about/of -- думать о
+remind of -- походить на, напоминать
+
+insist on -- настаивать на
+live on -- жить на
+be on -- идти, происходить
+
+laugh at -- смеяться над 
+mock at -- высмеивать
+look at -- смотреть на
+shout at -- кричать на
+
+
+
+// Посто предлоги
+at a flash / in a flash -- мигом 
+at intervals -- с интервалами 
+at one blow /at one stroke -- разом, одним махом 
+at a stretch/at one time / at a time -- одновременно 
+at the wheel / at the helm -- во главе 
+at a discount -- со скидкой 
+at heart -- в душе, на самом деле 
+at present -- в настощее время 
+at random -- как попало, случайным образом 
+at my request -- по моей просьбе 
+at your service -- к вашим услугам 
+at that -- к тому же 
+at times -- временами 
+at war / at peace -- в состоянии войны/мира 
+by car/plane/subway -- на машине/самолётом/на метро 
+by choice -- по собственному решению 
+by means of -- посредством 
+by definition -- по определению 
+by request / on request -- по просьбе, на заказ 
+by coincidence -- по совпадению 
+by degrees -- постепенно 
+by design -- специально
+by reason of -- по причине 
+for a change -- для разнообразия 
+for a wonder -- как ни странно 
+for fear of -- опасаясь чего-либо 
+for real -- действительно существующий 
+For shame -- как не стыдно! 
+for show -- напоказ 
+for short -- сокращённо 
+for sure / for certain -- без сомнения (2 вар)
+for many reasons -- по целому ряду причин 
+in a curious way -- странным образом 
+in short / in brief / in a few words -- короче, в двух словах (3 вар)
+in detail -- в деталях 
+in turn -- в свою очередь 
+in haste -- в спешке 
+in advance -- заранее 
+in a sense / in some sense -- в каком-то смысле (2 вар)
+in a certain manner -- определённым образом 
+in a similar manner -- подобным образом 
+in essence -- в сущности 
+in exchange (for) -- в обмен (на) 
+in addition -- вдобавок 
+in honor of -- в честь 
+in condition / out of conditon -- в порядке, в хорошем состоянии / не в порядке 
+in shape / out of shape -- в порядке, в хорошем состоянии / не в порядке 
+in memory of -- в память о 
+in particular -- в частности 
+in person -- лично 
+in principle -- в целом 
+in private -- наедине или узким кругом 
+in public -- публично 
+in reach / out of reach -- в пределах досягаемости / вне пределов досягаемости 
+in secret -- в тайне 
+in regard to -- что касается 
+in reserve -- про запас 
+in stock -- в наличии (на продажу) 
+in token of -- в знак 
+in time -- вовремя (до истечения срока) 
+on time -- вовремя (точно в тот момент) 
+of a kind / of some sort -- своего рода (2 вар)
+of age / under age -- достаточного возраста / недостаточного возраста 
+on duty -- на посту 
+on fire -- горящий 
+on foot -- пешком 
+on leave -- в отпуске 
+on hand -- под рукой 
+on purpose -- намеренно 
+on sale -- со скидкой 
+on schedule -- по расписанию 
+on sight -- при обнаружении 
+on a trip/ on an expedition -- в поездке/в экспедиции 
+on strike -- бастующий 
+out of bounds -- вне рамок разума или приличия 
+out of control -- не под контролем 
+out of date -- устаревший 
+under repair -- в ремонте 
+under construction -- строящийся 
+under discussion -- в обсуждении 
+under the circumstances -- при сложившихся обстоятельствах 
+under cover of -- под покровом, под прикрытием 
+under way -- в пути 
+with the aid of smth/smbd -- с помощью кого-то/чего-то
+
+
+// Производные
+
+concerning / regarding -- относительно, касательно (какого-то вопроса) (2 вар)
+considering -- учитывая, принимая во внимание
+depending -- в зависимости
+during -- в течение, в продолжение, во время
+granted -- при условии
+barring / excepting / excluding -- за исключением, исключая (3 вар)
+failing -- за неимением, в случае отсутствия
+following -- после, вслед за
+including -- включая, в том числе
+
+
+// Составные
+
+according to -- согласно
+ahead of -- до, в преддверии
+as for -- что касается
+as regards -- что касается, в отношении
+aside from -- помимо, за исключением
+as well as -- кроме, наряду
+away from -- от, в отсутствие
+because of -- из-за
+by force of -- в силу
+by means of -- посредством
+contrary to -- против, вопреки
+except for -- кроме
+far from -- далеко не
+for the sake of -- ради
+in accordance with -- в соответствии с
+in addition to -- в дополнение, кроме
+in connection with -- в связи с
+in consequence of -- вследствие, в результате
+in front of -- впереди
+in spite of -- несмотря на
+in the back of -- сзади, позади
+in the course of -- в течение
+in the event of -- в случае, если
+in the middle of -- посередине
+instead of -- вместо
+in view of -- ввиду
+opposite to -- против
+out of -- из, изнутри, снаружи, за пределами
+outside of -- вне, помимо
+owing to / thanks to / due to -- из-за, благодаря
+up to -- вплоть до, на уровне
+with regard to / with respect to -- относительно, по отношению
+
+
+
+
+
+to account FOR/OF something / to give an explanation / to excuse. How can you account for your absence at the meeting? -- дать объяснение (3 вар.). Как ты можешь объяснить своё отсутствие на встрече?
+
+accuse someone OF something - to charge someone WITH something. He was accused of stealing money. -- обвинить кого-то в чем-то плохом (2 вар). Он бы обвинён в воровстве денег.
+
+add something TO something - to put something together with something else.	She added a little milk to coffee. -- добавить, прибавить что-то к чему-то (2 вар). Она добавила немного молока к кофе.
+
+agree ABOUT/ON something - to have the same opinion about something as someone else. They don't always agree on the way children should be raised. -- соглашаться (друг с другом) по каким-то вопросам (2 вар). Они не всегда согласны друг с другом в вопросах воспитания детей.
+
+He agreed WITH you ON whether we should or shouldn't increase the salary. -- Он согласился с тобой по вопросу, должны мы или нет поднимать зарплату.
+
+She agreed TO come with me. -- Она согласилась пойти со мной.
+
+answer FOR something - to be responsible for one's actions.	He should answer for his rude behavior.	-- нести ответственность за, отвечать за свои действия (2 вар). Он должен ответить за своё грубое поведение.
+
+apply FOR something - to make an application or request for something. I want to apply for a job. -- подать заявление с просьбой о чем-то (например, о приеме на работу) (2 вар). Я хочу подать заявление на эту работу.
+
+approve OF something - to be in favor of (благосклонным к) something. Her father doesn't approve of her boyfriend. -- одобрять кого-то / что-то (2 вар). Её отец не одобряет нового парня.
+
+argue ABOUT something - to disagree or quarrel about something. What are they arguing about? -- спорить о чем-то, ссориться о чем-то (2 вар). О чём они спорят?
+
+arrive IN (some city) - to come to some city. He arrived in London yesterday. -- прибыть в какой-то город (2 вар). Он прибыл в Лондон вчера.
+
+ask FOR something - to request something. He asked for a cup of coffee. -- попросить о чем-то (2 вар). Он попросил чашку кофе.
+
+
+be AGAINST something - to oppose something. I am against your plan.	-- быть против чего-то (2 вар). Я против твоего плана.
+
+be INTO smth. - be fond of smth. - to be interested in smth. She is into jazz. -- интересоваться, увлекаться чем-то (3 вар). Она увлекается джазом.
+
+be OUT OF something. We are out of sugar. -- закончиться (о запасах, времени). У нас закончился сахар.
+
+begin WITH something - to start with something. Begin with Chapter 3. -- начать с чего-то. Начни с главы 3.
+
+believe IN someone / something - to have faith in someone / something. She believes in justice for all.	-- верить в кого-то / что-то (2 вар). Она верит в справедливость для всех.
+
+belong TO someone - to be property of someone. This house belongs to his son. -- принадлежать кому-то (2 вар). Этот дом принадлежит его сыну.
+
+blame someone FOR something. She blamed him for the loss of her bag. -- винить кого-то в чем-то. Она обвинила его в утере её сумки.
+
+break INTO (a house) - to get in by force. They broke into the house at night. -- вломиться силой в (дом) (2 вар). Они вломились в дом ночью.
+
+
+change something FOR something - to exchange for, trade for something. Could I change these dollars for euros, please? -- обменять что-то на что-то. Могу ли я обменять эти доллары на евро?
+
+change INTO something - to put on a new set of clothes. I need to change into warmer clothes. -- Я должен переодеться в более тёплую одежду.
+
+change INTO someone / something - to turn into, to convert into someone / something different. The little boy in the fairy tale was changed into a monster. -- Маленький мальчик в сказке превратился в монстра.
+
+charge FOR something - to ask as a price for service or goods. How much do you charge for a single room? -- просить цену за услуги или товары. Сколько вы просите за отдельную комнату?
+
+The struggle came to an end in July. -- Борьба подошла к концу в июле.
+The military came to power in 1978. -- Военные пришлик власти в 1978-м. 
+
+comment ON something. He commented on the current situation. -- комментировать что-то. Он прокомментировал текущую ситуацию.
+
+complain TO someone ABOUT something. -- жаловаться кому-то о чём-то (на что-то)
+
+concentrate (something) on something. They concentrated their efforts on achieving this goal. -- концентрироваться на чем-то. Они сконцентрировали свои усилия на достижении этой цели.
+
+I congratulated him ON his new job.  -- Я поздравил его с новой работой
+
+He congratulated her FOR her excellent exam results. (usualy -> ON, but achievement -> FOR) -- Он поздравил её с отличными экзаменационными результатами.
+
+consent TO something. Her father consented to her marriage.	-- дать согласие на что-то. Её отец согласился на её свадьбу.
+
+consist OF - to be composed of (parts, ingredients). Water consists of hydrogen and oxygen. -- состоять из (частей, ингредиентов). Вода состоит из водорода и кислорода.
+
+contribute something TO something / invest something IN something / put IN / to give (money, hopes, work, time). He contributed a lot of money, time and effort to this research. -- делать вклад во что-то, вкладывать (4 вар). Он вложил много денег, времени и труда в это исследование.
+
+correspond WITH someone - to be in correspondence with.	He corresponds with many famous people.	-- переписываться с кем-то. Он состоит в переписке со многими известными людьми.
+
+count ON / depend ON /  to rely ON someone. You can always count/rely on me for help. -- рассчитывать на кого-то (3 вар). Ты всегда можешь рассчитывать на меня в плане помощи.
+
+count TO. Close your eyes and count to 10. -- считать до (какого-то числа). Закрой глаза и сосчитай до 10.
+
+
+dedicate TO / devote TO. This scientist dedicated/devoted his whole life to research. -- Этот учёный посвятил (2 вар) всю свою жизнь исследованию.
+
+dedicate TO / devote TO. He dedicated/devoted his latest novel to his daughter.	-- Он посвятил (2 вар) свой последний роман своей дочери.
+
+depart/leave FROM ... FOR (TO is not common) ... The train departs from Rome for Paris at 6:30. -- покидать, отправляться из... в... (2 вар). Поезд отправляется из Рима в Париж в 6:30.
+
+depend ON someone/something. It depends on the weather. -- зависеть от кого-то / чего-то. Это зависит от погоды.
+
+disagree ABOUT/ON something. They disagree about everything. -- не соглашаться (друг с другом) по каким-то вопросам. Они не согласны во всём.
+
+do WITHOUT something. We have to do without chocolate. -- обойтись без чего-то. Мы должны обходиться без шоколада.
+
+drive AT - to drive at a certain speed. He was driving at 70 miles per hour when the accident happened.	-- ехать с какой-то скоростью. Он ехал 70 м/ч, когда случилась авария.
+
+drop OUT OF school - to quit school. He dropped out of school when he was 15. -- бросить школу, институт (2 вар). Он бросил школу, когда ему было 15.
+
+
+equip someone/something WITH something. The kitchen is equipped with modern appliances. -- оборудовать, снарядить, обеспечить чем-то. Кухня оборудована современной техникой.
+
+excuse someone FOR something. Please excuse me for being late. -- извинить кого-то за что-то. Пожалуйста извините меня за опоздание.
+
+
+fall in love WITH someone or something. She fell in love with jazz music. -- влюбиться в кого-то или что-то. Она влюбилась в джазовую музыку.
+
+feel about - to have an opinion about. How do you feel about his new plan? -- иметь мнение о чем-то. Что ты думаешь о его новом плане?
+
+
+Get into the car! -- Садись в машину!
+He got into trouble. -- Он попал в передрягу.
+
+get OFF the bus, train, plane - to leave the bus, train, plane. He got off the train at the River Station. -- сойти с автобуса, поезда, самолета. Он сошёл с поезда на Ривер Стэйшн.
+
+get ON the bus, train, plane - to take a bus, train, plane. He got on the bus on Maple Avenue. -- сесть на автобус, поезд, самолет. Он сел на автобус на Маппл Авеню.
+
+get OUT OF (some place). Get out of the house! -- Выметайся отсюда.
+
+(get THROUGH / go THROUGH) something. The refrigerator won't get/go through this narrow door. -- пройти сквозь / через что-то (2 вар). Холодильник не пройдёт через эту узкую дверь.
+
+get TO / to reach (some place). We got to London at night. -- добраться до (какого-то места). Ночью мы добрались до Лондона.
+
+(go BY / to go PAST / pass BY) someone/something. She went by me without saying hello. -- пройти мимо кого-то / чего-то (3 вар). Она прошла мимо меня, не поздоровавшись.
+
+go BY. He always goes to work by train.	-- ездить каким-то транспортом. Он всегда ездит на работу поездом.
+
+go DOWN (the stairs, road, etc.) / to descend. Go down the stairs and turn right. -- спускаться (2 вар). Спуститесь по ступенькам и поверните на право.
+
+(go DOWN / go ALONG) the street. -- идти вдоль по улице (2 вар)
+
+go OVER/THROUGH something / to review / to look OVER/THROUGH something. Go over these chapters again. -- перечитать, просмотреть что-то (5 вар). Просмотри эти главы ещё раз.
+
+go UP (the stairs, the hill, etc.). We went up the stairs to the third floor. -- подниматься, взбираться по чему-то / на что-то. Мы взобрались по ступенькам на третий этаж.
+
+graduate FROM (school). He graduated from college in 1997. -- окончить школу, институт. Он выпустился из колледжа в 1997-м.
+
+
+happen TO someone. What happened to Tom? He looks awful. -- случиться с кем-то. Что случилось с Томом? Он выглядит ужасно.
+
+have something AGAINST someoneю. What do you have against my plan? -- иметь что-то против кого-то / чего-то. Что ты имеешь против моего плана?
+
+hint AT something. What are you hinting at? -- На что это ты намекаешь?
+
+inform someone ABOUT/OF something. He informed the committee about his decision to resign from his post. -- Он сообщил комитету о своём решении уйти в отставку.
+
+insist ON something. He insists on selling the house. -- Он настаивал на продаже дома.
+
+introduce/present someone TO someone. She introduced him to her friends. -- Она представила его своим друзьям.
+
+invite someone to something. They invited us to the wedding. -- Они пригласили нас на свою свадьбу.
+
+
+judge BY something. Don't judge a book by its cover! -- Не суди о книге по её обложке.
+
+
+knock AT/ON (the door). Somebody is knocking on the door. -- Кто-то стучит в дверь.
+
+
+lag BEHIND / be BEHIND someone. He is lagging behind the other students. -- быть позади, отставать от кого-то (2 вар). Он отстаёт от остальных студентов.
+
+laugh AT. to laugh at a funny joke, laughed at the new boy -- смеяться над весёлой шуткой, высмеивать нового парня
+
+leave FOR. He left his job for a sailing expedition. -- Он оставил свою работу ради морской экспедиции.
+
+leave something TO someone. She left the house to her son. - Она оставила дом сыну (в наследство).
+leave something TO someone. Leave this task to Jim. -- Оставь эту задачу Джиму.
+
+lend something TO someone. I lent my bicycle to Tom till Saturday. -- Я одолжил свой велосипед Тому до субботы.
+
+live ON something. She lives on apples, bread, and cheese. -- Она живёт на яблоках, хлебе и сыре.
+live ON something. She lives on 500 dollars a month. -- Она живёт на 500 долларов в месяц.
+
+(long FOR / ache for) something. He longed for a real friend, but he was always alone. -- очень сильно желать чего-то (2 вар). Он жаждет настоящего друга, но он всегда был одинок.
+
+(look INTO/ examine / investigate) something. The police are looking into the matter. -- исследовать, изучать, расследовать что-то (3 вар). Полиция расследует дело.
+
+look OUT OF the window -- выглянуть из окна
+
+
+be made OF. This dress is made of silk.	-- Это платье из шёлка.
+
+mark WITH something. Mark mistakes with a red pencil. -- помечать, отмечать чем-то. Отметь ошибки красным карандашом.
+
+
+name someone AFTER someone. He was named after his famous uncle. -- Он был назван в честь своего знаменитого дядюшки.
+
+
+object TO something / to be against something. I objected to his plan. -- возражать против чего-то (2 вар). Я возражал против его плана.
+
+offer (a certain sum) FOR something. How much do they offer for the house? -- предлагать (определенную сумму) за что-то. Сколько они предлагают за дом?
+
+open WITH something. He opened the door with a key. -- Он открыл дверь ключом.
+
+
+point AT someone. Don't point at people! He pointed a gun at me. -- Не указывай на людей (пальцем)! Он направил оружие на меня.
+
+prefer (one thing) TO (another). I prefer tea to coffee. -- Я предпочитаю чай а не кофе
+
+prevent someone FROM doing something. How can I prevent him from making this terrible mistake? -- предотвратить, не допустить. Как я могу не допустить, чтобы он сделал эту ужасную ошибку?
+
+provide WITH smth. / supply WITH smth. He provided us with information, food, and money for our trip. -- снабжать, обеспечить чем-то (2 вар). Он снабдил нас информацией, едой и деньгами перед поездкой.
+
+pull INTO something. They pulled him into a car and drove off. -- втащить, втянуть в. Они втащили его в машину и уехали.
+
+pull OUT OF something. He pulled a wallet out of his pocket. -- вытащить что-то из чего-то. Он вытащил бумажник из кармана.
+
+push someone INTO something. They pushed him into a car and drove off. -- втолкнуть во что-то. Они втолкнули его в машину и уехали.
+
+
+reach FOR something. She reached for her bag. -- потянуться за чем-то, достать до чего-то. Она дотянулась до своей сумки.
+
+remind someone OF something or someone. This town reminds me of my hometown. -- напоминать кому-то что-то, кого-то. Этот город напоминает мой родной городок.
+
+remind someone ABOUT something. Thank you for reminding me about the meeting. -- напомнить кому-то о чем-то, чтобы не забыл. Спасибо за напоминание о встрече.
+
+remove something FROM (a place). I removed the stains from your shirt. -- убрать/удалить что-то с чего-то. Я удалил пятна с твоей рубашки.
+
+replace someone/smth. BY/WITH someone/smth.	Coal was replaced by/with electricity. -- заменить кого-то/что-то кем-то/чем-то. Уголь был заменён электричеством.
+
+report ON something. He reported on the current situation. -- делать доклад о чем-то. Он сделал доклад о текущей ситуации.
+
+report something TO someone. He reported her absence to the boss. -- доложить о ком-то/чем-то кому-то. Он доложил о её отсутствии боссу.
+
+
+save (something) FOR someone/something. We have to save money for Mike's education. -- сохранять, сберегать, копить для кого-то / чего-то. Мы должны скопить денег на образование для Майка.
+
+save someone FROM something. We can't save him from his own foolishness. -- спасти кого-то от чего-то. Мы не можем спасти его от собственной глупости.
+
+shout/yell AT someone. Don't shout at children.	-- кричать на кого-то (2 вар). Не кричи на детей!
+
+spend (money, time) ON something. How much time did you spend on this report? -- тратить (деньги, время) на что-то. Сколько времени ты потратил на этот доклад?
+
+start WITH something. Start with Chapter 3.	-- начать с чего-то. Начти с Главы 3.
+
+stay AT (some place). I stayed at my sister's for two weeks. -- остановиться пожить в каком-то месте, погостить у кого-то. Я остановился у сестры на 2 недели.
+
+stay WITH someone. Stay with me for an hour. -- побыть с кем-то / у кого-то, погостить у кого-то. Останься со мной на час.
+
+stop AT. He stopped at the red traffic light. -- остановиться около чего-то / перед чем-то / у кого-то. Он остановился перед красным сигналом светофора.
+stop AT. He will stop at nothing! -- остановиться около чего-то / перед чем-то / у кого-то. Мы не перед чем ни остановимся!
+stop AT. We stopped at my sister's. -- остановиться около чего-то / перед чем-то / у кого-то. Мы остановились у моей сестры.
+
+stop/prevent someone FROM doing something. How can I stop him from making this terrible mistake? -- остановить кого-то, чтобы не сделал что-то (2 вар). Как я могу остановить его, чтоб он не сделал эту ужасную ошибку?
+
+
+touch ON something. We touched on many questions briefly. -- коснуться (вопроса). Мы кратко затронули множество вопросов.
+
+turn TO someone/something. He turned to the window and didn't answer. -- повернуться к кому-то / чему-то. Он отвернулся к окну и не отвечал.
+
+vote FOR/AGAINST someone/something. Five members voted for/against the candidate. -- голосовать за/против кого-то/что-то. Пять членов проголосовали за/против кандидата.
+
+wait FOR someone/something. I waited for the bus for twenty minutes. -- ждать кого-то / что-то. Я прождал автобус 20 минут.
+
+warn ABOUT something. He warned me about the danger there. -- предостеречь о чем-то. Он предостерёг меня об опасности там.
+
+warn AGAINST something. He warned me against going there alone.	-- предостеречь от чего-то. Он предостерёг меня от похода туда в одиночку.
+
+wonder ABOUT something. I am still wondering about his behavior at the meeting. -- размышлять над чем-то (с любопытством или пытаясь понять). Я до сих пор размышляю над его поведением на встрече.
+
+wonder AT something / to admire / to marvel (дивиться, восхищаться) at / to be surprised by smth. I wondered at his strength and composure in such a difficult situation. -- восхищаться чем-то, удивляться чему-то (4 вар). Я восхищался его силой и самообладанием в такой сложной ситуации.
+
+work AT/IN. He works at/in a bank. -- Он работает в банке.
+work AT. Work at your pronunciation. -- работать (серьезно) над чем-то. Поработай над своим произношением.
+
+work FOR. He works for IBM. -- работать на кого-то. Он работает на IBM.
+work FOR. He agreed to work for $2,000 a month. -- работать за определенную оплату. Он согласился работать за $2000 в месяц.
+
+worry ABOUT someone/something. She worries about her son. -- беспокоиться о ком-то / чем-то. Она беспокоится о своём сыне.
+
+
+sit AT the desk -- сидеть за столом
+
+The talk to staff had a positive effect ON them. -- Разговор с персоналом положительно повлиял на него (на персонал).
+
+I take care OF my son. He is similar TO me but quite different FROM/THEN my wife. -- Я забочусь о своём сыне. Он очень похож на меня, но совсем не похож на мою жену.
+
+China has agreed to participate IN the global economic forum. -- Китай согласился участвовать в глобальном экономическом форуме.
+
+My wife spent the milk money ON cigarettes. -- Моя жена потратила деньги, предназначавшиеся на молоко, на сигареты.
+
+There has been a slight decrease IN gas prices lately. -- В последнее время наблюдалось лёгкое падение цен на газ.
+
+In the beginning, Lillian was not accustomed TO working in such a big company. -- По началу Лиллиан было непривычно работать в такой большой компании.
+
+Most people have never heard OF him. -- Большинство людей никогда о нём не слышали.
+
+John’s wife accused him OF cheating. She thinks he is bored OF/WITH her. -- Жена Джона обвинила его в измене. Она считает, что наскучила ему.
+
+If you’ve got a problem, then do something ABOUT it! -- Если у тебя проблема, делай что-то с ней!
+
+Everyone FROM/IN the HR department was surprised ABOUT the news. -- Все в HR-отделе были удивлены этой новости.
+
+I’m not familiar WITH this neighborhood. -- Я не знаком с этим районом.
+
+If I had to choose BETWEEN going to heaven or hell, I’d choose heaven. -- Если я должен выбирать между раем и адом, я бы выбрал рай.
+
+Hosni Mubarak was IN power in Egypt for 30 years. -- Хосни Мубарак был у власти в Египте в течение 30 лет.
+
+Roger’s company specializes IN the management of young musicians. -- Компания Роджера специализируется на руководстве молодых музыкантов.
+
+I will go ON vacation next month. -- Я еду в отпуск в следующем месяце.
+
+I was able to return the product because it was still UNDER warranty. -- Я смог вернуть товар, потому что он всё ещё был на гарантии
+
+The little boy hit his friend WITH a stick. -- Маленький мальчик ударил своего друга палкой.
+
+I plan to work UNTIL I am 65 years old. -- Я планирую работать до 65 лет.
+
+This commercial was designed to appeal TO women in their twenties and thirties. -- Эта реклама обращена к 20-30-летним женщинам.
+
+I don’t know his reason FOR ending the relationship. -- Я незнаю его причин заканчивать отношения.
+
+Although Carol graduated FROM Harvard with a degree in political science, nowadays she doesn’t care ABOUT politics. -- Хотя Кэрол закончила Гарвард с дипломом по политике, сейчас она не заботится о политике.
+
+I am allergic TO cats. -- У меня аллергия на кошек.
+
+We are looking for someone who is skilled IN giving presentations. -- Мы ищем кого-то, опытного в выступлении-презентации.
+
+I have a view OF Prague Castle from my apartment. -- Из моей квартиры открывается вид на Пражский Дворец.
+
+The company president didn't want to comment ON/ABOUT the scandal. -- Президент компании не хотел комментировать этот скандал.
+
+You remind me OF my cousin. -- Ты напоминаешь мне моего кузена.
+
+After graduation, Joan will apply TO some local companies FOR a job as a graphic designer. -- После выпуска Джоан будет предендовать на должность графического дизайнера в какой-то местной компании.
+
+There was a decent damage ON/TO the car. -- Машине был приченён ощутимый ущерб.
+
+These boots were ON sale last week. -- Те ботинки были по распродаже на прошлой неделе.
+
+The United Nations has supplied the rebels WITH weapons. -- Объединённые нации снабдили повстанцев оружием.
+
+I have too many problems to deal WITH. -- У меня слишком много проблем, требующих решения.
+
+Greg is involved IN organized crime. -- Грег вовлечён в организованную преступность.
+
+BY the time the police found out ABOUT the crime, the thief was already in Mexico. -- К тому времени, как полиция узнала о преступлении, вор был уже в мексике.
+
+He prohibits her FROM having a boyfriend. -- Он запрещает ей имень парня.
+
+She spends most of her time in the library, surrounded BY books. -- Она проводит большую часть своего времени в библиотеке, окружённая книгами.
+
+He checked her schoolbag FOR drugs. -- Он проверил её школьный портфель на предмет наркотиков.
+
+She punched him IN the face. -- Она ударила его в лицо.
+
+Last week, I had an interview FOR a programming position AT Google. --  На прошлой неделе у меня было собеседование на позицию программиста в гугл.
+
+I was tired, so I had a hard time paying attention TO the interviewer. -- Я старался, так что мне было непросто (not easy/difficult) обращать внимание на само интервью.
+
+I fear I’ll be discriminated AGAINST. -- Я боюсь я подвергнусь дискриминации.
+
+Hopefully being a woman won’t prevent me FROM having a successful career. -- Надеюсь то, что я женщтна, не помешает мне построить хорошую карьеру.
+
+Greg went ON a trip yesterday to Vienna. -- Грег вчера отправился в поездку до Вены.
+
+On the way there, he was driving his car AT a speed of 110 km per hour. -- По пути туда он вёл машину на скорости в 110км/ч.
+
+His life was AT stake. -- На кону была его жизнь.
+
+He nearly ran INTO a large tree, but at the last second, he regained control and pulled his car back on the road. -- Он почти въехал в огромное дерево, но в последний момент вернул себе управление и вытянул машину обратно на дорогу.
+
+Tomorrow this time we will be lying ON a beach. -- Завтра в это же время мы будем лежать на пляже.
