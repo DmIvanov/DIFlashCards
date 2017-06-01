@@ -28,7 +28,7 @@ An apple a day keeps the doctor away. -- Съедать по яблоку в д�
 
 Single parents seem to be the norm rather than the exception nowadays. -- Сейчас родители-одиночки уже не выглядит чем-то исключительным; скорее, это норма.
 
-I'm BEING bold/brave/courageous enough now! -- Я веду себя достаточно смело!
+I'm BEING bold/brave/courageous enough now! -- Я веду себя достаточно смело (3 opt)!
 
 A loft is a unit with high ceilings and few walls, often in a rehabbed industrial building. -- Лофт - это помещение (часть здания) с высокими потолками и небольшим количеством стен, обычно в востановленном промышленном здании (бывшие фабрики, заводы)
 
@@ -84,11 +84,13 @@ Not because irrationality is bliss, but because a dose of illogical creativity w
 
 Much like peasants stuck in preindustrial thinking, our schools and universities are structured to mould pupils to be mostly obedient servants of rationality -- Во многом как крестьяне, застрявшие в доиндустриальном мировоззрении, наши школы и университеты заточены под формирование учеников, как покорных слуг рациональности.
 
-Unfortunately, however, our education system has not caught up to the impending reality of this Second Machine Age. -- К сожалению, однако, наша образовательная система не успела к грядущей действительности этой Второй Эре Машин. 
+Unfortunately, however, our education system has not caught up to the impending (neg.) reality of this Second Machine Age. -- К сожалению, однако, наша образовательная система не успела к грядущей неизбежности этой Второй Эры Машин. 
 
 If computers will outsmart us, we can still be the most creative act in town, if we embrace creativity as one of the defining values of humanness. -- Если компьютеры перещеголяют нас, мы всё равно останемся самыми творческими парнями на деревне, если мы примем творчество как одну из определяющих ценностей человечности.
 
-Because when the existence and purpose of humanity is at stake, focusing on partisan politics and the social media outpourings of the US president is little more than rearranging deck chairs on the Titanic. -- Потому как на кону существование и предназначение человечества, сосредотачиваться на партизанской политике и на выплесках в социальных медиа со стороны американского президента - это не многим больше чем перестановка стульев на палубе Титаника.
+social media outpourings of the US president -- излияния президента США в социальные медиа
+
+Because when the existence and purpose of humanity is at stake, focusing on all of these is little more than rearranging deck chairs on the Titanic. -- Потому как на кону существование и предназначение человечества, сосредотачиваться на этом всём - это не многим больше чем перестановка стульев на палубе Титаника.
 
 a wily ex-poker-player who was able to con the tech giants into a lucrative job offer -- хитрый бывший игрок в покер, который смог развести компанию-техногиганта на козырный (по деньгам) оффер.
 
