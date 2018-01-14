@@ -14,7 +14,7 @@ class CardCell: UITableViewCell {
     
     //let frontColor = UIColor(colorLiteralRed: 200.0/255.0, green: 172.0/255.0, blue: 1.0, alpha: 0.3)
     let frontColor = UIColor.clear
-    let backColor = UIColor(colorLiteralRed: 255.0/255.0, green: 250.0/255.0, blue: 172.0/255.0, alpha: 0.3)
+    let backColor = UIColor(red: 255.0/255.0, green: 250.0/255.0, blue: 172.0/255.0, alpha: 0.3)
     
     var card: Card? {
         didSet {
@@ -42,12 +42,12 @@ class CardCell: UITableViewCell {
     
     private func textForLabel(content: String, path: String) -> NSAttributedString {
         let contentAttr = [
-            NSFontAttributeName: UIFont(name: "Copperplate", size: 26.0)!
+            NSAttributedStringKey.font: UIFont(name: "Copperplate", size: 26.0)!
         ]
         let contentPart = NSMutableAttributedString(string: content, attributes: contentAttr)
         let pathAttr = [
-            NSFontAttributeName: UIFont.italicSystemFont(ofSize: 14.0),
-            NSForegroundColorAttributeName: UIColor.gray
+            NSAttributedStringKey.font: UIFont.italicSystemFont(ofSize: 14.0),
+            NSAttributedStringKey.foregroundColor: UIColor.gray
         ]
         let pathPart = NSAttributedString(string: path, attributes: pathAttr)
         contentPart.append(pathPart)

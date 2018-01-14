@@ -28,17 +28,20 @@ class GroupsStorage: NSObject {
             "Climate",
             "Crime",
             "House",
-            "Job",
             "Flights",
             "Food",
             "Medicine",
             "Money",
             "Person",
-            "Politics",
+            "Politics 1",
+            "Politics 2",
+            "Work 1",
+            "Work 2"
         ],
         "Grammar" : [
             "Grammar",
             "Gerund and Infinitive",
+            "GET",
             "Phrasal Verbs",
             "Prepositions 1",
             "Prepositions 2",
@@ -70,6 +73,11 @@ class GroupsStorage: NSObject {
             "Misc19",
             "Misc20",
             "Misc21",
+            "Misc22",
+            "Misc23",
+            "Misc24",
+            "Misc25",
+            "Misc26",
         ],
         "Episodes" : [
             "EC 30-39",
@@ -82,7 +90,7 @@ class GroupsStorage: NSObject {
             "Harry Potter 2",
             "Harry Potter 3",
             "Games of thrones",
-            "Scrubs s07e02",
+            "Scrubs s02e07",
             "Scurbs s02e21",
             
         ],
@@ -108,6 +116,11 @@ class GroupsStorage: NSObject {
     func groupForIdx(idx: UInt) -> GroupOfDecks? {
         guard idx < groupsAmount() else {return nil}
         return groupsOfDecks[Int(idx)]
+    }
+
+    func defaultDeck() -> Deck? {
+        let group = groupsOfDecks[groupsOfDecks.count - 1]
+        return group.decks.first
     }
     
     

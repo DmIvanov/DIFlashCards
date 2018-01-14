@@ -86,13 +86,13 @@ extension MutableCollection where Index == Int {
     /// Shuffle the elements of `self` in-place.
     mutating func shuffleInPlace() {
         // empty and single-element collections don't shuffle
-        let allCount = Int(count.toIntMax())
+        let allCount = Int(Int64(count))
         if allCount < 2 { return }
         
         for i in 0..<allCount - 1 {
             let j = Int(arc4random_uniform(UInt32(allCount - i))) + i
             guard i != j else { continue }
-            swap(&self[i], &self[j])
+            self.swapAt(i, j)
         }
     }
 }

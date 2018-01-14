@@ -8,20 +8,10 @@
 
 import UIKit
 
-class CardsTV: UIViewController {
+class CardsTV: UIViewController, CardTVDataSourcePresenter {
     
     //MARK: Properties
-    var deck = Deck(name: "")
-    var englishSideUp = false {
-        didSet {
-            if englishSideUp {
-                buttonSideUp.title = "eng"
-            } else {
-                buttonSideUp.title = "rus"
-            }
-            tableView.reloadData()
-        }
-    }
+    fileprivate var dataSource: CardTVDataSource?
     
     @IBOutlet fileprivate var tableView: UITableView!
     @IBOutlet fileprivate var buttonSideUp: UIBarButtonItem!
@@ -29,27 +19,39 @@ class CardsTV: UIViewController {
     
     
     //MARK: Lyfecycle
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let navibarHeigh = navigationController?.navigationBar.frame.size.height {
-            let statusbarHeigh: CGFloat = 20.0
-            tableView.contentInset = UIEdgeInsetsMake(navibarHeigh + statusbarHeigh, 0, 0, 0)
-        }
-        englishSideUp = false
-        navigationItem.title = deck.name
+        navigationItem.title = dataSource?.deckName()
         adjustSearchcontroller()
         hideSearchBar(animated: false)
+    }
+
+    // MARK: Public
+    func setDataSource(_ dataSource: CardTVDataSource) {
+        self.dataSource = dataSource
+        if isViewLoaded {
+            tableView.reloadData()
+        }
     }
 
     
     //MARK: Actions
     @IBAction fileprivate func shufflePressed() {
-        deck.shuffle()
+        guard let dataSource = dataSource else { return }
+        dataSource.shuffleDeck()
         tableView.reloadData()
     }
     
     @IBAction fileprivate func turnCards() {
-        englishSideUp = !englishSideUp
+        guard let dataSource = dataSource else { return }
+        dataSource.changeCardsSide()
+        if dataSource.englishSideUp {
+            buttonSideUp.title = "eng"
+        } else {
+            buttonSideUp.title = "rus"
+        }
+        tableView.reloadData()
     }
     
     
@@ -64,12 +66,16 @@ class CardsTV: UIViewController {
     }
     
     fileprivate func filterContentForSearchText(searchText: String) {
-        deck.filterCardsForSearchText(searchText: searchText)
+        guard let dataSource = dataSource else { return }
+        dataSource.filterContentForSearchText(searchText: searchText)
         tableView.reloadData()
     }
     
     fileprivate func hideSearchBar(animated: Bool) {
-        tableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: .top, animated: animated)
+        guard let dataSource = dataSource else { return }
+        if (dataSource.deckSize() > 0) {
+            tableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: .top, animated: animated)
+        }
     }
 }
 
@@ -80,18 +86,17 @@ class CardsTV: UIViewController {
 // ----------------------------------------------------------------------------
 extension CardsTV: UITableViewDelegate, UITableViewDataSource {
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return deck.cardsAmount()
+        guard let dataSource = dataSource else { return 0 }
+        return dataSource.deckSize()
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CardCell", for: indexPath) as! CardCell
-        cell.card = deck.cardForIdx((indexPath as NSIndexPath).row)
-        cell.frontSide = !englishSideUp
+        if let dataSource = dataSource {
+            cell.card = dataSource.card(indexPath: indexPath)
+            cell.frontSide = !dataSource.englishSideUp
+        }
         return cell
     }
     
@@ -115,11 +120,13 @@ extension CardsTV: UISearchResultsUpdating, UISearchControllerDelegate {
     }
     
     func willPresentSearchController(_ searchController: UISearchController) {
-        deck.filtering = true
+        guard let dataSource = dataSource else { return }
+        dataSource.enableFiltering(true)
     }
     
     func willDismissSearchController(_ searchController: UISearchController) {
-        deck.filtering = false
+        guard let dataSource = dataSource else { return }
+        dataSource.enableFiltering(false)
     }
     
     func didDismissSearchController(_ searchController: UISearchController) {

@@ -84,8 +84,8 @@ depend ON someone/something. It depends on the weather. -- зависеть от
 
 disagree ABOUT/ON something. They disagree about everything. -- не соглашаться (друг с другом) по каким-то вопросам. Они не согласны во всём.
 
-do WITHOUT something. We have to do without chocolate. -- обойтись без чего-то. Мы должны обходиться без шоколада.
-
 drive AT - to drive at a certain speed. He was driving at 70 miles per hour when the accident happened.	-- ехать с какой-то скоростью. Он ехал 70 м/ч, когда случилась авария.
 
 drop OUT OF school - to quit school. He dropped out of school when he was 15. -- бросить школу, институт (2 вар). Он бросил школу, когда ему было 15.
+
+Laura has been terrified OF dogs since she was bitten by one as a child. -- Лора боится собак с тех пор, как одна покусала её в детстве.
