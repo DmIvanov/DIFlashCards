@@ -81,6 +81,7 @@
 		288374F41EAD351F002BC25E /* Prepositions 5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 288374EC1EAD351F002BC25E /* Prepositions 5.txt */; };
 		288374F51EAD351F002BC25E /* Prepositions 6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 288374ED1EAD351F002BC25E /* Prepositions 6.txt */; };
 		288374F61EAD351F002BC25E /* Prepositions 7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 288374EE1EAD351F002BC25E /* Prepositions 7.txt */; };
+		289DD15C20172ECA00D16E68 /* Misc26.txt in Resources */ = {isa = PBXBuildFile; fileRef = 289DD15B20172ECA00D16E68 /* Misc26.txt */; };
 		28B77F38200A8B7700874732 /* AppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B77F37200A8B7700874732 /* AppInteractor.swift */; };
 		28B77F3A200AA95A00874732 /* AppScreenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B77F39200AA95A00874732 /* AppScreenFactory.swift */; };
 		28B77F3C200AAFFE00874732 /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B77F3B200AAFFE00874732 /* ListInteractor.swift */; };
@@ -170,6 +171,7 @@
 		288374EC1EAD351F002BC25E /* Prepositions 5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Prepositions 5.txt"; sourceTree = "<group>"; };
 		288374ED1EAD351F002BC25E /* Prepositions 6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Prepositions 6.txt"; sourceTree = "<group>"; };
 		288374EE1EAD351F002BC25E /* Prepositions 7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Prepositions 7.txt"; sourceTree = "<group>"; };
+		289DD15B20172ECA00D16E68 /* Misc26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Misc26.txt; sourceTree = "<group>"; };
 		28B77F37200A8B7700874732 /* AppInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInteractor.swift; sourceTree = "<group>"; };
 		28B77F39200AA95A00874732 /* AppScreenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScreenFactory.swift; sourceTree = "<group>"; };
 		28B77F3B200AAFFE00874732 /* ListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 				284CA2211EE926EF00B6D551 /* Misc23.txt */,
 				287354A31FC9911000AB8B28 /* Misc24.txt */,
 				287354A41FC9911000AB8B28 /* Misc25.txt */,
+				289DD15B20172ECA00D16E68 /* Misc26.txt */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -490,6 +493,7 @@
 				2835986F1EA36D6000D87160 /* Misc11.txt in Resources */,
 				288374F41EAD351F002BC25E /* Prepositions 5.txt in Resources */,
 				2835985D1EA36D6000D87160 /* ESL POD 160-179.txt in Resources */,
+				289DD15C20172ECA00D16E68 /* Misc26.txt in Resources */,
 				28DC6DED1EB5E09500F00EC6 /* _Idioms 2.txt in Resources */,
 				283598801EA36D6000D87160 /* Crime.txt in Resources */,
 				283598811EA36D6000D87160 /* Flights.txt in Resources */,
