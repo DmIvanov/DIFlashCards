@@ -42,7 +42,7 @@ thus/so -- следовательно (2 вар.)
 
 I’m going to walk you through the planning process. -- Я покажу вам весь процесс планирования — пошагово.
 
-From these facts we can infer that crime has been increasing. -- Из этих фактов мы можем заключить, что количество преступлений возросло (за последнее время).
+From these facts we can infer/conclude that crime has been increasing. -- Из этих фактов мы можем заключить (2 opt), что количество преступлений возросло (за последнее время).
 
 Poor spelling in your profile is repulsive/repellent -- Ошибки в описании вашего профиля (на сайте знакомств) отталкивают.
 
@@ -66,7 +66,7 @@ Can the person who has not switched off their phone please do so immediately? --
 
 One never knows what the future holds. -- Никто не знает, что готовит будущее.
 
-Do opposites really attract? -- Правда ли, что противоположности действительно притягиваются?
+Do opposites really attract? -- Противоположности действительно притягиваются?
 
 Each concurrency model has its supporters and detractors -- Каждая модель многопоточности имеет своих сторонников и противников.
 

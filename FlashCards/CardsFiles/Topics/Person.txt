@@ -160,8 +160,6 @@ rude -— грубый
 
 generous -— щедрый 
 
-close-fisted -— скупой 
-
 talkative -— разговорчивый 
 
 sociable, communicative -— общительный (2 opt)
@@ -210,8 +208,6 @@ Blissful [`blɪsfl] -- счастливый, блаженный.
 Bored [bɔ:d] -- скучающий.
 
 Cold [kəuld] -- неприветливый, безучастный.
-
-Concentrating [ˈkɔnsəntreɪtiŋ] -- сосредоточенный.
 
 Confident [ˈkɔnfɪdənt] -- уверенный, самонадеянный.
 
@@ -468,7 +464,7 @@ Sluggish, slothful -- медлительный
 
 Sophisticated -- изощрённый
 
-Stingy -- скупой
+Stingy, close-fisted -- скупой (2 вар)
 
 Tactful -- тактичный
 
@@ -485,6 +481,8 @@ Well-bred -- благовоспитанный
 Witty -- находчивый
 
 amenable -- податливый, сговорчивый
+
+taciturn -- необщительный, неразговорчивый
 
 
 stand one's ground -- держаться принципов
