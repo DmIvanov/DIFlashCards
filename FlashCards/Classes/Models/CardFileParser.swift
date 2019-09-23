@@ -31,7 +31,7 @@ class CardFileParser: NSObject {
             
             let comp = str.components(separatedBy: " -- ")
             if comp.count == 2 {
-                let card = Card(rus: comp[1], eng: comp[0])
+                let card = Card(frontString: comp[1], backString: comp[0])
                 card.path = "\(pathToDisplay)"
                 cds.append(card)
             }

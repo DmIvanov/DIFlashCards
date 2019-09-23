@@ -26,13 +26,15 @@ protocol ListTVDataSource {
 
 class GroupsDataSource: ListTVDataSource {
     
-    let interactor: ListInteractor
+    weak var delegate: GroupsDataSourceDelegate?
+
+    private let storage = GroupsStorage()
 
     // MARK: Lifecycle
-    init(interactor: ListInteractor) {
-        self.interactor = interactor
-    }
     
+    func initialDeck() -> Deck? {
+        return storage.defaultDeck()
+    }
     
     // MARK: ListTVDataSource methods
     
@@ -41,13 +43,13 @@ class GroupsDataSource: ListTVDataSource {
     }
     
     func numberOfItems(section: Int) -> UInt {
-        return interactor.storage.groupsAmount()
+        return storage.groupsAmount()
     }
     
     func item(indexPath: IndexPath) -> ListTVItem? {
         let idx = indexPath.row
-        guard UInt(idx) < interactor.storage.groupsAmount() else {return nil}
-        guard let group = interactor.storage.groupForIdx(idx: UInt(idx)) else {return nil}
+        guard UInt(idx) < storage.groupsAmount() else {return nil}
+        guard let group = storage.groupForIdx(idx: UInt(idx)) else {return nil}
         return ListTVItem(
             title: group.name,
             subtitle: "\(group.decks.count) decks"
@@ -56,9 +58,9 @@ class GroupsDataSource: ListTVDataSource {
 
     func itemSelected(indexPath: IndexPath) {
         let idx = indexPath.row
-        guard UInt(idx) < interactor.storage.groupsAmount() else {return}
-        guard let group = interactor.storage.groupForIdx(idx: UInt(idx)) else {return}
-        interactor.pushNewGroup(group)
+        guard UInt(idx) < storage.groupsAmount() else {return}
+        guard let group = storage.groupForIdx(idx: UInt(idx)) else {return}
+        delegate?.groupWasSelected(group: group)
     }
     
     func title() -> String {
@@ -67,15 +69,20 @@ class GroupsDataSource: ListTVDataSource {
 }
 
 
+protocol GroupsDataSourceDelegate: AnyObject {
+    func groupWasSelected(group: GroupOfDecks)
+}
+
+
 class DecksDataSource: ListTVDataSource {
     
-    let group: GroupOfDecks
-    let interactor: ListInteractor
+    private let group: GroupOfDecks
+    private weak var delegate: DecksDataSourceDelegate?
     
     // MARK: Lifecycle
-    init(group: GroupOfDecks, interactor: ListInteractor) {
+    init(group: GroupOfDecks, delegate: DecksDataSourceDelegate) {
         self.group = group
-        self.interactor = interactor
+        self.delegate = delegate
     }
     
     // MARK: ListTVDataSource methods
@@ -102,10 +109,15 @@ class DecksDataSource: ListTVDataSource {
         let idx = indexPath.row
         guard idx < group.decks.count else {return}
         let deck = group.decks[idx]
-        interactor.deckWasChosen(deck)
+        delegate?.deckWasSelected(deck: deck)
     }
     
     func title() -> String {
         return group.name
     }
+}
+
+
+protocol DecksDataSourceDelegate: AnyObject {
+    func deckWasSelected(deck: Deck)
 }

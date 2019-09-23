@@ -60,7 +60,7 @@ class Deck {
     func filterCardsForSearchText(searchText: String) {
         filteredCards = cards.filter { card in
             let stringToCheck = searchText.lowercased()
-            return card.rusString.lowercased().contains(stringToCheck) || card.engString.lowercased().contains(stringToCheck)
+            return card.frontString.lowercased().contains(stringToCheck) || card.backString.lowercased().contains(stringToCheck)
         }
     }
     

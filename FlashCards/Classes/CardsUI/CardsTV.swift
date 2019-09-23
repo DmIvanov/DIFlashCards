@@ -8,10 +8,10 @@
 
 import UIKit
 
-class CardsTV: UIViewController, CardTVDataSourcePresenter {
+class CardsTV: UIViewController, CardCollectionDataSourcePresenter {
     
     //MARK: Properties
-    fileprivate var dataSource: CardTVDataSource?
+    fileprivate var dataSource: CardCollectionDataSource?
     
     @IBOutlet fileprivate var tableView: UITableView!
     @IBOutlet fileprivate var buttonSideUp: UIBarButtonItem!
@@ -28,7 +28,7 @@ class CardsTV: UIViewController, CardTVDataSourcePresenter {
     }
 
     // MARK: Public
-    func setDataSource(_ dataSource: CardTVDataSource) {
+    func setDataSource(_ dataSource: CardCollectionDataSource) {
         self.dataSource = dataSource
         if isViewLoaded {
             tableView.reloadData()
@@ -76,35 +76,6 @@ class CardsTV: UIViewController, CardTVDataSourcePresenter {
         if (dataSource.deckSize() > 0) {
             tableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: .top, animated: animated)
         }
-    }
-}
-
-
-
-// ----------------------------------------------------------------------------
-// MARK: - UITableViewDelegate, UITableViewDataSource methods
-// ----------------------------------------------------------------------------
-extension CardsTV: UITableViewDelegate, UITableViewDataSource {
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        guard let dataSource = dataSource else { return 0 }
-        return dataSource.deckSize()
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CardCell", for: indexPath) as! CardCell
-        if let dataSource = dataSource {
-            cell.card = dataSource.card(indexPath: indexPath)
-            cell.frontSide = !dataSource.englishSideUp
-        }
-        return cell
-    }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let cell = tableView.cellForRow(at: indexPath) as? CardCell {
-            cell.tapped()
-        }
-        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
 

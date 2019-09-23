@@ -12,12 +12,18 @@ class ListTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     //MARK: Properties
     var dataSource: ListTVDataSource!
-    @IBOutlet var tableView: UITableView!
     
+    private let tableView = UITableView(frame: .zero)
+    private let cellId = "ListTVCell"
     
     //MARK: Lyfecyle
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.dataSource = self
+        tableView.delegate = self
+        tableView.register(ListVCCell.self, forCellReuseIdentifier: cellId)
+        tableView.backgroundColor = ColorScheme.currentScheme.cardFrontBackgroundColor
+        view.pinSubviewToEdges(subview: tableView)
         title = dataSource.title()
     }
 
@@ -32,8 +38,10 @@ class ListTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ListTVCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
         if let item = dataSource.item(indexPath: indexPath) {
+            cell.backgroundColor = UIColor.clear
+            cell.textLabel?.textColor = ColorScheme.currentScheme.cardFrontTextColor
             cell.textLabel?.text = item.title
             cell.detailTextLabel?.text = item.subtitle
         }

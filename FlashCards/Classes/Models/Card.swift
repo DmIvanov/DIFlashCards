@@ -10,15 +10,12 @@ import UIKit
 
 class Card: NSObject {
     
-    //MARK: Properties
-    let rusString: String
-    let engString: String
+    let frontString: String
+    let backString: String
     var path: String?
     
-    
-    //MARK: Lyfecycle
-    init(rus: String, eng: String) {
-        self.rusString = rus
-        self.engString = eng
+    init(frontString: String, backString: String) {
+        self.frontString = frontString
+        self.backString = backString
     }
 }

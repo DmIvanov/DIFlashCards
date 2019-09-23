@@ -1,5 +1,5 @@
 //
-//  CardTVDataSource.swift
+//  CardCollectionDataSource.swift
 //  FlashCards
 //
 //  Created by Dmitrii on 13/01/2018.
@@ -7,13 +7,13 @@
 
 import UIKit
 
-class CardTVDataSource {
+class CardCollectionDataSource {
 
     private(set) var englishSideUp = false
-    private var presenter: CardTVDataSourcePresenter
+    private var presenter: CardCollectionDataSourcePresenter
     private var deck: Deck
 
-    init(deck: Deck, presenter: CardTVDataSourcePresenter) {
+    init(deck: Deck, presenter: CardCollectionDataSourcePresenter) {
         self.deck = deck
         self.presenter = presenter
     }
@@ -51,6 +51,6 @@ class CardTVDataSource {
 }
 
 
-protocol CardTVDataSourcePresenter {
+protocol CardCollectionDataSourcePresenter {
     
 }

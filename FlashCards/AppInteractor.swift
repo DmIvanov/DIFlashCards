@@ -9,31 +9,81 @@ import UIKit;
 
 class AppInteractor {
 
-    var splitVC: UISplitViewController!
-    var listInteractor: ListInteractor!
+    private var splitVC: UISplitViewController!
+    private var listNavigationController: UINavigationController!
+    
+    private var settingsVC: UIViewController?
 
-    func appDidLaunch(options: [UIApplicationLaunchOptionsKey : Any]?, rootVC: UIViewController?) {
-        splitVC = rootVC as! UISplitViewController
-        listInteractor = ListInteractor(interactor: self)
-        let vc = cardsVC(deck: listInteractor.initialDeck()!)
+    func appDidLaunch(options: [UIApplication.LaunchOptionsKey : Any]?, window: UIWindow?) {
+        let groupDataSource = GroupsDataSource()
+        groupDataSource.delegate = self
+        
+        listNavigationController = AppScreenFactory.listVCWrapped(
+            dataSource: groupDataSource,
+            rightBarButton: settingsBarButtonItem()
+        )
+        let cardsNavigationController = AppScreenFactory.cardVCWrapped(deck: groupDataSource.initialDeck()!)
+        
+        splitVC = UISplitViewController(nibName: nil, bundle: nil)
         splitVC.viewControllers = [
-            listInteractor.listRootVC(),
-            vc
+            listNavigationController,
+            cardsNavigationController
         ]
+        
+        window?.rootViewController = splitVC
     }
 
-    func deckWasChosen(_ deck: Deck) {
-        let vc = cardsVC(deck: deck)
+    func pushNewDeck(deck: Deck) {
+        let vc = AppScreenFactory.cardVCWrapped(deck: deck)
         splitVC.showDetailViewController(vc, sender: nil)
     }
-
-    private func cardsVC(deck: Deck) -> UIViewController {
-        let cardsVC = AppScreenFactory().cardVC()
-        let cardsVCDS = CardTVDataSource(
-            deck: deck,
-            presenter: cardsVC
+    
+    func pushNewGroup(group: GroupOfDecks) {
+        let vc = AppScreenFactory.listVC(
+            dataSource: DecksDataSource(group: group, delegate: self),
+            rightBarButton: settingsBarButtonItem()
         )
-        cardsVC.setDataSource(cardsVCDS)
-        return UINavigationController(rootViewController: cardsVC) as UIViewController
+        listNavigationController.pushViewController(vc, animated: true)
+    }
+    
+    private func settingsBarButtonItem() -> UIBarButtonItem {
+        return UIBarButtonItem(
+            barButtonSystemItem: .compose,
+            target: self,
+            action: #selector(settingsButtonPressed)
+        )
+    }
+    
+    private func settingsCloseButtonItem() -> UIBarButtonItem {
+        return UIBarButtonItem(
+            barButtonSystemItem: .stop,
+            target: self,
+            action: #selector(settingsCloseButtonPressed))
+    }
+    
+    @objc private func settingsButtonPressed() {
+        let vc = AppScreenFactory.settingdVC(leftBarButton: settingsCloseButtonItem())
+        splitVC.present(
+            vc,
+            animated: true,
+            completion: nil
+        )
+        settingsVC = vc
+    }
+    
+    @objc private func settingsCloseButtonPressed() {
+        settingsVC?.dismiss(animated: true, completion: nil)
+    }
+}
+
+extension AppInteractor: DecksDataSourceDelegate {
+    func deckWasSelected(deck: Deck) {
+        pushNewDeck(deck: deck)
+    }
+}
+
+extension AppInteractor: GroupsDataSourceDelegate {
+    func groupWasSelected(group: GroupOfDecks) {
+        pushNewGroup(group: group)
     }
 }
