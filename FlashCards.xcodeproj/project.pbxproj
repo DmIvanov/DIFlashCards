@@ -88,6 +88,7 @@
 		28DC6DED1EB5E09500F00EC6 /* _Idioms 2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28DC6DEA1EB5E09500F00EC6 /* _Idioms 2.txt */; };
 		28DC6DEE1EB5E09500F00EC6 /* _Idioms 3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28DC6DEB1EB5E09500F00EC6 /* _Idioms 3.txt */; };
 		3411177D23394C7800248083 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3411177C23394C7800248083 /* ColorScheme.swift */; };
+		3411177F233AAD7C00248083 /* StyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3411177E233AAD7C00248083 /* StyleManager.swift */; };
 		342F7BEB2337F4B400A05B01 /* ListVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F7BEA2337F4B400A05B01 /* ListVCCell.swift */; };
 		342F7BEE2337F82100A05B01 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F7BED2337F82100A05B01 /* SettingsVC.swift */; };
 		34368DFF230DD28600EBBE96 /* CardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34368DFE230DD28600EBBE96 /* CardCollectionViewController.swift */; };
@@ -183,6 +184,7 @@
 		28DC6DEA1EB5E09500F00EC6 /* _Idioms 2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "_Idioms 2.txt"; sourceTree = "<group>"; };
 		28DC6DEB1EB5E09500F00EC6 /* _Idioms 3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "_Idioms 3.txt"; sourceTree = "<group>"; };
 		3411177C23394C7800248083 /* ColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
+		3411177E233AAD7C00248083 /* StyleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleManager.swift; sourceTree = "<group>"; };
 		342F7BEA2337F4B400A05B01 /* ListVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVCCell.swift; sourceTree = "<group>"; };
 		342F7BED2337F82100A05B01 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		34368DFE230DD28600EBBE96 /* CardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewController.swift; sourceTree = "<group>"; };
@@ -407,6 +409,7 @@
 				C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */,
 				28B77F37200A8B7700874732 /* AppInteractor.swift */,
 				28B77F39200AA95A00874732 /* AppScreenFactory.swift */,
+				3411177E233AAD7C00248083 /* StyleManager.swift */,
 				C42E6EFB1C53D7CE00FEC598 /* Assets.xcassets */,
 				28415D911D342F6C0043A93B /* CardsFiles */,
 				C4DB8C491C55153500EA14B6 /* Classes */,
@@ -597,6 +600,7 @@
 				283598971EA4E48800D87160 /* CardsTV.swift in Sources */,
 				342F7BEB2337F4B400A05B01 /* ListVCCell.swift in Sources */,
 				345FFB2C23111CAF00498A4E /* UIView+Autolayout.swift in Sources */,
+				3411177F233AAD7C00248083 /* StyleManager.swift in Sources */,
 				345FFB2E23111D6B00498A4E /* FlowLayoutConfiguration.swift in Sources */,
 				2835989D1EA4E48800D87160 /* GroupsStorage.swift in Sources */,
 			);

@@ -9,20 +9,25 @@ import UIKit;
 
 class AppInteractor {
 
+    private let screenFactory: AppScreenFactory
+    
     private var splitVC: UISplitViewController!
     private var listNavigationController: UINavigationController!
-    
     private var settingsVC: UIViewController?
+    
+    init(screenFactory: AppScreenFactory? = nil) {
+        self.screenFactory = screenFactory ?? AppScreenFactory(styleManager: StyleManager())
+    }
 
     func appDidLaunch(options: [UIApplication.LaunchOptionsKey : Any]?, window: UIWindow?) {
         let groupDataSource = GroupsDataSource()
         groupDataSource.delegate = self
         
-        listNavigationController = AppScreenFactory.listVCWrapped(
+        listNavigationController = screenFactory.listVCWrapped(
             dataSource: groupDataSource,
             rightBarButton: settingsBarButtonItem()
         )
-        let cardsNavigationController = AppScreenFactory.cardVCWrapped(deck: groupDataSource.initialDeck()!)
+        let cardsNavigationController = screenFactory.cardVCWrapped(deck: groupDataSource.initialDeck()!)
         
         splitVC = UISplitViewController(nibName: nil, bundle: nil)
         splitVC.viewControllers = [
@@ -34,12 +39,12 @@ class AppInteractor {
     }
 
     func pushNewDeck(deck: Deck) {
-        let vc = AppScreenFactory.cardVCWrapped(deck: deck)
+        let vc = screenFactory.cardVCWrapped(deck: deck)
         splitVC.showDetailViewController(vc, sender: nil)
     }
     
     func pushNewGroup(group: GroupOfDecks) {
-        let vc = AppScreenFactory.listVC(
+        let vc = screenFactory.listVC(
             dataSource: DecksDataSource(group: group, delegate: self),
             rightBarButton: settingsBarButtonItem()
         )
@@ -62,7 +67,7 @@ class AppInteractor {
     }
     
     @objc private func settingsButtonPressed() {
-        let vc = AppScreenFactory.settingdVC(leftBarButton: settingsCloseButtonItem())
+        let vc = screenFactory.settingdVC(leftBarButton: settingsCloseButtonItem())
         splitVC.present(
             vc,
             animated: true,

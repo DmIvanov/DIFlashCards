@@ -7,8 +7,8 @@
 
 import UIKit
 
-
-struct CardCollectionViewCellConfiguration {
+/*
+struct CardCollectionViewCellConfiguration: Codable {
     
     let font: UIFont
     let turnAnimationOptions: UIView.AnimationOptions
@@ -27,3 +27,4 @@ struct CardCollectionViewCellConfiguration {
         backTextColor: ColorScheme.currentScheme.cardBackTextColor
     )
 }
+*/

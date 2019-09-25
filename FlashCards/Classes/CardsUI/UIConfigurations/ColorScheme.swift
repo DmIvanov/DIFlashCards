@@ -10,7 +10,7 @@ import UIKit
 
 struct ColorScheme {
     
-    enum Name {
+    enum Name: String, CaseIterable {
         case solarized
         case vanGog
         case grayTones
@@ -19,14 +19,14 @@ struct ColorScheme {
         case rustyGun
     }
     
-    func scheme() -> ColorScheme {
-        switch self.name {
-        case .solarized: return ColorScheme.solarized
-        case .vanGog: return ColorScheme.vanGog
-        case .grayTones: return ColorScheme.grayTones
-        case .tangerineTeal: return ColorScheme.tangerineTeal
-        case .contrastRedAndBlue: return ColorScheme.contrastRedAndBlue
-        case .rustyGun: return ColorScheme.rustyGun
+    static func scheme(name: ColorScheme.Name) -> ColorScheme {
+        switch name {
+        case .solarized: return solarized
+        case .vanGog: return vanGog
+        case .grayTones: return grayTones
+        case .tangerineTeal: return tangerineTeal
+        case .contrastRedAndBlue: return contrastRedAndBlue
+        case .rustyGun: return rustyGun
         }
     }
     
@@ -42,7 +42,7 @@ struct ColorScheme {
     
     let name: ColorScheme.Name
     
-    static var currentScheme = ColorScheme.rustyGun
+    static var defaultScheme = ColorScheme.rustyGun
     
     static let solarized = ColorScheme(
         navBarBackgroundColor: UIColor(rgb: 0x002b36),

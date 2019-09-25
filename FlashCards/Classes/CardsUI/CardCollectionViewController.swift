@@ -11,17 +11,15 @@ private let reuseIdentifier = "Cell"
 
 class CardCollectionViewController: UICollectionViewController, CardCollectionDataSourcePresenter {
     
-    let configuration: FlowLayoutConfiguration = FlowLayoutConfiguration.configuration_1
-    let cardConfiguration = CardCollectionViewCellConfiguration.configuration_1
+    private let configuration: FlowLayoutConfiguration = FlowLayoutConfiguration.configuration_1
+    private let styleManager: StyleManager
     
     var dataSource: CardCollectionDataSource!
     
-    init() {
+    init(styleManager: StyleManager) {
+        self.styleManager = styleManager
         let layout = CardsFlowLayout(config: configuration)
         super.init(collectionViewLayout: layout)
-        collectionView?.backgroundColor = ColorScheme.currentScheme.collectionBackground
-        collectionView?.decelerationRate = UIScrollView.DecelerationRate.fast
-        automaticallyAdjustsScrollViewInsets = false
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -30,8 +28,11 @@ class CardCollectionViewController: UICollectionViewController, CardCollectionDa
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.collectionView!.register(CardCollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-        self.edgesForExtendedLayout = []
+        collectionView?.backgroundColor = styleManager.currentColorScheme.collectionBackground
+        collectionView?.decelerationRate = UIScrollView.DecelerationRate.fast
+        automaticallyAdjustsScrollViewInsets = false
+        collectionView?.register(CardCollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+        edgesForExtendedLayout = []
     }
 
     // MARK: UICollectionViewDataSource
@@ -48,20 +49,22 @@ class CardCollectionViewController: UICollectionViewController, CardCollectionDa
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! CardCollectionViewCell
         let card = dataSource.card(indexPath: indexPath)!
-        cell.setUp(card: card, configuration: cardConfiguration)
+        cell.setUp(card: card, colorScheme: styleManager.currentColorScheme)
         return cell
     }
 
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         guard let cell = collectionView.cellForItem(at: indexPath) as? CardCollectionViewCell else { return }
-        cell.turn(animationOptions: configuration.turnAnimationOptions, duration: configuration.turnAnimationDuration)
+        cell.turn(
+            animationOptions: [],
+            duration: 0.3
+        )
     }
 }
 
 class CardCollectionViewCell: UICollectionViewCell  {
     
     var card: Card!
-    var configuration: CardCollectionViewCellConfiguration!
     var frontSide = true
     
     let originalFrontView: CardSideView
@@ -87,11 +90,9 @@ class CardCollectionViewCell: UICollectionViewCell  {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setUp(card: Card, configuration: CardCollectionViewCellConfiguration) {
+    func setUp(card: Card, colorScheme: ColorScheme) {
         self.card = card
-        self.configuration = configuration
-        
-        resetLabels()
+        resetLabels(colorScheme: colorScheme)
     }
     
     func turn(animationOptions: UIView.AnimationOptions, duration: TimeInterval) {
@@ -119,18 +120,18 @@ class CardCollectionViewCell: UICollectionViewCell  {
         pinSubviewToEdges(subview: originalBackView)
     }
     
-    private func resetLabels() {
+    private func resetLabels(colorScheme: ColorScheme) {
         originalFrontView.setUp(
             title: card.frontString,
             subtitle: nil,
-            bgColor: configuration.frontBackgroundColor,
-            textColor: configuration.frontTextColor
+            bgColor: colorScheme.cardFrontBackgroundColor,
+            textColor: colorScheme.cardFrontTextColor
         )
         originalBackView.setUp(
             title: card.backString,
             subtitle: card.path,
-            bgColor: configuration.backBackgroundColor,
-            textColor: configuration.backTextColor
+            bgColor: colorScheme.cardBackBackgroundColor,
+            textColor: colorScheme.cardBackTextColor
         )
     }
 }

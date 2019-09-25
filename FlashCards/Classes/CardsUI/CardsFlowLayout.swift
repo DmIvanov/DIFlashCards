@@ -113,7 +113,7 @@ class CardsFlowLayout: UICollectionViewFlowLayout {
             attributes.center.x = attributes.center.x + shift
         }
         
-        print("index: \(attributes.indexPath), center: \(attributes.center), size: \(attributes.size)")
+//        print("index: \(attributes.indexPath), center: \(attributes.center), size: \(attributes.size)")
         return attributes
     }
     

@@ -13,16 +13,28 @@ class ListTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
     //MARK: Properties
     var dataSource: ListTVDataSource!
     
+    private let styleManager: StyleManager
+
     private let tableView = UITableView(frame: .zero)
     private let cellId = "ListTVCell"
     
     //MARK: Lyfecyle
+    init(styleManager: StyleManager) {
+        self.styleManager = styleManager
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let scheme = styleManager.currentColorScheme
         tableView.dataSource = self
         tableView.delegate = self
         tableView.register(ListVCCell.self, forCellReuseIdentifier: cellId)
-        tableView.backgroundColor = ColorScheme.currentScheme.cardFrontBackgroundColor
+        tableView.backgroundColor = scheme.cardFrontBackgroundColor
         view.pinSubviewToEdges(subview: tableView)
         title = dataSource.title()
     }
@@ -41,7 +53,7 @@ class ListTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
         if let item = dataSource.item(indexPath: indexPath) {
             cell.backgroundColor = UIColor.clear
-            cell.textLabel?.textColor = ColorScheme.currentScheme.cardFrontTextColor
+            cell.textLabel?.textColor = styleManager.currentColorScheme.cardFrontTextColor
             cell.textLabel?.text = item.title
             cell.detailTextLabel?.text = item.subtitle
         }

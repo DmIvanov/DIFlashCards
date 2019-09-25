@@ -14,10 +14,9 @@ struct FlowLayoutConfiguration {
     let sideItemAlpha: CGFloat
     let direction: UICollectionView.ScrollDirection
     let spacingMode: FlowLayoutSpacingMode
-    let turnAnimationOptions: UIView.AnimationOptions
+    //let turnAnimationOptions: UIView.AnimationOptions
     let turnAnimationDuration: TimeInterval
     
-    let cardConfiguration: CardCollectionViewCellConfiguration
     
     static let configuration_1 = FlowLayoutConfiguration(
         sideItemScale: 0.6,
@@ -25,9 +24,8 @@ struct FlowLayoutConfiguration {
         sideItemAlpha: 0.2,
         direction: .vertical,
         spacingMode: FlowLayoutSpacingMode.overlap(visibleOffset: 0),
-        turnAnimationOptions: [UIView.AnimationOptions.transitionFlipFromLeft],
-        turnAnimationDuration: 0.3,
-        cardConfiguration: CardCollectionViewCellConfiguration.configuration_1
+        //turnAnimationOptions: [UIView.AnimationOptions.transitionFlipFromLeft],
+        turnAnimationDuration: 0.3
     )
     
     static let configuration_2 = FlowLayoutConfiguration(
@@ -36,8 +34,7 @@ struct FlowLayoutConfiguration {
         sideItemAlpha: 0.2,
         direction: .vertical,
         spacingMode: FlowLayoutSpacingMode.fixed(spacing: 10),
-        turnAnimationOptions: [UIView.AnimationOptions.transitionFlipFromLeft],
-        turnAnimationDuration: 0.3,
-        cardConfiguration: CardCollectionViewCellConfiguration.configuration_1
+        //turnAnimationOptions: [UIView.AnimationOptions.transitionFlipFromLeft],
+        turnAnimationDuration: 0.3
     )
 }

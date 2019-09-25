@@ -9,21 +9,28 @@ import UIKit
 
 class AppScreenFactory {
     
-    static func customNavigationController(rootVC: UIViewController) -> UINavigationController {
+    let styleManager: StyleManager
+    
+    init(styleManager: StyleManager) {
+        self.styleManager = styleManager
+    }
+    
+    func customNavigationController(rootVC: UIViewController) -> UINavigationController {
         let navigationController = UINavigationController(rootViewController: rootVC)
+        let colorScheme = styleManager.currentColorScheme
         navigationController.navigationBar.isTranslucent = false
-        navigationController.navigationBar.barTintColor = ColorScheme.currentScheme.navBarBackgroundColor
-        navigationController.navigationBar.tintColor = ColorScheme.currentScheme.navBarTextColor
+        navigationController.navigationBar.barTintColor = colorScheme.navBarBackgroundColor
+        navigationController.navigationBar.tintColor = colorScheme.navBarTextColor
         navigationController.navigationBar.titleTextAttributes = [
             NSAttributedString.Key.font: UIFont.italicSystemFont(ofSize: 14.0),
-            NSAttributedString.Key.foregroundColor: ColorScheme.currentScheme.navBarTextColor
+            NSAttributedString.Key.foregroundColor: colorScheme.navBarTextColor
         ]
         
         return navigationController
     }
     
-    static func cardVCWrapped(deck: Deck) -> UINavigationController {
-        let cardsVC = CardCollectionViewController()
+    func cardVCWrapped(deck: Deck) -> UINavigationController {
+        let cardsVC = CardCollectionViewController(styleManager: styleManager)
         let cardsVCDS = CardCollectionDataSource(
             deck: deck,
             presenter: cardsVC
@@ -32,19 +39,20 @@ class AppScreenFactory {
         return  customNavigationController(rootVC: cardsVC)
     }
 
-    static func listVCWrapped(dataSource: ListTVDataSource, rightBarButton: UIBarButtonItem) -> UINavigationController {
-        return customNavigationController(rootVC: listVC(dataSource: dataSource, rightBarButton: rightBarButton))
+    func listVCWrapped(dataSource: ListTVDataSource, rightBarButton: UIBarButtonItem) -> UINavigationController {
+        let vc = listVC(dataSource: dataSource, rightBarButton: rightBarButton)
+        return customNavigationController(rootVC: vc)
     }
     
-    static func listVC(dataSource: ListTVDataSource, rightBarButton: UIBarButtonItem) -> ListTV {
-        let vc = ListTV()
+    func listVC(dataSource: ListTVDataSource, rightBarButton: UIBarButtonItem) -> ListTV {
+        let vc = ListTV(styleManager: styleManager)
         vc.dataSource = dataSource
         vc.navigationItem.rightBarButtonItem = rightBarButton
         return vc
     }
     
-    static func settingdVC(leftBarButton: UIBarButtonItem) -> UIViewController {
-        let settingsVC = SettingsVC()
+    func settingdVC(leftBarButton: UIBarButtonItem) -> UIViewController {
+        let settingsVC = SettingsVC(styleManager: styleManager)
         settingsVC.navigationItem.leftBarButtonItem = leftBarButton
         return customNavigationController(rootVC: settingsVC)
     }
