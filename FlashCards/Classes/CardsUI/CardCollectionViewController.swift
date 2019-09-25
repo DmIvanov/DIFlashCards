@@ -99,7 +99,7 @@ class CardCollectionViewCell: UICollectionViewCell  {
         UIView.transition(from: faceView,
                           to: backView,
                           duration: duration,
-                          options: animationOptions) { (completed) in
+                          options: [UIView.AnimationOptions.transitionFlipFromLeft]) { (completed) in
                             self.pinSubviewToEdges(subview: self.faceView, position: 0)
                             self.frontSide.toggle()
         }
