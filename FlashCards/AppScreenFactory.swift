@@ -56,10 +56,10 @@ class AppScreenFactory {
             NSAttributedString.Key.foregroundColor: colorScheme.navBarTextColor
         ]
         
-        navigationBar?.layer.masksToBounds = false
-        navigationBar?.layer.shadowColor = colorScheme.navBarTextColor.cgColor
-        navigationBar?.layer.shadowOpacity = 0.8
-        navigationBar?.layer.shadowOffset = CGSize(width: 0, height: 1)
+//        navigationBar?.layer.masksToBounds = false
+//        navigationBar?.layer.shadowColor = colorScheme.navBarTextColor.cgColor
+//        navigationBar?.layer.shadowOpacity = 0.8
+//        navigationBar?.layer.shadowOffset = CGSize(width: 0, height: 1)
         
     }
 }

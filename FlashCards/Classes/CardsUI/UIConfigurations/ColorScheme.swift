@@ -83,7 +83,7 @@ struct ColorScheme {
         navBarBackgroundColor: UIColor(rgb: 0xf4f4f4),
         navBarTextColor: UIColor(rgb: 0x373737),
         collectionBackground: UIColor.gray,
-        cardFrontBackgroundColor: UIColor(rgb: 0xf4f4f4),
+        cardFrontBackgroundColor: UIColor.white,
         cardBackBackgroundColor: UIColor(rgb: 0x373737),
         cardFrontTextColor: UIColor(rgb: 0x373737),
         cardBackTextColor: UIColor(rgb: 0xf4f4f4),
