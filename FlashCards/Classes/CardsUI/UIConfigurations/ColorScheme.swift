@@ -39,7 +39,10 @@ struct ColorScheme {
     let cardBackBackgroundColor: UIColor
     let cardFrontTextColor: UIColor
     let cardBackTextColor: UIColor
+    let cardFrontTextColor2: UIColor
+    let cardBackTextColor2: UIColor
     
+    let statusBarStyle: UIStatusBarStyle
     let name: ColorScheme.Name
     
     static var defaultScheme = ColorScheme.rustyGun
@@ -52,6 +55,10 @@ struct ColorScheme {
         cardBackBackgroundColor: UIColor(rgb: 0xeee8d5),
         cardFrontTextColor: UIColor(rgb: 0x268bd2),
         cardBackTextColor: UIColor(rgb: 0x268bd2),
+        cardFrontTextColor2: UIColor(rgb: 0xdc322f),
+        cardBackTextColor2: UIColor(rgb: 0xcb4b16),
+        
+        statusBarStyle: UIStatusBarStyle.lightContent,
         
         name: .solarized
     )
@@ -64,6 +71,10 @@ struct ColorScheme {
         cardBackBackgroundColor: UIColor(rgb: 0x0375b4),
         cardFrontTextColor: UIColor(rgb: 0x0375b4),
         cardBackTextColor: UIColor(rgb: 0xffce00),
+        cardFrontTextColor2: UIColor(rgb: 0x0375b4),
+        cardBackTextColor2: UIColor(rgb: 0xffce00),
+        
+        statusBarStyle: UIStatusBarStyle.lightContent,
         
         name: .vanGog
     )
@@ -76,6 +87,10 @@ struct ColorScheme {
         cardBackBackgroundColor: UIColor(rgb: 0x373737),
         cardFrontTextColor: UIColor(rgb: 0x373737),
         cardBackTextColor: UIColor(rgb: 0xf4f4f4),
+        cardFrontTextColor2: UIColor.gray,
+        cardBackTextColor2: UIColor.white,
+        
+        statusBarStyle: UIStatusBarStyle.default,
         
         name: .grayTones
     )
@@ -88,6 +103,10 @@ struct ColorScheme {
         cardBackBackgroundColor: UIColor(rgb: 0x07889b),
         cardFrontTextColor: UIColor(rgb: 0xebe6e6),
         cardBackTextColor: UIColor(rgb: 0xebe6e6),
+        cardFrontTextColor2: UIColor.white,
+        cardBackTextColor2: UIColor.white,
+        
+        statusBarStyle: UIStatusBarStyle.lightContent,
         
         name: .tangerineTeal
     )
@@ -100,6 +119,10 @@ struct ColorScheme {
         cardBackBackgroundColor: UIColor(rgb: 0x062f4f),
         cardFrontTextColor: UIColor.white,
         cardBackTextColor: UIColor.white,
+        cardFrontTextColor2: UIColor.white,
+        cardBackTextColor2: UIColor.white,
+        
+        statusBarStyle: UIStatusBarStyle.lightContent,
         
         name: .contrastRedAndBlue
     )
@@ -112,20 +135,13 @@ struct ColorScheme {
         cardBackBackgroundColor: UIColor(rgb: 0x233237),
         cardFrontTextColor: UIColor(rgb: 0xebe6e6),
         cardBackTextColor: UIColor(rgb: 0xebe6e6),
+        cardFrontTextColor2: UIColor.white,
+        cardBackTextColor2: UIColor.white,
+        
+        statusBarStyle: UIStatusBarStyle.lightContent,
         
         name: .rustyGun
     )
-    /*
-     static let  = ColorScheme(
-     navBarBackgroundColor: UIColor(rgb: 0x),
-     navBarTextColor: UIColor(rgb: 0x),
-     collectionBackground: UIColor(rgb: 0x),
-     cardFrontBackgroundColor: UIColor(rgb: 0x),
-     cardBackBackgroundColor: UIColor(rgb: 0x),
-     cardFrontTextColor: UIColor(rgb: 0x),
-     cardBackTextColor: UIColor(rgb: 0x)
-     )
-     */
 }
 
 

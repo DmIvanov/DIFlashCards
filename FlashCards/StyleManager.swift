@@ -9,9 +9,12 @@ import Foundation
 
 class StyleManager {
     
+    static let kColorSchemeDidUpdateName = NSNotification.Name("kColorSchemeDidUpdateKey")
+    
     var currentColorScheme: ColorScheme {
         didSet {
             persistentStorage.set(currentColorScheme.name.rawValue, forKey: colorSchemeKey)
+            NotificationCenter.default.post(name: StyleManager.kColorSchemeDidUpdateName, object: self)
         }
     }
     

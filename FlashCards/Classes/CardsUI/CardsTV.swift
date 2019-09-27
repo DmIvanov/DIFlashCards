@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CardsTV: UIViewController, CardCollectionDataSourcePresenter {
+class CardsTV: UIViewController {
     
     //MARK: Properties
     fileprivate var dataSource: CardCollectionDataSource?

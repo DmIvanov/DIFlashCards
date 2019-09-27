@@ -9,17 +9,29 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-class CardCollectionViewController: UICollectionViewController, CardCollectionDataSourcePresenter {
+class CardCollectionViewController: UICollectionViewController {
     
     private let configuration: FlowLayoutConfiguration = FlowLayoutConfiguration.configuration_1
     private let styleManager: StyleManager
     
     var dataSource: CardCollectionDataSource!
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return styleManager.currentColorScheme.statusBarStyle
+    }
+    
     init(styleManager: StyleManager) {
         self.styleManager = styleManager
         let layout = CardsFlowLayout(config: configuration)
         super.init(collectionViewLayout: layout)
+        view.translatesAutoresizingMaskIntoConstraints = false
+        
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(applyColorScheme),
+            name: StyleManager.kColorSchemeDidUpdateName,
+            object: styleManager
+        )
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -28,13 +40,45 @@ class CardCollectionViewController: UICollectionViewController, CardCollectionDa
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        collectionView?.backgroundColor = styleManager.currentColorScheme.collectionBackground
         collectionView?.decelerationRate = UIScrollView.DecelerationRate.fast
         automaticallyAdjustsScrollViewInsets = false
         collectionView?.register(CardCollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
         edgesForExtendedLayout = []
+        
+        applyColorScheme()
+    }
+    
+    // MARK: - Public
+    
+    func showNextCard() {
+        guard let currentItemIndexPath = currentCardIndexPath() else { return }
+        let nextItem = currentItemIndexPath.item + 1
+        guard nextItem < dataSource.deckSize() else { return }
+        let nextElementIndexPath = IndexPath(item: nextItem, section: currentItemIndexPath.section)
+        collectionView.scrollToItem(at: nextElementIndexPath, at: .centeredVertically, animated: true)
     }
 
+    func showPreviousCard() {
+        guard let currentItemIndexPath = currentCardIndexPath() else { return }
+        let prevItem = currentItemIndexPath.item - 1
+        guard prevItem >= 0 else { return }
+        let prevElementIndexPath = IndexPath(item: prevItem, section: currentItemIndexPath.section)
+        collectionView.scrollToItem(at: prevElementIndexPath, at: .centeredVertically, animated: true)
+    }
+    
+    // MARK: - Private
+    
+    private func currentCardIndexPath() -> IndexPath? {
+        let centralCell = collectionView.visibleCells[collectionView.visibleCells.count/2]
+        return collectionView.indexPath(for: centralCell)
+    }
+    
+    @objc private func applyColorScheme() {
+        collectionView?.backgroundColor = styleManager.currentColorScheme.collectionBackground
+        collectionView?.reloadData()
+        setNeedsStatusBarAppearanceUpdate()
+    }
+    
     // MARK: UICollectionViewDataSource
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -124,14 +168,14 @@ class CardCollectionViewCell: UICollectionViewCell  {
         originalFrontView.setUp(
             title: card.frontString,
             subtitle: nil,
-            bgColor: colorScheme.cardFrontBackgroundColor,
-            textColor: colorScheme.cardFrontTextColor
+            colorScheme: colorScheme,
+            front: true
         )
         originalBackView.setUp(
             title: card.backString,
             subtitle: card.path,
-            bgColor: colorScheme.cardBackBackgroundColor,
-            textColor: colorScheme.cardBackTextColor
+            colorScheme: colorScheme,
+            front: false
         )
     }
 }
@@ -150,21 +194,23 @@ final class CardSideView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setUp(title: String, subtitle: String?, bgColor: UIColor, textColor: UIColor) {
-        backgroundColor = bgColor
-        label.textColor = textColor
-        setUpContent(title: title, subtitle: subtitle)
+    func setUp(title: String, subtitle: String?, colorScheme: ColorScheme, front: Bool) {
+        backgroundColor = front ? colorScheme.cardFrontBackgroundColor : colorScheme.cardBackBackgroundColor
+        setUpContent(titleString: title, subtitleString: subtitle, colorScheme: colorScheme, front: front)
     }
     
-    private func setUpContent(title: String, subtitle: String?) {
+    private func setUpContent(titleString: String, subtitleString: String?, colorScheme: ColorScheme, front: Bool) {
+        let titleColor = front ? colorScheme.cardFrontTextColor : colorScheme.cardBackTextColor
         let titleAttributes = [
-            NSAttributedString.Key.font: UIFont(name: "Copperplate", size: 26.0)!
+            NSAttributedString.Key.font: UIFont(name: "Copperplate", size: 26.0)!,
+            NSAttributedString.Key.foregroundColor: titleColor
         ]
-        let title = NSMutableAttributedString(string: title, attributes: titleAttributes)
-        if let sub = subtitle {
+        let title = NSMutableAttributedString(string: titleString, attributes: titleAttributes)
+        let subtitleColor = front ? colorScheme.cardFrontTextColor2 : colorScheme.cardBackTextColor2
+        if let sub = subtitleString {
             let subtitleAttributes = [
-                NSAttributedString.Key.font: UIFont.italicSystemFont(ofSize: 14.0),
-                NSAttributedString.Key.foregroundColor: UIColor.gray
+                NSAttributedString.Key.font: UIFont(name: "Copperplate", size: 12.0)!,
+                NSAttributedString.Key.foregroundColor: subtitleColor
             ]
             let gap = NSAttributedString(string: "\n\n")
             let subtitle = NSAttributedString(string: sub, attributes: subtitleAttributes)

@@ -95,7 +95,11 @@
 		34368E01230DD5B400EBBE96 /* CardsFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34368E00230DD5B400EBBE96 /* CardsFlowLayout.swift */; };
 		345FFB2C23111CAF00498A4E /* UIView+Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345FFB2B23111CAF00498A4E /* UIView+Autolayout.swift */; };
 		345FFB2E23111D6B00498A4E /* FlowLayoutConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345FFB2D23111D6B00498A4E /* FlowLayoutConfiguration.swift */; };
-		347D685423316FEA00190B76 /* CardCollectionViewCellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347D685323316FEA00190B76 /* CardCollectionViewCellConfiguration.swift */; };
+		34AB4C41233EABB9001F6E55 /* StatusbarManagingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AB4C40233EABB9001F6E55 /* StatusbarManagingExtensions.swift */; };
+		34E2D639233C2E670097261B /* CardsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E2D638233C2E670097261B /* CardsVC.swift */; };
+		34E2D63B233C33270097261B /* CardCollectionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E2D63A233C33270097261B /* CardCollectionButtonView.swift */; };
+		34E2D63E233C3AB00097261B /* prev-card-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E2D63C233C3AB00097261B /* prev-card-icon.png */; };
+		34E2D63F233C3AB00097261B /* next-card-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E2D63D233C3AB00097261B /* next-card-icon.png */; };
 		C42E6EF51C53D7CE00FEC598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */; };
 		C42E6EFC1C53D7CE00FEC598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42E6EFB1C53D7CE00FEC598 /* Assets.xcassets */; };
 		C42E6EFF1C53D7CE00FEC598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42E6EFD1C53D7CE00FEC598 /* LaunchScreen.storyboard */; };
@@ -191,7 +195,11 @@
 		34368E00230DD5B400EBBE96 /* CardsFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsFlowLayout.swift; sourceTree = "<group>"; };
 		345FFB2B23111CAF00498A4E /* UIView+Autolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Autolayout.swift"; sourceTree = "<group>"; };
 		345FFB2D23111D6B00498A4E /* FlowLayoutConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayoutConfiguration.swift; sourceTree = "<group>"; };
-		347D685323316FEA00190B76 /* CardCollectionViewCellConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCellConfiguration.swift; sourceTree = "<group>"; };
+		34AB4C40233EABB9001F6E55 /* StatusbarManagingExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusbarManagingExtensions.swift; sourceTree = "<group>"; };
+		34E2D638233C2E670097261B /* CardsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsVC.swift; sourceTree = "<group>"; };
+		34E2D63A233C33270097261B /* CardCollectionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionButtonView.swift; sourceTree = "<group>"; };
+		34E2D63C233C3AB00097261B /* prev-card-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prev-card-icon.png"; sourceTree = "<group>"; };
+		34E2D63D233C3AB00097261B /* next-card-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next-card-icon.png"; sourceTree = "<group>"; };
 		C42E6EF11C53D7CE00FEC598 /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C42E6EFB1C53D7CE00FEC598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -324,6 +332,8 @@
 				28B77F3D200AB70500874732 /* CardCollectionDataSource.swift */,
 				34368DFE230DD28600EBBE96 /* CardCollectionViewController.swift */,
 				34368E00230DD5B400EBBE96 /* CardsFlowLayout.swift */,
+				34E2D638233C2E670097261B /* CardsVC.swift */,
+				34E2D63A233C33270097261B /* CardCollectionButtonView.swift */,
 			);
 			path = CardsUI;
 			sourceTree = "<group>";
@@ -381,7 +391,6 @@
 			isa = PBXGroup;
 			children = (
 				345FFB2D23111D6B00498A4E /* FlowLayoutConfiguration.swift */,
-				347D685323316FEA00190B76 /* CardCollectionViewCellConfiguration.swift */,
 				3411177C23394C7800248083 /* ColorScheme.swift */,
 			);
 			path = UIConfigurations;
@@ -416,6 +425,7 @@
 				C42E6F001C53D7CE00FEC598 /* Info.plist */,
 				C42E6EFD1C53D7CE00FEC598 /* LaunchScreen.storyboard */,
 				C4DB8C5E1C55546700EA14B6 /* Resources */,
+				34AB4C40233EABB9001F6E55 /* StatusbarManagingExtensions.swift */,
 			);
 			path = FlashCards;
 			sourceTree = "<group>";
@@ -435,6 +445,8 @@
 		C4DB8C5E1C55546700EA14B6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				34E2D63D233C3AB00097261B /* next-card-icon.png */,
+				34E2D63C233C3AB00097261B /* prev-card-icon.png */,
 				C4DB8C5F1C55546700EA14B6 /* bg-light.jpg */,
 			);
 			path = Resources;
@@ -525,6 +537,7 @@
 				283598741EA36D6000D87160 /* Misc16.txt in Resources */,
 				288374E51EACE4F9002BC25E /* Harry Potter 2.txt in Resources */,
 				283598781EA36D6000D87160 /* Misc20.txt in Resources */,
+				34E2D63E233C3AB00097261B /* prev-card-icon.png in Resources */,
 				C42E6EFF1C53D7CE00FEC598 /* LaunchScreen.storyboard in Resources */,
 				288374F21EAD351F002BC25E /* Prepositions 3.txt in Resources */,
 				287354A51FC9911000AB8B28 /* Misc24.txt in Resources */,
@@ -561,6 +574,7 @@
 				2835986E1EA36D6000D87160 /* Misc10.txt in Resources */,
 				288374EF1EAD351F002BC25E /* Gerund and Infinitive.txt in Resources */,
 				287558721F31A78A004DA4D6 /* Work 2.txt in Resources */,
+				34E2D63F233C3AB00097261B /* next-card-icon.png in Resources */,
 				2835985E1EA36D6000D87160 /* Friends.txt in Resources */,
 				284CA21A1EE8969800B6D551 /* Misc22.txt in Resources */,
 				283598631EA36D6000D87160 /* Phrasal Verbs.txt in Resources */,
@@ -587,11 +601,13 @@
 				C42E6EF51C53D7CE00FEC598 /* AppDelegate.swift in Sources */,
 				2835989A1EA4E48800D87160 /* Card.swift in Sources */,
 				34368E01230DD5B400EBBE96 /* CardsFlowLayout.swift in Sources */,
-				347D685423316FEA00190B76 /* CardCollectionViewCellConfiguration.swift in Sources */,
 				3411177D23394C7800248083 /* ColorScheme.swift in Sources */,
+				34AB4C41233EABB9001F6E55 /* StatusbarManagingExtensions.swift in Sources */,
+				34E2D63B233C33270097261B /* CardCollectionButtonView.swift in Sources */,
 				28B77F3A200AA95A00874732 /* AppScreenFactory.swift in Sources */,
 				28B77F3E200AB70500874732 /* CardCollectionDataSource.swift in Sources */,
 				283598991EA4E48800D87160 /* ListTVDataSources.swift in Sources */,
+				34E2D639233C2E670097261B /* CardsVC.swift in Sources */,
 				2835989B1EA4E48800D87160 /* CardFileParser.swift in Sources */,
 				34368DFF230DD28600EBBE96 /* CardCollectionViewController.swift in Sources */,
 				2835989C1EA4E48800D87160 /* Deck.swift in Sources */,

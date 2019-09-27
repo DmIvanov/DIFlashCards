@@ -10,12 +10,10 @@ import UIKit
 class CardCollectionDataSource {
 
     private(set) var englishSideUp = false
-    private var presenter: CardCollectionDataSourcePresenter
     private var deck: Deck
 
-    init(deck: Deck, presenter: CardCollectionDataSourcePresenter) {
+    init(deck: Deck) {
         self.deck = deck
-        self.presenter = presenter
     }
 
     func changeCardsSide() {
@@ -48,9 +46,4 @@ class CardCollectionDataSource {
     func enableFiltering(_ enable: Bool) {
         deck.filtering = enable
     }
-}
-
-
-protocol CardCollectionDataSourcePresenter {
-    
 }

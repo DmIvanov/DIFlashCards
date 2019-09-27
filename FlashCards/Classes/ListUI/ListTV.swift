@@ -11,6 +11,7 @@ import UIKit
 class ListTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     //MARK: Properties
+    
     var dataSource: ListTVDataSource!
     
     private let styleManager: StyleManager
@@ -19,9 +20,21 @@ class ListTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
     private let cellId = "ListTVCell"
     
     //MARK: Lyfecyle
+    
     init(styleManager: StyleManager) {
         self.styleManager = styleManager
         super.init(nibName: nil, bundle: nil)
+        
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(applyColorScheme),
+            name: StyleManager.kColorSchemeDidUpdateName,
+            object: styleManager
+        )
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return styleManager.currentColorScheme.statusBarStyle
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -30,17 +43,26 @@ class ListTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let scheme = styleManager.currentColorScheme
         tableView.dataSource = self
         tableView.delegate = self
         tableView.register(ListVCCell.self, forCellReuseIdentifier: cellId)
-        tableView.backgroundColor = scheme.cardFrontBackgroundColor
         view.pinSubviewToEdges(subview: tableView)
         title = dataSource.title()
+        
+        applyColorScheme()
     }
 
+    // MARK: - Private
+    
+    @objc private func applyColorScheme() {
+        let scheme = styleManager.currentColorScheme
+        tableView.backgroundColor = scheme.cardFrontBackgroundColor
+        tableView.reloadData()
+        setNeedsStatusBarAppearanceUpdate()
+    }
     
     // MARK: - Table view data source
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return Int(dataSource.numberOfSections())
     }
@@ -55,6 +77,7 @@ class ListTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
             cell.backgroundColor = UIColor.clear
             cell.textLabel?.textColor = styleManager.currentColorScheme.cardFrontTextColor
             cell.textLabel?.text = item.title
+            cell.detailTextLabel?.textColor = styleManager.currentColorScheme.cardFrontTextColor2
             cell.detailTextLabel?.text = item.subtitle
         }
         return cell
@@ -62,6 +85,7 @@ class ListTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     
     // MARK: - Table view delegate
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         dataSource.itemSelected(indexPath: indexPath)
         tableView.deselectRow(at: indexPath, animated: true)

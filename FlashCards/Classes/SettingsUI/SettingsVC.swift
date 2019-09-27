@@ -9,6 +9,8 @@ import UIKit
 
 class SettingsVC: UIViewController {
 
+    // MARK: - Properties
+    
     private let styleManager: StyleManager
     
     private var colorSchemePicker: UIPickerView!
@@ -16,6 +18,12 @@ class SettingsVC: UIViewController {
     private var cardBack: UIView!
     private var cardFrontLabel: UILabel!
     private var cardBackLabel: UILabel!
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return styleManager.currentColorScheme.statusBarStyle
+    }
+    
+    // MARK: - Lifecycle
     
     init(styleManager: StyleManager) {
         self.styleManager = styleManager
@@ -28,6 +36,7 @@ class SettingsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Color Scheme"
         view.backgroundColor = UIColor.white
         makeLayout()
         resetColorScheme()
@@ -35,6 +44,8 @@ class SettingsVC: UIViewController {
         let currentSchemeIndex = Int(ColorScheme.Name.allCases.firstIndex(of: styleManager.currentColorScheme.name)!)
         colorSchemePicker.selectRow(currentSchemeIndex, inComponent: 0, animated: false)
     }
+    
+    // MARK: - Private
     
     private func makeLayout() {
         colorSchemePicker = UIPickerView.autolayoutView()
@@ -65,7 +76,7 @@ class SettingsVC: UIViewController {
         
         NSLayoutConstraint.activate([
             colorSchemePicker.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            colorSchemePicker.topAnchor.constraint(equalTo: view.topAnchor),
+            colorSchemePicker.topAnchor.constraint(equalTo: view.topAnchor, constant: 2),
             colorSchemePicker.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             
             cardFront.topAnchor.constraint(equalTo: colorSchemePicker.bottomAnchor, constant: 20),
@@ -91,6 +102,7 @@ class SettingsVC: UIViewController {
         
         colorSchemePicker.backgroundColor = scheme.navBarBackgroundColor
         colorSchemePicker.reloadAllComponents()
+        setNeedsStatusBarAppearanceUpdate()
     }
 }
 

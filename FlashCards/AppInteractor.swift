@@ -9,15 +9,35 @@ import UIKit;
 
 class AppInteractor {
 
-    private let screenFactory: AppScreenFactory
+    // MARK: - Properties
     
     private var splitVC: UISplitViewController!
     private var listNavigationController: UINavigationController!
-    private var settingsVC: UIViewController?
+    private var cardsNavigationController: UINavigationController!
+    private var settingsNavigationController: UINavigationController?
+    
+    private let styleManager: StyleManager
+    
+    // MARK: - Dependencies
+    
+    private let screenFactory: AppScreenFactory
+    
+    // MARK: -  Lifecycle
     
     init(screenFactory: AppScreenFactory? = nil) {
-        self.screenFactory = screenFactory ?? AppScreenFactory(styleManager: StyleManager())
+        let styleManager = StyleManager()
+        self.styleManager = styleManager
+        self.screenFactory = screenFactory ?? AppScreenFactory(styleManager: styleManager)
+        
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(applyColorScheme),
+            name: StyleManager.kColorSchemeDidUpdateName,
+            object: styleManager
+        )
     }
+    
+    // MARK: - Public
 
     func appDidLaunch(options: [UIApplication.LaunchOptionsKey : Any]?, window: UIWindow?) {
         let groupDataSource = GroupsDataSource()
@@ -27,7 +47,7 @@ class AppInteractor {
             dataSource: groupDataSource,
             rightBarButton: settingsBarButtonItem()
         )
-        let cardsNavigationController = screenFactory.cardVCWrapped(deck: groupDataSource.initialDeck()!)
+        cardsNavigationController = screenFactory.cardVCWrapped(deck: groupDataSource.initialDeck()!)
         
         splitVC = UISplitViewController(nibName: nil, bundle: nil)
         splitVC.viewControllers = [
@@ -51,6 +71,15 @@ class AppInteractor {
         listNavigationController.pushViewController(vc, animated: true)
     }
     
+    // MARK: - Private
+    
+    @objc private func applyColorScheme() {
+        let newScheme = styleManager.currentColorScheme
+        screenFactory.styleNavigationBar(navigationBar: listNavigationController.navigationBar, colorScheme: newScheme)
+        screenFactory.styleNavigationBar(navigationBar: cardsNavigationController.navigationBar, colorScheme: newScheme)
+        screenFactory.styleNavigationBar(navigationBar: settingsNavigationController?.navigationBar, colorScheme: newScheme)
+    }
+    
     private func settingsBarButtonItem() -> UIBarButtonItem {
         return UIBarButtonItem(
             barButtonSystemItem: .compose,
@@ -67,17 +96,13 @@ class AppInteractor {
     }
     
     @objc private func settingsButtonPressed() {
-        let vc = screenFactory.settingdVC(leftBarButton: settingsCloseButtonItem())
-        splitVC.present(
-            vc,
-            animated: true,
-            completion: nil
-        )
-        settingsVC = vc
+        let nc = screenFactory.settingsNavigationVC(leftBarButton: settingsCloseButtonItem())
+        splitVC.present(nc, animated: true, completion: nil)
+        settingsNavigationController = nc
     }
     
     @objc private func settingsCloseButtonPressed() {
-        settingsVC?.dismiss(animated: true, completion: nil)
+        settingsNavigationController?.dismiss(animated: true, completion: nil)
     }
 }
 
