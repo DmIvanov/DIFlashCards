@@ -9,11 +9,15 @@ import UIKit
 
 class CardsVC: UIViewController {
 
+    // MARK: - Public properties
+    
     var dataSource: CardCollectionDataSource? {
         didSet {
             collectionViewController.dataSource = dataSource
         }
     }
+    
+    // MARK: - Private properties
     
     private let buttonsView: CardCollectionButtonPanel
     private let collectionViewController: CardCollectionViewController
@@ -21,6 +25,8 @@ class CardsVC: UIViewController {
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return collectionViewController.preferredStatusBarStyle
     }
+    
+    // MARK: - Lifecycle
     
     init(styleManager: StyleManager) {
         self.collectionViewController = CardCollectionViewController(styleManager: styleManager)
@@ -42,6 +48,12 @@ class CardsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.rightBarButtonItem = UIBarButtonItem(
+            title: "Shuffle",
+            style: .plain,
+            target: self,
+            action: #selector(shufflePressed)
+        )
         view.addSubview(collectionViewController.view)
         view.addSubview(buttonsView)
         setUpLayout()
@@ -51,6 +63,16 @@ class CardsVC: UIViewController {
         super.viewWillLayoutSubviews()
         
     }
+    
+    //MARK: - Actions
+    
+    @IBAction fileprivate func shufflePressed() {
+        guard let dataSource = dataSource else { return }
+        dataSource.shuffleDeck()
+        collectionViewController.collectionView.reloadData()
+    }
+    
+    // MARK: - Private functions
     
     private func setUpLayout() {
         let collectionView = collectionViewController.view!
@@ -74,6 +96,4 @@ class CardsVC: UIViewController {
     private func previousButtonPressed() {
         collectionViewController.showPreviousCard()
     }
-    
-
 }
