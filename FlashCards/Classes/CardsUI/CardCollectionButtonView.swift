@@ -1,5 +1,5 @@
 //
-//  CardCollectionButtonView.swift
+//  CardCollectionButtonPanel.swift
 //  FlashCards
 //
 //  Created by Dmitrii Ivanov on 26/09/2019.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CardCollectionButtonView: UIView {
+class CardCollectionButtonPanel: UIView {
 
     var nextPressedCallback: (()->())?
     var previousPressedCallback: (()->())?

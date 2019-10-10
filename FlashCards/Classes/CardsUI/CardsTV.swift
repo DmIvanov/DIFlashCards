@@ -46,7 +46,7 @@ class CardsTV: UIViewController {
     @IBAction fileprivate func turnCards() {
         guard let dataSource = dataSource else { return }
         dataSource.changeCardsSide()
-        if dataSource.englishSideUp {
+        if dataSource.frontSide {
             buttonSideUp.title = "eng"
         } else {
             buttonSideUp.title = "rus"

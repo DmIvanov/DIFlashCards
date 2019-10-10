@@ -13,11 +13,10 @@ class SettingsVC: UIViewController {
     
     private let styleManager: StyleManager
     
-    private var colorSchemePicker: UIPickerView!
-    private var cardFront: UIView!
-    private var cardBack: UIView!
-    private var cardFrontLabel: UILabel!
-    private var cardBackLabel: UILabel!
+    private let mainStack = UIStackView.autolayoutView()
+    private var colorSchemePicker: SingleSettingViewController!
+    private var layoutPicker: SingleSettingViewController!
+    private var cardsVC: CardCollectionViewController!
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return styleManager.currentColorScheme.statusBarStyle
@@ -36,100 +35,91 @@ class SettingsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Color Scheme"
-        view.backgroundColor = UIColor.white
+        
+        mainStack.axis = .vertical
+        mainStack.spacing = 4
+        view.pinSubviewToEdges(subview: mainStack)
+        
+        let colorSchemes = ColorScheme.Name.allCases.map { (name) -> String in
+            return name.rawValue
+        }
+        let currentSchemeIndex = Int(ColorScheme.Name.allCases.firstIndex(of: styleManager.currentColorScheme.name)!)
+        colorSchemePicker = SingleSettingViewController(
+            title: "Color Scheme",
+            dataSourse: colorSchemes,
+            delegate: self,
+            styleManager: styleManager,
+            selectedItem: currentSchemeIndex
+        )
+        colorSchemePicker.view.heightAnchor.constraint(equalToConstant: 70).isActive = true
+        addContentController(colorSchemePicker)
+        
+        let configurations = FlowLayoutConfiguration.FlowLayoutConfigurationType.allCases.map { (type) -> String in
+            return type.rawValue
+        }
+        let currentLayoutIndex = Int(FlowLayoutConfiguration.FlowLayoutConfigurationType.allCases.firstIndex(of: styleManager.currentCardsLayout.type)!)
+        layoutPicker = SingleSettingViewController(
+            title: "Cards layout",
+            dataSourse: configurations,
+            delegate: self,
+            styleManager: styleManager,
+            selectedItem: currentLayoutIndex
+        )
+        layoutPicker.view.heightAnchor.constraint(equalToConstant: 70).isActive = true
+        addContentController(layoutPicker)
+        
+        let cards = [
+            Card(frontString: "Here is how the card will look like", backString: "...and that's the back side of it"),
+            Card(frontString: "Here is how the card will look like", backString: "...and that's the back side of it"),
+            Card(frontString: "Here is how the card will look like", backString: "...and that's the back side of it"),
+        ]
+        let deck = Deck(name: "", path: nil, cards: cards)
+        let dataSourse = CardCollectionDataSource(deck: deck)
+        cardsVC = CardCollectionViewController(styleManager: styleManager)
+        cardsVC.dataSource = dataSourse
+        cardsVC.view.heightAnchor.constraint(equalToConstant: 300).isActive = true
+        addContentController(cardsVC)
+        
         makeLayout()
         resetColorScheme()
-        
-        let currentSchemeIndex = Int(ColorScheme.Name.allCases.firstIndex(of: styleManager.currentColorScheme.name)!)
-        colorSchemePicker.selectRow(currentSchemeIndex, inComponent: 0, animated: false)
     }
     
     // MARK: - Private
     
     private func makeLayout() {
-        colorSchemePicker = UIPickerView.autolayoutView()
-        colorSchemePicker.dataSource = self
-        colorSchemePicker.delegate = self
-        view.addSubview(colorSchemePicker)
-        
-        cardFront = UIView.autolayoutView()
-        view.addSubview(cardFront)
-        
-        cardFrontLabel = UILabel.autolayoutView()
-        cardFrontLabel.numberOfLines = 0
-        cardFrontLabel.font = UIFont.systemFont(ofSize: 30)
-        cardFrontLabel.textAlignment = .center
-        cardFrontLabel.text = "That's how the FRONT side of the card will look like."
-        cardFront.pinSubviewToEdges(subview: cardFrontLabel, position: 0, inset: 8)
-        
-        cardBack = UIView.autolayoutView()
-        view.addSubview(cardBack)
-        
-        cardBackLabel = UILabel.autolayoutView()
-        cardBackLabel.numberOfLines = 0
-        cardBackLabel.font = UIFont.systemFont(ofSize: 30)
-        cardBackLabel.textAlignment = .center
-        cardBackLabel.text = "That's how the BACK side of the card will look like."
-        cardBack.pinSubviewToEdges(subview: cardBackLabel, position: 0, inset: 8)
-        
-        
-        NSLayoutConstraint.activate([
-            colorSchemePicker.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            colorSchemePicker.topAnchor.constraint(equalTo: view.topAnchor, constant: 2),
-            colorSchemePicker.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            
-            cardFront.topAnchor.constraint(equalTo: colorSchemePicker.bottomAnchor, constant: 20),
-            
-            cardFront.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 8),
-            cardFront.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -24),
-            
-            cardBack.topAnchor.constraint(equalTo: cardFront.bottomAnchor, constant: -8),
-            
-            cardBack.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 24),
-            cardBack.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -8),
-            ])
+//        view.addSubview(colorSchemePicker.view)
+//        view.addSubview(layoutPicker.view)
+//        view.addSubview(cardsVC.view)
     }
     
     private func resetColorScheme() {
         let scheme = styleManager.currentColorScheme
         
         view.backgroundColor = scheme.collectionBackground
-        cardFront.backgroundColor = scheme.cardFrontBackgroundColor
-        cardFrontLabel.textColor = scheme.cardFrontTextColor
-        cardBack.backgroundColor = scheme.cardBackBackgroundColor
-        cardBackLabel.textColor = scheme.cardBackTextColor
+        colorSchemePicker.resetColorScheme()
+        layoutPicker.resetColorScheme()
         
-        colorSchemePicker.backgroundColor = scheme.navBarBackgroundColor
-        colorSchemePicker.reloadAllComponents()
         setNeedsStatusBarAppearanceUpdate()
+    }
+    
+    private func addContentController(_ child: UIViewController) {
+        addChild(child)
+        mainStack.addArrangedSubview(child.view)
+        child.didMove(toParent: self)
     }
 }
 
-
-extension SettingsVC: UIPickerViewDataSource, UIPickerViewDelegate {
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return ColorScheme.Name.allCases.count
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
-        let title = ColorScheme.Name.allCases[row]
-        let scheme = styleManager.currentColorScheme
-        let attributes = [
-            NSAttributedString.Key.font: UIFont.italicSystemFont(ofSize: 14.0),
-            NSAttributedString.Key.foregroundColor: scheme.navBarTextColor
-        ]
-        return NSAttributedString(string: title.rawValue, attributes: attributes)
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        let schemeName = ColorScheme.Name.allCases[row]
-        let newScheme = ColorScheme.scheme(name: schemeName)
-        styleManager.currentColorScheme = newScheme
-        resetColorScheme()
+extension SettingsVC: SingleSettingViewControllerDelegate {
+    func itemDidSelect(index: Int, sender: SingleSettingViewController) {
+        if sender == colorSchemePicker {
+            let schemeName = ColorScheme.Name.allCases[index]
+            let newScheme = ColorScheme.scheme(name: schemeName)
+            styleManager.currentColorScheme = newScheme
+            resetColorScheme()
+        } else if sender == layoutPicker {
+            let configurationType = FlowLayoutConfiguration.FlowLayoutConfigurationType.allCases[index]
+            let configuration = FlowLayoutConfiguration.configuration(type: configurationType)
+            styleManager.currentCardsLayout = configuration
+        }
     }
 }

@@ -15,7 +15,7 @@ class CardsVC: UIViewController {
         }
     }
     
-    private let buttonsView: CardCollectionButtonView
+    private let buttonsView: CardCollectionButtonPanel
     private let collectionViewController: CardCollectionViewController
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -24,13 +24,16 @@ class CardsVC: UIViewController {
     
     init(styleManager: StyleManager) {
         self.collectionViewController = CardCollectionViewController(styleManager: styleManager)
-        self.buttonsView = CardCollectionButtonView.autolayoutView()
+        self.buttonsView = CardCollectionButtonPanel.autolayoutView()
         self.buttonsView.styleManager = styleManager
         super.init(nibName: nil, bundle: nil)
         addChild(collectionViewController)
         view.backgroundColor = styleManager.currentColorScheme.collectionBackground
         buttonsView.nextPressedCallback = nextButtonPressed
         buttonsView.previousPressedCallback = previousButtonPressed
+        
+        // until prev/next switch doesn't properly work
+        buttonsView.isHidden = true
     }
     
     required init?(coder aDecoder: NSCoder) {

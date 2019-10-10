@@ -9,7 +9,7 @@ import UIKit
 
 class CardCollectionDataSource {
 
-    private(set) var englishSideUp = false
+    private(set) var frontSide = false
     private var deck: Deck
 
     init(deck: Deck) {
@@ -17,7 +17,7 @@ class CardCollectionDataSource {
     }
 
     func changeCardsSide() {
-        englishSideUp = !englishSideUp
+        frontSide.toggle()
     }
 
 

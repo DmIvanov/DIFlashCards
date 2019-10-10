@@ -11,12 +11,12 @@ import UIKit
 struct ColorScheme {
     
     enum Name: String, CaseIterable {
-        case solarized
-        case vanGog
-        case grayTones
-        case tangerineTeal
-        case contrastRedAndBlue
-        case rustyGun
+        case solarized = "Solarized"
+        case vanGog = "Van Gog"
+        case grayTones = "Gray Tones"
+        case tangerineTeal = "Tangerine"
+        case contrastRedAndBlue = "Contrast"
+        case rustyGun = "Rusty Gun"
     }
     
     static func scheme(name: ColorScheme.Name) -> ColorScheme {
