@@ -15,51 +15,23 @@ class AppScreenFactory {
         self.styleManager = styleManager
     }
     
-    func customNavigationController(rootVC: UIViewController) -> UINavigationController {
-        let navigationController = UINavigationController(rootViewController: rootVC)
-        let colorScheme = styleManager.currentColorScheme
-        styleNavigationBar(navigationBar: navigationController.navigationBar, colorScheme: colorScheme)
-        return navigationController
-    }
-    
-    func cardVCWrapped(deck: Deck) -> UINavigationController {
+    func cardsVC(deck: Deck) -> UIViewController {
         let vc = CardsVC(styleManager: styleManager)
         let cardsVCDS = CardCollectionDataSource(deck: deck)
         vc.dataSource = cardsVCDS
-        return  customNavigationController(rootVC: vc)
-    }
-
-    func listVCWrapped(dataSource: ListTVDataSource, rightBarButton: UIBarButtonItem) -> UINavigationController {
-        let vc = listVC(dataSource: dataSource, rightBarButton: rightBarButton)
-        return customNavigationController(rootVC: vc)
+        return vc
     }
     
-    func listVC(dataSource: ListTVDataSource, rightBarButton: UIBarButtonItem) -> ListTV {
+    func listVC(dataSource: ListTVDataSource, rightBarButton: UIBarButtonItem) -> UIViewController {
         let vc = ListTV(styleManager: styleManager)
         vc.dataSource = dataSource
         vc.navigationItem.rightBarButtonItem = rightBarButton
         return vc
     }
     
-    func settingsNavigationVC(leftBarButton: UIBarButtonItem) -> UINavigationController {
+    func settingsVC(leftBarButton: UIBarButtonItem) -> UIViewController {
         let settingsVC = SettingsVC(styleManager: styleManager)
         settingsVC.navigationItem.leftBarButtonItem = leftBarButton
-        return customNavigationController(rootVC: settingsVC)
-    }
-    
-    func styleNavigationBar(navigationBar: UINavigationBar?, colorScheme: ColorScheme) {
-        navigationBar?.isTranslucent = false
-        navigationBar?.barTintColor = colorScheme.navBarBackgroundColor
-        navigationBar?.tintColor = colorScheme.navBarTextColor
-        navigationBar?.shadowImage = UIImage()
-        navigationBar?.titleTextAttributes = [
-            NSAttributedString.Key.foregroundColor: colorScheme.navBarTextColor
-        ]
-        
-//        navigationBar?.layer.masksToBounds = false
-//        navigationBar?.layer.shadowColor = colorScheme.navBarTextColor.cgColor
-//        navigationBar?.layer.shadowOpacity = 0.8
-//        navigationBar?.layer.shadowOffset = CGSize(width: 0, height: 1)
-        
+        return settingsVC
     }
 }

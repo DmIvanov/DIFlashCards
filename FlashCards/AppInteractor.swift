@@ -11,74 +11,49 @@ class AppInteractor {
 
     // MARK: - Properties
     
-    private var splitVC: UISplitViewController!
-    private var listNavigationController: UINavigationController!
-    private var cardsNavigationController: UINavigationController!
-    private var settingsNavigationController: UINavigationController?
-    
-    private let styleManager: StyleManager
-    
-    // MARK: - Dependencies
-    
-    private let screenFactory: AppScreenFactory
+    private var presenter: AppPresenter!
+    private var screenFactory: AppScreenFactory!
     
     // MARK: -  Lifecycle
     
     init(screenFactory: AppScreenFactory? = nil) {
+        let groupDataSource = GroupsDataSource()
         let styleManager = StyleManager()
-        self.styleManager = styleManager
         self.screenFactory = screenFactory ?? AppScreenFactory(styleManager: styleManager)
-        
-        NotificationCenter.default.addObserver(
-            self,
-            selector: #selector(applyColorScheme),
-            name: StyleManager.kColorSchemeDidUpdateName,
-            object: styleManager
+        let listNavigationController = self.screenFactory.listVC(
+            dataSource: groupDataSource,
+            rightBarButton: settingsBarButtonItem()
         )
+        let cardsNavigationController = self.screenFactory.cardsVC(deck: groupDataSource.initialDeck()!)
+
+        groupDataSource.delegate = self
+        
+        presenter = AppPresenter(
+            masterContentVC: listNavigationController,
+            detailContentVC: cardsNavigationController,
+            styleManager: styleManager)
     }
     
     // MARK: - Public
 
     func appDidLaunch(options: [UIApplication.LaunchOptionsKey : Any]?, window: UIWindow?) {
-        let groupDataSource = GroupsDataSource()
-        groupDataSource.delegate = self
-        
-        listNavigationController = screenFactory.listVCWrapped(
-            dataSource: groupDataSource,
-            rightBarButton: settingsBarButtonItem()
-        )
-        cardsNavigationController = screenFactory.cardVCWrapped(deck: groupDataSource.initialDeck()!)
-        
-        splitVC = UISplitViewController(nibName: nil, bundle: nil)
-        splitVC.viewControllers = [
-            listNavigationController,
-            cardsNavigationController
-        ]
-        
-        window?.rootViewController = splitVC
+        window?.rootViewController = presenter.rootVC()
     }
 
     func pushNewDeck(deck: Deck) {
-        let vc = screenFactory.cardVCWrapped(deck: deck)
-        splitVC.showDetailViewController(vc, sender: nil)
+        let newCardsVC = screenFactory.cardsVC(deck: deck)
+        presenter.pushNewDetailVC(detailContentVC: newCardsVC)
     }
     
     func pushNewGroup(group: GroupOfDecks) {
-        let vc = screenFactory.listVC(
+        let newGroupVC = screenFactory.listVC(
             dataSource: DecksDataSource(group: group, delegate: self),
             rightBarButton: settingsBarButtonItem()
         )
-        listNavigationController.pushViewController(vc, animated: true)
+        presenter.pushNewMasterVC(masterContentVC: newGroupVC)
     }
     
     // MARK: - Private
-    
-    @objc private func applyColorScheme() {
-        let newScheme = styleManager.currentColorScheme
-        screenFactory.styleNavigationBar(navigationBar: listNavigationController.navigationBar, colorScheme: newScheme)
-        screenFactory.styleNavigationBar(navigationBar: cardsNavigationController.navigationBar, colorScheme: newScheme)
-        screenFactory.styleNavigationBar(navigationBar: settingsNavigationController?.navigationBar, colorScheme: newScheme)
-    }
     
     private func settingsBarButtonItem() -> UIBarButtonItem {
         return UIBarButtonItem(
@@ -96,13 +71,12 @@ class AppInteractor {
     }
     
     @objc private func settingsButtonPressed() {
-        let nc = screenFactory.settingsNavigationVC(leftBarButton: settingsCloseButtonItem())
-        splitVC.present(nc, animated: true, completion: nil)
-        settingsNavigationController = nc
+        let settingsNavigationController = screenFactory.settingsVC(leftBarButton: settingsCloseButtonItem())
+        presenter.present(viewController: settingsNavigationController)
     }
     
     @objc private func settingsCloseButtonPressed() {
-        settingsNavigationController?.dismiss(animated: true, completion: nil)
+        presenter.dismissCurrentlyPresentingVC()
     }
 }
 

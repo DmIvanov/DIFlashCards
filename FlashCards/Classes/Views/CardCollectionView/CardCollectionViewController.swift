@@ -50,10 +50,9 @@ class CardCollectionViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.translatesAutoresizingMaskIntoConstraints = false
         collectionView?.decelerationRate = UIScrollView.DecelerationRate.fast
-        automaticallyAdjustsScrollViewInsets = false
         collectionView?.register(CardCollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-        edgesForExtendedLayout = []
         
         applyColorScheme()
     }
@@ -74,6 +73,10 @@ class CardCollectionViewController: UICollectionViewController {
         guard prevItem >= 0 else { return }
         let prevElementIndexPath = IndexPath(item: prevItem, section: currentItemIndexPath.section)
         collectionView.scrollToItem(at: prevElementIndexPath, at: .centeredVertically, animated: true)
+    }
+    
+    func reloadData() {
+        collectionView.reloadData()
     }
     
     // MARK: - Private

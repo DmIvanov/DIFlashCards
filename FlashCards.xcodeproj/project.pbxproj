@@ -51,7 +51,6 @@
 		283598861EA36D6000D87160 /* Medicine.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598561EA36D6000D87160 /* Medicine.txt */; };
 		283598871EA36D6000D87160 /* Money.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598571EA36D6000D87160 /* Money.txt */; };
 		283598881EA36D6000D87160 /* Person.txt in Resources */ = {isa = PBXBuildFile; fileRef = 283598581EA36D6000D87160 /* Person.txt */; };
-		283598971EA4E48800D87160 /* CardsTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835988D1EA4E48800D87160 /* CardsTV.swift */; };
 		283598981EA4E48800D87160 /* ListTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835988F1EA4E48800D87160 /* ListTV.swift */; };
 		283598991EA4E48800D87160 /* ListTVDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283598901EA4E48800D87160 /* ListTVDataSources.swift */; };
 		2835989A1EA4E48800D87160 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283598921EA4E48800D87160 /* Card.swift */; };
@@ -99,6 +98,7 @@
 		34AB4C442340D7C3001F6E55 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AB4C432340D7C3001F6E55 /* CardCollectionViewCell.swift */; };
 		34AB4C462340D7F3001F6E55 /* CardSideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AB4C452340D7F3001F6E55 /* CardSideView.swift */; };
 		34AB4C482340D8C0001F6E55 /* SettingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AB4C472340D8C0001F6E55 /* SettingCollectionViewController.swift */; };
+		34B4FEF5237E03D100DF88CE /* AppPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B4FEF4237E03D100DF88CE /* AppPresenter.swift */; };
 		34B95A49234776C6002B6418 /* SingleSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B95A48234776C6002B6418 /* SingleSettingViewController.swift */; };
 		34E2D639233C2E670097261B /* CardsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E2D638233C2E670097261B /* CardsVC.swift */; };
 		34E2D63B233C33270097261B /* CardCollectionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E2D63A233C33270097261B /* CardCollectionButtonView.swift */; };
@@ -155,7 +155,6 @@
 		283598561EA36D6000D87160 /* Medicine.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Medicine.txt; sourceTree = "<group>"; };
 		283598571EA36D6000D87160 /* Money.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Money.txt; sourceTree = "<group>"; };
 		283598581EA36D6000D87160 /* Person.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Person.txt; sourceTree = "<group>"; };
-		2835988D1EA4E48800D87160 /* CardsTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsTV.swift; sourceTree = "<group>"; };
 		2835988F1EA4E48800D87160 /* ListTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTV.swift; sourceTree = "<group>"; };
 		283598901EA4E48800D87160 /* ListTVDataSources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTVDataSources.swift; sourceTree = "<group>"; };
 		283598921EA4E48800D87160 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
@@ -203,6 +202,7 @@
 		34AB4C432340D7C3001F6E55 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		34AB4C452340D7F3001F6E55 /* CardSideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSideView.swift; sourceTree = "<group>"; };
 		34AB4C472340D8C0001F6E55 /* SettingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingCollectionViewController.swift; path = SettingCollectionViewController/SettingCollectionViewController.swift; sourceTree = "<group>"; };
+		34B4FEF4237E03D100DF88CE /* AppPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPresenter.swift; sourceTree = "<group>"; };
 		34B95A48234776C6002B6418 /* SingleSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSettingViewController.swift; sourceTree = "<group>"; };
 		34E2D638233C2E670097261B /* CardsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsVC.swift; sourceTree = "<group>"; };
 		34E2D63A233C33270097261B /* CardCollectionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionButtonView.swift; sourceTree = "<group>"; };
@@ -336,7 +336,6 @@
 			isa = PBXGroup;
 			children = (
 				347D685223316FAC00190B76 /* UIConfigurations */,
-				2835988D1EA4E48800D87160 /* CardsTV.swift */,
 				34368E00230DD5B400EBBE96 /* CardsFlowLayout.swift */,
 				34E2D638233C2E670097261B /* CardsVC.swift */,
 				34E2D63A233C33270097261B /* CardCollectionButtonView.swift */,
@@ -437,6 +436,7 @@
 			children = (
 				C42E6EF41C53D7CE00FEC598 /* AppDelegate.swift */,
 				28B77F37200A8B7700874732 /* AppInteractor.swift */,
+				34B4FEF4237E03D100DF88CE /* AppPresenter.swift */,
 				28B77F39200AA95A00874732 /* AppScreenFactory.swift */,
 				3411177E233AAD7C00248083 /* StyleManager.swift */,
 				C42E6EFB1C53D7CE00FEC598 /* Assets.xcassets */,
@@ -623,6 +623,7 @@
 				34368E01230DD5B400EBBE96 /* CardsFlowLayout.swift in Sources */,
 				3411177D23394C7800248083 /* ColorScheme.swift in Sources */,
 				34AB4C482340D8C0001F6E55 /* SettingCollectionViewController.swift in Sources */,
+				34B4FEF5237E03D100DF88CE /* AppPresenter.swift in Sources */,
 				34AB4C41233EABB9001F6E55 /* StatusbarManagingExtensions.swift in Sources */,
 				34E2D63B233C33270097261B /* CardCollectionButtonView.swift in Sources */,
 				28B77F3A200AA95A00874732 /* AppScreenFactory.swift in Sources */,
@@ -635,7 +636,6 @@
 				34AB4C442340D7C3001F6E55 /* CardCollectionViewCell.swift in Sources */,
 				283598981EA4E48800D87160 /* ListTV.swift in Sources */,
 				28B77F38200A8B7700874732 /* AppInteractor.swift in Sources */,
-				283598971EA4E48800D87160 /* CardsTV.swift in Sources */,
 				342F7BEB2337F4B400A05B01 /* ListVCCell.swift in Sources */,
 				345FFB2C23111CAF00498A4E /* UIView+Autolayout.swift in Sources */,
 				34B95A49234776C6002B6418 /* SingleSettingViewController.swift in Sources */,
