@@ -62,6 +62,9 @@ class CardsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = dataSource?.deckName()
+        
         navigationItem.rightBarButtonItem = UIBarButtonItem(
             title: "Shuffle",
             style: .plain,

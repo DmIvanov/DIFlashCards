@@ -36,6 +36,8 @@ class SettingsVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "Settings"
+        
         mainStack.axis = .vertical
         mainStack.spacing = 4
         view.pinSubviewToEdges(subview: mainStack)
