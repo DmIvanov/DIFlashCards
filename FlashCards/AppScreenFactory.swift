@@ -22,7 +22,7 @@ class AppScreenFactory {
         return vc
     }
     
-    func listVC(dataSource: ListTVDataSource, rightBarButton: UIBarButtonItem) -> UIViewController {
+    func listVC(dataSource: DecksDataSource, rightBarButton: UIBarButtonItem) -> UIViewController {
         let vc = ListTV(styleManager: styleManager)
         vc.dataSource = dataSource
         vc.navigationItem.rightBarButtonItem = rightBarButton

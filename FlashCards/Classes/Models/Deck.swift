@@ -20,12 +20,10 @@ class Deck {
     
     
     //MARK: Lyfecycle
-    init(name: String, path: String? = nil, cards: [Card]? = nil) {
+    init(name: String, cards: [Card]? = nil) {
         self.name = name
         if let cs = cards {
             self.cards = cs
-        } else if path != nil {
-            self.cards = Deck.cardsFromFile(name, path: path!)
         } else {
             self.cards = [Card]()
         }
@@ -62,12 +60,6 @@ class Deck {
             let stringToCheck = searchText.lowercased()
             return card.frontString.lowercased().contains(stringToCheck) || card.backString.lowercased().contains(stringToCheck)
         }
-    }
-    
-    
-    //MARK: Private
-    fileprivate class func cardsFromFile(_ name: String, path: String) -> [Card]{
-        return CardFileParser.arrayFromContentsOfFile(name, pathToDisplay: path)
     }
 }
 

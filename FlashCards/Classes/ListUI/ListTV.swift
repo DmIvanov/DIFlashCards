@@ -12,7 +12,7 @@ class ListTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     //MARK: Properties
     
-    var dataSource: ListTVDataSource!
+    var dataSource: DecksDataSource!
     
     private let styleManager: StyleManager
 

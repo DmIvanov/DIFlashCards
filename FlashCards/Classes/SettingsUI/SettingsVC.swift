@@ -75,7 +75,7 @@ class SettingsVC: UIViewController {
             Card(frontString: "Here is how the card will look like", backString: "...and that's the back side of it"),
             Card(frontString: "Here is how the card will look like", backString: "...and that's the back side of it"),
         ]
-        let deck = Deck(name: "", path: nil, cards: cards)
+        let deck = Deck(name: "", cards: cards)
         let dataSourse = CardCollectionDataSource(deck: deck)
         cardsVC = CardCollectionViewController(styleManager: styleManager)
         cardsVC.dataSource = dataSourse

@@ -17,7 +17,7 @@ class AppInteractor {
     // MARK: -  Lifecycle
     
     init(screenFactory: AppScreenFactory? = nil) {
-        let groupDataSource = GroupsDataSource()
+        let groupDataSource = DecksStorage().decksDataSource(delegate: self)
         let styleManager = StyleManager()
         self.screenFactory = screenFactory ?? AppScreenFactory(styleManager: styleManager)
         let listNavigationController = self.screenFactory.listVC(
@@ -25,8 +25,6 @@ class AppInteractor {
             rightBarButton: settingsBarButtonItem()
         )
         let cardsNavigationController = self.screenFactory.cardsVC(deck: groupDataSource.initialDeck()!)
-
-        groupDataSource.delegate = self
         
         presenter = AppPresenter(
             masterContentVC: listNavigationController,
@@ -46,8 +44,10 @@ class AppInteractor {
     }
     
     func pushNewGroup(group: GroupOfDecks) {
+        let dataSource = PlainDecksDataSource(name: group.name, decks: group.decks)
+        dataSource.delegate = self
         let newGroupVC = screenFactory.listVC(
-            dataSource: DecksDataSource(group: group, delegate: self),
+            dataSource: dataSource,
             rightBarButton: settingsBarButtonItem()
         )
         presenter.pushNewMasterVC(masterContentVC: newGroupVC)
@@ -80,13 +80,13 @@ class AppInteractor {
     }
 }
 
-extension AppInteractor: DecksDataSourceDelegate {
+extension AppInteractor: PlainDecksDataSourceDelegate {
     func deckWasSelected(deck: Deck) {
         pushNewDeck(deck: deck)
     }
 }
 
-extension AppInteractor: GroupsDataSourceDelegate {
+extension AppInteractor: GroupDecksDataSourceDelegate {
     func groupWasSelected(group: GroupOfDecks) {
         pushNewGroup(group: group)
     }

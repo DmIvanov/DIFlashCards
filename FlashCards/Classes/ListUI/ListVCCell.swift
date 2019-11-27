@@ -28,5 +28,9 @@ class ListVCCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+}
 
+struct ListTVItem {
+    let title: String
+    let subtitle: String
 }

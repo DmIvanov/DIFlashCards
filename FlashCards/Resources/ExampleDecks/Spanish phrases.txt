@@ -1,0 +1,22 @@
+Hola -- “Hello”
+¿Qué tal? -- “How are you?”
+¿Qué pasa? -- “What’s up?”
+¿Cómo te va? -- “How’re you doing?”
+Bien -- “Good”
+Muy bien -- “Very good”
+Así así -- “So-so”
+No tan bien -- “Not so good”
+¿Y tú? -- “And you?”
+Me llamo… -- “My name is…”
+¿Cómo te llamas? -- “What’s your name?”
+Mucho gusto -- “Nice to meet you”
+Placér -- “A pleasure”
+Encantado/Encantada -- “Charmed”, “Likewise”
+Nos vemos mañana -- “See you tomorrow”
+Hasta luego -- “See you later”
+Hasta pronto amigo -- “See you soon, friend”
+Gracias -- “Thank you”
+De nada -- “You’re welcome”
+No hay de qué -- “No problem”
+Disculpe -- “Excuse me”
+Lo siento -- “I’m sorry”
