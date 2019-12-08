@@ -1,5 +1,5 @@
 //
-//  SettingsVC.swift
+//  LayoutSettingsVC.swift
 //  FlashCards
 //
 //  Created by Dmitrii Ivanov on 22/09/2019.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SettingsVC: UIViewController {
+class LayoutSettingsVC: UIViewController {
 
     // MARK: - Properties
     
@@ -36,12 +36,22 @@ class SettingsVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Settings"
+        title = "Layout Settings"
         
         mainStack.axis = .vertical
         mainStack.spacing = 4
         view.pinSubviewToEdges(subview: mainStack)
         
+        addColorSchemePicker()
+        addLayoutPicker()
+        addCardsCollectionExample()
+
+        resetColorScheme()
+    }
+    
+    // MARK: - Private
+    
+    private func addColorSchemePicker() {
         let colorSchemes = ColorScheme.Name.allCases.map { (name) -> String in
             return name.rawValue
         }
@@ -55,7 +65,9 @@ class SettingsVC: UIViewController {
         )
         colorSchemePicker.view.heightAnchor.constraint(equalToConstant: 70).isActive = true
         addContentController(colorSchemePicker)
-        
+    }
+    
+    private func addLayoutPicker() {
         let configurations = FlowLayoutConfiguration.FlowLayoutConfigurationType.allCases.map { (type) -> String in
             return type.rawValue
         }
@@ -69,11 +81,15 @@ class SettingsVC: UIViewController {
         )
         layoutPicker.view.heightAnchor.constraint(equalToConstant: 70).isActive = true
         addContentController(layoutPicker)
-        
+    }
+    
+    private func addCardsCollectionExample() {
+        let frontSideText = "Here is how the card will look like"
+        let backSideText = "...and that's the back side of it"
         let cards = [
-            Card(frontString: "Here is how the card will look like", backString: "...and that's the back side of it"),
-            Card(frontString: "Here is how the card will look like", backString: "...and that's the back side of it"),
-            Card(frontString: "Here is how the card will look like", backString: "...and that's the back side of it"),
+            Card(frontString: frontSideText, backString: backSideText),
+            Card(frontString: frontSideText, backString: backSideText),
+            Card(frontString: frontSideText, backString: backSideText)
         ]
         let deck = Deck(name: "", cards: cards)
         let dataSourse = CardCollectionDataSource(deck: deck)
@@ -81,17 +97,6 @@ class SettingsVC: UIViewController {
         cardsVC.dataSource = dataSourse
         cardsVC.view.heightAnchor.constraint(equalToConstant: 300).isActive = true
         addContentController(cardsVC)
-        
-        makeLayout()
-        resetColorScheme()
-    }
-    
-    // MARK: - Private
-    
-    private func makeLayout() {
-//        view.addSubview(colorSchemePicker.view)
-//        view.addSubview(layoutPicker.view)
-//        view.addSubview(cardsVC.view)
     }
     
     private func resetColorScheme() {
@@ -111,7 +116,7 @@ class SettingsVC: UIViewController {
     }
 }
 
-extension SettingsVC: SingleSettingViewControllerDelegate {
+extension LayoutSettingsVC: SingleSettingViewControllerDelegate {
     func itemDidSelect(index: Int, sender: SingleSettingViewController) {
         if sender == colorSchemePicker {
             let schemeName = ColorScheme.Name.allCases[index]

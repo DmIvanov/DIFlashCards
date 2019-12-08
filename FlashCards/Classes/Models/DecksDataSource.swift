@@ -9,12 +9,7 @@
 import UIKit
 
 
-protocol DecksDataSource {
-    func numberOfSections() -> Int
-    func numberOfItems(section: Int) -> Int
-    func item(indexPath: IndexPath) -> ListTVItem?
-    func itemSelected(indexPath: IndexPath)
-    func title() -> String
+protocol DecksDataSource: ListDataSource {
     func initialDeck() -> Deck?
 }
 
@@ -52,11 +47,11 @@ class GroupDecksDataSource: DecksDataSource {
         return groupsOfDecks.count
     }
     
-    func item(indexPath: IndexPath) -> ListTVItem? {
+    func item(indexPath: IndexPath) -> ListItem? {
         let idx = indexPath.row
         guard idx < groupsOfDecks.count else { return nil }
         guard let group = groupForIdx(idx: idx) else { return nil }
-        return ListTVItem(
+        return ListItem(
             title: group.name,
             subtitle: "\(group.decks.count) decks"
         )
@@ -116,11 +111,11 @@ class PlainDecksDataSource: DecksDataSource {
         return decks.count
     }
     
-    func item(indexPath: IndexPath) -> ListTVItem? {
+    func item(indexPath: IndexPath) -> ListItem? {
         let idx = indexPath.row
         guard idx < decks.count else {return nil}
         let deck = decks[idx]
-        return ListTVItem(
+        return ListItem(
             title: deck.name,
             subtitle: "\(deck.cardsAmount()) cards"
         )

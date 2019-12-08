@@ -14,10 +14,13 @@ class DecksStorage {
         let bundleRetriever = BundleRetriever()
         let fileSystemRetriever = FileSystemRetriever()
         
-        let fileSystemResult = fileSystemRetriever.decksFromDocuments(cardParser: cardParser)
-        let bundleResult = bundleRetriever.decksFromBundle(cardParser: cardParser)
-        let result = RetrievedResult(decks: fileSystemResult.decks + bundleResult.decks,
-                                     allCards: fileSystemResult.allCards + bundleResult.allCards)
+        // retrieving cards from Documents folder
+        var result = fileSystemRetriever.decksFromDocuments(cardParser: cardParser)
+        
+        if result.allCards.count == 0 {
+            // retrieving example cards from the bundel
+            result = bundleRetriever.decksFromBundle(cardParser: cardParser)
+        }
         
         if let groupsStructure = fileSystemRetriever.structureConfigFromDocuments() {
             return groupDataSource(groupsStructure: groupsStructure,

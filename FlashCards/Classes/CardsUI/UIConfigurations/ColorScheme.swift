@@ -144,6 +144,24 @@ struct ColorScheme {
     )
 }
 
+extension ColorScheme {
+    
+    func customNavigationController(rootVC: UIViewController) -> UINavigationController {
+        let navigationController = UINavigationController(rootViewController: rootVC)
+        styleNavigationBar(navigationBar: navigationController.navigationBar)
+        return navigationController
+    }
+    
+    func styleNavigationBar(navigationBar: UINavigationBar?) {
+        navigationBar?.isTranslucent = false
+        navigationBar?.barTintColor = navBarBackgroundColor
+        navigationBar?.tintColor = navBarTextColor
+        navigationBar?.shadowImage = UIImage()
+        navigationBar?.titleTextAttributes = [
+            NSAttributedString.Key.foregroundColor: navBarTextColor
+        ]
+    }
+}
 
 extension UIColor {
     

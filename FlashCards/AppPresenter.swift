@@ -20,12 +20,12 @@ class AppPresenter {
     
     init(masterContentVC: UIViewController, detailContentVC: UIViewController, styleManager: StyleManager) {
         self.styleManager = styleManager
-        self.masterNC = customNavigationController(rootVC: masterContentVC)
+        self.masterNC = styleManager.currentColorScheme.customNavigationController(rootVC: masterContentVC)
         
         let isIPad = UIScreen.main.traitCollection.userInterfaceIdiom == .pad
         
         if isIPad {
-            detailNC = customNavigationController(rootVC: detailContentVC)
+            detailNC = styleManager.currentColorScheme.customNavigationController(rootVC: detailContentVC)
             splitVC = UISplitViewController(nibName: nil, bundle: nil)
             splitVC?.viewControllers = [masterNC, detailNC]
         } else {
@@ -52,7 +52,7 @@ class AppPresenter {
     
     func pushNewDetailVC(detailContentVC: UIViewController) {
         if let splitViewController = splitVC {
-            let nc = customNavigationController(rootVC: detailContentVC)
+            let nc = styleManager.currentColorScheme.customNavigationController(rootVC: detailContentVC)
             splitViewController.showDetailViewController(nc, sender: nil)
         } else {
             masterNC.pushViewController(detailContentVC, animated: true)
@@ -64,7 +64,7 @@ class AppPresenter {
     }
     
     func present(viewController: UIViewController, wrapToNavigation: Bool = true) {
-        let vcToPresent = wrapToNavigation ? customNavigationController(rootVC: viewController) : viewController
+        let vcToPresent = wrapToNavigation ? styleManager.currentColorScheme.customNavigationController(rootVC: viewController) : viewController
         let hostVC: UIViewController
         if let splitViewController = splitVC {
             hostVC = splitViewController
@@ -86,29 +86,12 @@ class AppPresenter {
     
     @objc private func applyColorScheme() {
         let newScheme = styleManager.currentColorScheme
-        styleNavigationBar(navigationBar: masterNC.navigationBar, colorScheme: newScheme)
+        newScheme.styleNavigationBar(navigationBar: masterNC.navigationBar)
         if let presentedNC = presentedVC as? UINavigationController {
-            styleNavigationBar(navigationBar: presentedNC.navigationBar, colorScheme: newScheme)
+            newScheme.styleNavigationBar(navigationBar: presentedNC.navigationBar)
         }
         if detailNC != masterNC {
-            styleNavigationBar(navigationBar: detailNC.navigationBar, colorScheme: newScheme)
+            newScheme.styleNavigationBar(navigationBar: detailNC.navigationBar)
         }
-    }
-    
-    private func customNavigationController(rootVC: UIViewController) -> UINavigationController {
-        let navigationController = UINavigationController(rootViewController: rootVC)
-        let colorScheme = styleManager.currentColorScheme
-        styleNavigationBar(navigationBar: navigationController.navigationBar, colorScheme: colorScheme)
-        return navigationController
-    }
-    
-    func styleNavigationBar(navigationBar: UINavigationBar?, colorScheme: ColorScheme) {
-        navigationBar?.isTranslucent = false
-        navigationBar?.barTintColor = colorScheme.navBarBackgroundColor
-        navigationBar?.tintColor = colorScheme.navBarTextColor
-        navigationBar?.shadowImage = UIImage()
-        navigationBar?.titleTextAttributes = [
-            NSAttributedString.Key.foregroundColor: colorScheme.navBarTextColor
-        ]
     }
 }

@@ -15,10 +15,12 @@
 		28B77F38200A8B7700874732 /* AppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B77F37200A8B7700874732 /* AppInteractor.swift */; };
 		28B77F3A200AA95A00874732 /* AppScreenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B77F39200AA95A00874732 /* AppScreenFactory.swift */; };
 		28B77F3E200AB70500874732 /* CardCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B77F3D200AB70500874732 /* CardCollectionDataSource.swift */; };
+		34093411238F1DF1003F5ACB /* SettingsListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34093410238F1DF1003F5ACB /* SettingsListDataSource.swift */; };
+		34093413238F2172003F5ACB /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34093412238F2172003F5ACB /* SettingsCoordinator.swift */; };
 		3411177D23394C7800248083 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3411177C23394C7800248083 /* ColorScheme.swift */; };
 		3411177F233AAD7C00248083 /* StyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3411177E233AAD7C00248083 /* StyleManager.swift */; };
-		342F7BEB2337F4B400A05B01 /* ListVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F7BEA2337F4B400A05B01 /* ListVCCell.swift */; };
-		342F7BEE2337F82100A05B01 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F7BED2337F82100A05B01 /* SettingsVC.swift */; };
+		342F7BEB2337F4B400A05B01 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F7BEA2337F4B400A05B01 /* ListCell.swift */; };
+		342F7BEE2337F82100A05B01 /* LayoutSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F7BED2337F82100A05B01 /* LayoutSettingsVC.swift */; };
 		34368DFF230DD28600EBBE96 /* CardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34368DFE230DD28600EBBE96 /* CardCollectionViewController.swift */; };
 		34368E01230DD5B400EBBE96 /* CardsFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34368E00230DD5B400EBBE96 /* CardsFlowLayout.swift */; };
 		34523263238741E300D58B60 /* structure.json in Resources */ = {isa = PBXBuildFile; fileRef = 34523262238741E300D58B60 /* structure.json */; };
@@ -52,10 +54,12 @@
 		28B77F37200A8B7700874732 /* AppInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInteractor.swift; sourceTree = "<group>"; };
 		28B77F39200AA95A00874732 /* AppScreenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScreenFactory.swift; sourceTree = "<group>"; };
 		28B77F3D200AB70500874732 /* CardCollectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionDataSource.swift; sourceTree = "<group>"; };
+		34093410238F1DF1003F5ACB /* SettingsListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsListDataSource.swift; sourceTree = "<group>"; };
+		34093412238F2172003F5ACB /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
 		3411177C23394C7800248083 /* ColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
 		3411177E233AAD7C00248083 /* StyleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleManager.swift; sourceTree = "<group>"; };
-		342F7BEA2337F4B400A05B01 /* ListVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVCCell.swift; sourceTree = "<group>"; };
-		342F7BED2337F82100A05B01 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		342F7BEA2337F4B400A05B01 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		342F7BED2337F82100A05B01 /* LayoutSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSettingsVC.swift; sourceTree = "<group>"; };
 		34368DFE230DD28600EBBE96 /* CardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewController.swift; sourceTree = "<group>"; };
 		34368E00230DD5B400EBBE96 /* CardsFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsFlowLayout.swift; sourceTree = "<group>"; };
 		34523262238741E300D58B60 /* structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = structure.json; sourceTree = "<group>"; };
@@ -108,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				2835988F1EA4E48800D87160 /* ListTV.swift */,
-				342F7BEA2337F4B400A05B01 /* ListVCCell.swift */,
+				342F7BEA2337F4B400A05B01 /* ListCell.swift */,
 			);
 			path = ListUI;
 			sourceTree = "<group>";
@@ -128,7 +132,9 @@
 		342F7BEC2337F80100A05B01 /* SettingsUI */ = {
 			isa = PBXGroup;
 			children = (
-				342F7BED2337F82100A05B01 /* SettingsVC.swift */,
+				342F7BED2337F82100A05B01 /* LayoutSettingsVC.swift */,
+				34093410238F1DF1003F5ACB /* SettingsListDataSource.swift */,
+				34093412238F2172003F5ACB /* SettingsCoordinator.swift */,
 			);
 			path = SettingsUI;
 			sourceTree = "<group>";
@@ -309,7 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				342F7BEE2337F82100A05B01 /* SettingsVC.swift in Sources */,
+				342F7BEE2337F82100A05B01 /* LayoutSettingsVC.swift in Sources */,
 				C42E6EF51C53D7CE00FEC598 /* AppDelegate.swift in Sources */,
 				2835989A1EA4E48800D87160 /* Card.swift in Sources */,
 				3452326523888D4200D58B60 /* DecksStorage.swift in Sources */,
@@ -329,12 +335,14 @@
 				34AB4C442340D7C3001F6E55 /* CardCollectionViewCell.swift in Sources */,
 				283598981EA4E48800D87160 /* ListTV.swift in Sources */,
 				28B77F38200A8B7700874732 /* AppInteractor.swift in Sources */,
-				342F7BEB2337F4B400A05B01 /* ListVCCell.swift in Sources */,
+				342F7BEB2337F4B400A05B01 /* ListCell.swift in Sources */,
 				345FFB2C23111CAF00498A4E /* UIView+Autolayout.swift in Sources */,
 				34B95A49234776C6002B6418 /* SingleSettingViewController.swift in Sources */,
 				3411177F233AAD7C00248083 /* StyleManager.swift in Sources */,
 				345FFB2E23111D6B00498A4E /* FlowLayoutConfiguration.swift in Sources */,
+				34093413238F2172003F5ACB /* SettingsCoordinator.swift in Sources */,
 				34AB4C462340D7F3001F6E55 /* CardSideView.swift in Sources */,
+				34093411238F1DF1003F5ACB /* SettingsListDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

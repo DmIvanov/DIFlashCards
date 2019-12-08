@@ -1,5 +1,5 @@
 //
-//  HeadingTV.swift
+//  ListTV.swift
 //  FlashCards
 //
 //  Created by Dmitry Ivanov on 24.01.16.
@@ -12,7 +12,7 @@ class ListTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     //MARK: Properties
     
-    var dataSource: DecksDataSource!
+    var dataSource: ListDataSource!
     
     private let styleManager: StyleManager
 
@@ -45,7 +45,7 @@ class ListTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
-        tableView.register(ListVCCell.self, forCellReuseIdentifier: cellId)
+        tableView.register(ListCell.self, forCellReuseIdentifier: cellId)
         view.pinSubviewToEdges(subview: tableView)
         title = dataSource.title()
         
@@ -72,13 +72,9 @@ class ListTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! ListCell
         if let item = dataSource.item(indexPath: indexPath) {
-            cell.backgroundColor = UIColor.clear
-            cell.textLabel?.textColor = styleManager.currentColorScheme.cardFrontTextColor
-            cell.textLabel?.text = item.title
-            cell.detailTextLabel?.textColor = styleManager.currentColorScheme.cardFrontTextColor2
-            cell.detailTextLabel?.text = item.subtitle
+            cell.update(item: item, colorScheme: styleManager.currentColorScheme)
         }
         return cell
     }
@@ -90,4 +86,12 @@ class ListTV: UIViewController, UITableViewDelegate, UITableViewDataSource {
         dataSource.itemSelected(indexPath: indexPath)
         tableView.deselectRow(at: indexPath, animated: true)
     }
+}
+
+protocol ListDataSource {
+    func numberOfSections() -> Int
+    func numberOfItems(section: Int) -> Int
+    func item(indexPath: IndexPath) -> ListItem?
+    func itemSelected(indexPath: IndexPath)
+    func title() -> String
 }

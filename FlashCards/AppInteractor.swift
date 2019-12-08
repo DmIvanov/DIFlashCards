@@ -11,14 +11,18 @@ class AppInteractor {
 
     // MARK: - Properties
     
+    private let styleManager: StyleManager
     private var presenter: AppPresenter!
     private var screenFactory: AppScreenFactory!
+    
+    private var settingsCoordinator: SettingsCoordinator?
     
     // MARK: -  Lifecycle
     
     init(screenFactory: AppScreenFactory? = nil) {
+        styleManager = StyleManager()
+        
         let groupDataSource = DecksStorage().decksDataSource(delegate: self)
-        let styleManager = StyleManager()
         self.screenFactory = screenFactory ?? AppScreenFactory(styleManager: styleManager)
         let listNavigationController = self.screenFactory.listVC(
             dataSource: groupDataSource,
@@ -56,11 +60,9 @@ class AppInteractor {
     // MARK: - Private
     
     private func settingsBarButtonItem() -> UIBarButtonItem {
-        return UIBarButtonItem(
-            barButtonSystemItem: .compose,
-            target: self,
-            action: #selector(settingsButtonPressed)
-        )
+        return UIBarButtonItem(title: "Settings",
+                               style: .plain,
+                               target: self, action: #selector(settingsButtonPressed))
     }
     
     private func settingsCloseButtonItem() -> UIBarButtonItem {
@@ -71,8 +73,9 @@ class AppInteractor {
     }
     
     @objc private func settingsButtonPressed() {
-        let settingsNavigationController = screenFactory.settingsVC(leftBarButton: settingsCloseButtonItem())
-        presenter.present(viewController: settingsNavigationController)
+        settingsCoordinator = SettingsCoordinator(styleManager: styleManager)
+        guard let initialSettingsVC = settingsCoordinator?.start(closeButton: settingsCloseButtonItem()) else { return }
+        presenter.present(viewController: initialSettingsVC, wrapToNavigation: false)
     }
     
     @objc private func settingsCloseButtonPressed() {

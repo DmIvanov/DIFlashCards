@@ -9,7 +9,7 @@ import UIKit
 
 class AppScreenFactory {
     
-    let styleManager: StyleManager
+    private let styleManager: StyleManager
     
     init(styleManager: StyleManager) {
         self.styleManager = styleManager
@@ -27,11 +27,5 @@ class AppScreenFactory {
         vc.dataSource = dataSource
         vc.navigationItem.rightBarButtonItem = rightBarButton
         return vc
-    }
-    
-    func settingsVC(leftBarButton: UIBarButtonItem) -> UIViewController {
-        let settingsVC = SettingsVC(styleManager: styleManager)
-        settingsVC.navigationItem.leftBarButtonItem = leftBarButton
-        return settingsVC
     }
 }
