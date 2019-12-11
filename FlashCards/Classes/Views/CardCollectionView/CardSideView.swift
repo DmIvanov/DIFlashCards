@@ -27,10 +27,16 @@ final class CardSideView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setUp(title: String, subtitle: String?, colorScheme: ColorScheme, front: Bool) {
+    func setUp(title: String, subtitle: String?, colorScheme: ColorScheme, front: Bool, separateView: Bool) {
         backgroundColor = front ? colorScheme.cardFrontBackgroundColor : colorScheme.cardBackBackgroundColor
-        separator.backgroundColor = front ? colorScheme.cardBackBackgroundColor : colorScheme.cardFrontBackgroundColor
         setUpContent(titleString: title, subtitleString: subtitle, colorScheme: colorScheme, front: front)
+        
+        if separateView {
+            separator.isHidden = true
+        } else {
+            separator.isHidden = false
+            separator.backgroundColor = front ? colorScheme.cardBackBackgroundColor : colorScheme.cardFrontBackgroundColor
+        }
     }
     
     private func setUpContent(titleString: String, subtitleString: String?, colorScheme: ColorScheme, front: Bool) {

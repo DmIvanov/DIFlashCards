@@ -7,11 +7,6 @@
 
 import UIKit
 
-enum FlowLayoutSpacingMode {
-    case fixed(spacing: CGFloat)
-    case overlap(visibleOffset: CGFloat)
-}
-
 class CardsFlowLayout: UICollectionViewFlowLayout {
     
     fileprivate struct LayoutState {
@@ -22,17 +17,19 @@ class CardsFlowLayout: UICollectionViewFlowLayout {
         }
     }
     
-    private var sideItemScale: CGFloat
-    private var sideItemAlpha: CGFloat
-    private var sideItemShift: CGFloat
+    private var kItemMinScale: CGFloat
+    private var kItemMaxScale: CGFloat
+    private var kItemAlpha: CGFloat
+    private var kItemShift: CGFloat
     private var spacingMode: FlowLayoutSpacingMode
     
     fileprivate var state = LayoutState(size: CGSize.zero, direction: .vertical)
     
     init(config: FlowLayoutConfiguration) {
-        self.sideItemAlpha = config.sideItemAlpha
-        self.sideItemScale = config.sideItemScale
-        self.sideItemShift = config.sideItemShift
+        self.kItemMinScale = config.minItemScale
+        self.kItemMaxScale = config.maxItemScale
+        self.kItemAlpha = config.itemAlpha
+        self.kItemShift = config.itemShift
         self.spacingMode = config.spacingMode
         super.init()
         self.scrollDirection = config.direction
@@ -66,7 +63,7 @@ class CardsFlowLayout: UICollectionViewFlowLayout {
         self.sectionInset = UIEdgeInsets.init(top: yInset, left: xInset, bottom: yInset, right: xInset)
         
         let side = isHorizontal ? self.itemSize.width : self.itemSize.height
-        let scaledItemOffset = (side - side*self.sideItemScale) / 2
+        let scaledItemOffset = (side - side * self.kItemMinScale) / 2
         switch self.spacingMode {
         case .fixed(let spacing):
             self.minimumLineSpacing = spacing - scaledItemOffset
@@ -100,9 +97,9 @@ class CardsFlowLayout: UICollectionViewFlowLayout {
         let distance = min(abs(collectionCenter - normalizedCenter), maxDistance)
         let ratio = (maxDistance - distance)/maxDistance
         
-        let alpha = ratio * (1 - self.sideItemAlpha) + self.sideItemAlpha
-        let scale = ratio * (1 - self.sideItemScale) + self.sideItemScale
-        let shift = (1 - ratio) * self.sideItemShift
+        let alpha = ratio * (1 - self.kItemAlpha) + self.kItemAlpha
+        let scale = ratio * (self.kItemMaxScale - self.kItemMinScale) + self.kItemMinScale
+        let shift = (1 - ratio) * self.kItemShift
         attributes.alpha = alpha
         attributes.transform3D = CATransform3DScale(CATransform3DIdentity, scale, scale, 1)
         attributes.zIndex = Int(alpha * 10)
@@ -112,8 +109,7 @@ class CardsFlowLayout: UICollectionViewFlowLayout {
         } else {
             attributes.center.x = attributes.center.x + shift
         }
-        
-//        print("index: \(attributes.indexPath), center: \(attributes.center), size: \(attributes.size)")
+
         return attributes
     }
     

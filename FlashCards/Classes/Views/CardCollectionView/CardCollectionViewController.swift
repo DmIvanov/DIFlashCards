@@ -95,6 +95,9 @@ class CardCollectionViewController: UICollectionViewController {
     @objc private func applyCardsLayout() {
         let newLayout = CardsFlowLayout(config: styleManager.currentCardsLayout)
         collectionView.setCollectionViewLayout(newLayout, animated: true)
+        
+        // to call cellForRow() and restyle cell UI
+        collectionView.reloadSections(IndexSet([0]))
     }
     
     // MARK: UICollectionViewDataSource
@@ -111,7 +114,7 @@ class CardCollectionViewController: UICollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! CardCollectionViewCell
         let card = dataSource.card(indexPath: indexPath)!
-        cell.setUp(card: card, colorScheme: styleManager.currentColorScheme)
+        cell.setUp(card: card, styleManager: styleManager)
         return cell
     }
 

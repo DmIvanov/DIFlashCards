@@ -9,16 +9,15 @@ import UIKit
 
 final class CardCollectionViewCell: UICollectionViewCell  {
     
-    var card: Card!
-    var frontSide = true
+    private var frontSide = true
     
-    let originalFrontView: CardSideView
-    let originalBackView: CardSideView
+    private let originalFrontView: CardSideView
+    private let originalBackView: CardSideView
     
-    var faceView: UIView {
+    private var faceView: UIView {
         return frontSide ? originalFrontView : originalBackView
     }
-    var backView: UIView {
+    private var backView: UIView {
         return frontSide ? originalBackView : originalFrontView
     }
     
@@ -35,9 +34,9 @@ final class CardCollectionViewCell: UICollectionViewCell  {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setUp(card: Card, colorScheme: ColorScheme) {
-        self.card = card
-        resetLabels(colorScheme: colorScheme)
+    func setUp(card: Card, styleManager: StyleManager) {
+        resetLabels(card: card, styleManager: styleManager)
+        setUpCorners(separateCell: styleManager.currentCardsLayout.separateItems)
     }
     
     func turn(animationOptions: UIView.AnimationOptions, duration: TimeInterval) {
@@ -65,18 +64,26 @@ final class CardCollectionViewCell: UICollectionViewCell  {
         pinSubviewToEdges(subview: originalBackView)
     }
     
-    private func resetLabels(colorScheme: ColorScheme) {
-        originalFrontView.setUp(
-            title: card.frontString,
-            subtitle: nil,
-            colorScheme: colorScheme,
-            front: true
-        )
-        originalBackView.setUp(
-            title: card.backString,
-            subtitle: card.path,
-            colorScheme: colorScheme,
-            front: false
-        )
+    private func resetLabels(card: Card, styleManager: StyleManager) {
+        originalFrontView.setUp(title: card.frontString,
+                                subtitle: nil,
+                                colorScheme: styleManager.currentColorScheme,
+                                front: true,
+                                separateView: styleManager.currentCardsLayout.separateItems)
+        originalBackView.setUp(title: card.backString,
+                               subtitle: card.path,
+                               colorScheme: styleManager.currentColorScheme,
+                               front: false,
+                               separateView: styleManager.currentCardsLayout.separateItems)
+    }
+    
+    private func setUpCorners(separateCell: Bool) {
+        if separateCell {
+            originalFrontView.layer.cornerRadius = 8
+            originalBackView.layer.cornerRadius = 8
+        } else {
+            originalFrontView.layer.cornerRadius = 0
+            originalBackView.layer.cornerRadius = 0
+        }
     }
 }

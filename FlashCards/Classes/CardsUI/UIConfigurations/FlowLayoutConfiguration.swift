@@ -7,6 +7,11 @@
 
 import UIKit
 
+enum FlowLayoutSpacingMode {
+    case fixed(spacing: CGFloat)
+    case overlap(visibleOffset: CGFloat)
+}
+
 struct FlowLayoutConfiguration {
     
     enum FlowLayoutConfigurationType: String, CaseIterable {
@@ -16,12 +21,14 @@ struct FlowLayoutConfiguration {
     }
     
     let type: FlowLayoutConfigurationType
-    let sideItemScale: CGFloat
-    let sideItemShift: CGFloat
-    let sideItemAlpha: CGFloat
+    let minItemScale: CGFloat
+    let maxItemScale: CGFloat
+    let itemShift: CGFloat
+    let itemAlpha: CGFloat
     let direction: UICollectionView.ScrollDirection
     let spacingMode: FlowLayoutSpacingMode
     let turnAnimationDuration: TimeInterval
+    let separateItems: Bool
     
     static var defaultConfiguration = FlowLayoutConfiguration.separated
     
@@ -35,31 +42,37 @@ struct FlowLayoutConfiguration {
     
     static let separated = FlowLayoutConfiguration(
         type: .separated,
-        sideItemScale: 0.6,
-        sideItemShift: 0.0,
-        sideItemAlpha: 0.2,
+        minItemScale: 0.6,
+        maxItemScale: 0.96,
+        itemShift: 0.0,
+        itemAlpha: 0.2,
         direction: .vertical,
         spacingMode: FlowLayoutSpacingMode.overlap(visibleOffset: 0),
-        turnAnimationDuration: 0.3
+        turnAnimationDuration: 0.3,
+        separateItems: true
     )
     
     static let scaled = FlowLayoutConfiguration(
         type: .scaled,
-        sideItemScale: 0.6,
-        sideItemShift: 0.0,
-        sideItemAlpha: 0.2,
+        minItemScale: 0.6,
+        maxItemScale: 0.96,
+        itemShift: 0.0,
+        itemAlpha: 0.2,
         direction: .vertical,
         spacingMode: FlowLayoutSpacingMode.fixed(spacing: 0),
-        turnAnimationDuration: 0.3
+        turnAnimationDuration: 0.3,
+        separateItems: true
     )
     
     static let list = FlowLayoutConfiguration(
         type: .list,
-        sideItemScale: 1.0,
-        sideItemShift: 0.0,
-        sideItemAlpha: 0.4,
+        minItemScale: 1.0,
+        maxItemScale: 1.0,
+        itemShift: 0.0,
+        itemAlpha: 0.4,
         direction: .vertical,
         spacingMode: FlowLayoutSpacingMode.fixed(spacing: 0),
-        turnAnimationDuration: 0.3
+        turnAnimationDuration: 0.3,
+        separateItems: false
     )
 }
